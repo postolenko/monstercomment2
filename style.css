@@ -248,26 +248,26 @@ h1 {
 }
 
 h2 {
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
     font-family: "Merriweather", "Arial", "Verdana", sans-serif;
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 56px;
+    line-height: 57px;
     font-weight: normal;
     color: #000000;
 }
 
 h3 {
     font-family: "Merriweather", "Arial", "Verdana", sans-serif;
-    font-size: 40px;
-    line-height: 56px;
+    font-size: 32px;
+    line-height: 33px;
     font-weight: bold;
     color: #000000;
 }
 
 h2 + h3 {
     text-align: center;
-    padding: 12px 0 0 0;
+    padding: 7px 0 0 0;
     color: #1fb6ff;
 }
 
@@ -295,10 +295,10 @@ li {
 
 ol li {
     position: relative;
-    padding: 8px 0 8px 27px;
+    padding: 5px 0 5px 27px;
     font-family: "Ubuntu", "Arial", "Verdana", sans-serif;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 17px;
+    line-height: 22px;
     font-weight: normal;
     color: #000000;
 }
@@ -462,7 +462,7 @@ textarea:focus {
     padding: 19px 3% 19px 3%;
     text-align: center;
     font-family: "Ubuntu", "Arial", "Verdana", sans-serif;
-    font-size: 28px;
+    font-size: 26px;
     line-height: 30px;
     font-weight: normal;
     color: #ffffff;
@@ -1255,7 +1255,7 @@ textarea:focus {
 /*-- Section 2 --*/
 
 .section-2 {
-    padding: 74px 0 115px 0;
+    padding: 40px 0 71px 0;
 }
 
 .section-titles {
@@ -1267,6 +1267,7 @@ textarea:focus {
     vertical-align: top;
     width: 33.33%;
     margin: 20px 0;
+    padding: 0 10px;
     text-align: center;
 }
 
@@ -1538,15 +1539,17 @@ textarea:focus {
 }
 
 .thumb-3 h3 {
-    padding: 0 0 16px 0;
-    font-size: 30px;
-    line-height: 33px;
+    display: block;
+    min-height: 66px;
+    padding: 0 0 14px 0;
+    font-size: 25px;
+    line-height: 26px;
     color: #000000;
 }
 
 .thumb-3 p {
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 15px;
+    line-height: 19px;
 }
 
 .thumb-3.big-font h3 {
@@ -1554,8 +1557,8 @@ textarea:focus {
 }
 
 .thumb-3.big-font p {
-    font-size: 21px;
-    line-height: 26px;
+    font-size: 19px;
+    line-height: 22px;
 }
 
 .blue-pill_wrapp .blue-pill_2 {
@@ -1585,7 +1588,7 @@ textarea:focus {
 }
 
 .bg_2 > .inner {
-    padding: 72px 0 54px 0;
+    padding: 54px 0 7px 0;
     position: relative;
     z-index: 2;
 }
@@ -1627,17 +1630,17 @@ textarea:focus {
 .thumb-4 h3 {
     display: block;
     min-height: 70px;
-    margin: 0 0 23px 0;
+    margin: 0 0 10px 0;
     text-align: center;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 32px;
     color: #ffffff;
 }
 
 .thumb-4 p {
     text-align: center;
-    font-size: 18px;
-    line-height: 23px;
+    font-size: 16px;
+    line-height: 21px;
     color: #ffffff;
 }
 
@@ -1655,28 +1658,28 @@ textarea:focus {
     display: inline-block;
     vertical-align: middle;
     width: 65%;
-    padding: 10px 1% 10px 0;
+    padding: 8px 1% 8px 0;
 }
 
 .section-footer .col-2 {
     display: inline-block;
     vertical-align: middle;
     width: 35%;
-    padding: 10px 0 10px 1%;
+    padding: 8px 0 8px 1%;
 }
 
 .section-footer h3 {
-    padding: 5px 0;
-    font-size: 36px;
-    line-height: 41px;
+    padding: 4px 0;
+    font-size: 29px;
+    line-height: 34px;
     font-weight: normal;
     color: #ffffff;
 }
 
 .section-footer p {
     padding: 4px 0;
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 27px;
     color: #ffffff;
 }
 
@@ -1689,7 +1692,7 @@ textarea:focus {
 /*-- Section 4 --*/
 
 .two-cols_2 {
-    margin: 81px 0 92px 0;
+    margin: 52px 0 30px 0;
 }
 
 .two-cols_2 .left {
@@ -1723,15 +1726,15 @@ textarea:focus {
 }
 
 .two-cols_2 .right p {
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 26px;
     color: #000000;
 }
 
 .items_box {
-    max-width: 600px;
+    max-width: 510px;
     margin: 17px 0 0 0;
-    padding: 65px 9% 50px 9%;
+    padding: 40px 7%;
     border-style: solid;
     border-width: 4px;
     border-color: rgb(31, 182, 255);
@@ -1746,8 +1749,8 @@ textarea:focus {
 }
 
 .items_box h3 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 34px;
     color: #000000;
 }
 
@@ -1756,30 +1759,30 @@ textarea:focus {
 }
 
 .item h3 {
-    padding: 15px 0;
-    font-size: 60px;
-    line-height: 66px;
+    padding: 8px 0;
+    font-size: 49px;
+    line-height: 52px;
     font-weight: 900;
     color: #1fb6ff;
 }
 
 .item p {
-    padding: 15px 0;
-    font-size: 26px;
-    line-height: 31px;
+    padding: 5px 0;
+    font-size: 22px;
+    line-height: 26px;
     color: #000000;
 }
 
 .title_wrapp {
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 .p-desc {
-    padding: 20px 0;
+    padding: 5px 0;
 }
 
 .items-2_wrapp {
-    margin: 44px 0 0 0;
+    margin: 34px 0 0 0;
 }
 
 .items-2_wrapp h4 {
@@ -1789,13 +1792,13 @@ textarea:focus {
 .item-2 {
     display: table;
     width: 100%;
-    margin: 23px 0;
+    margin: 15px 0;
 }
 
 .item-2 .col-1 {
     display: table-cell;
     vertical-align: middle;
-    width: 100px;
+    width: 90px;
 }
 
 .item-2 .col-2 {
@@ -1825,14 +1828,14 @@ textarea:focus {
 }
 
 .section-footer.white p {
-    line-height: 36px;
+    line-height: 30px;
     color: #000000;
 }
 
 .section-footer.white p span {
     font-family: "Merriweather", "Arial", "Verdana", sans-serif;
-    font-size: 36px;
-    line-height: 43px;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 .section-footer.white .blue-pill_3 {
@@ -1995,18 +1998,18 @@ textarea:focus {
 }
 
 .thumb-5 .thumb-title {
-    min-height: 81px;
+    min-height: 52px;
     text-align: center;
 }
 
 .thumb-5 .thumb-title h3 {
-    font-size: 42px;
-    line-height: 56px;
+    font-size: 33px;
+    line-height: 38px;
 }
 
 .thumb-5 .thumb-descript {
-    min-height: 325px;
-    padding: 0 60px;
+    min-height: 296px;
+    padding: 0 40px;
 }
 
 .thumb-5 .btn_wrapp {
@@ -2016,29 +2019,29 @@ textarea:focus {
 .thumb-5 .btn_wrapp .blue-pill {
     display: inline-block;
     vertical-align: top;
-    min-width: 315px;
+    min-width: 270px;
     margin: 0;
     position: relative;
-    top: -30px;
+    top: -24px;
 }
 
 .thumb-5 .thumb-footer {
     background-color: #f3f7f8;
     text-align: center;
-    padding: 0 50px 37px 50px;
+    padding: 0 20px 28px 20px;
     -webkit-border-radius: 0 0 11px 11px;
     -moz-border-radius: 0 0 11px 11px;
     border-radius: 0 0 11px 11px;
 }
 
 .thumb-5 .thumb-footer p {
-    padding: 7px 0;
-    font-size: 18px;
-    line-height: 23px;
+    padding: 4px 0;
+    font-size: 15px;
+    line-height: 19px;
 }
 
 .thumb-5 .thumb-footer p.p-1 {
-    padding: 12px 0;
+    padding: 9px 0;
     font-size: 21px;
     line-height: 27px;
 }
@@ -2048,15 +2051,15 @@ textarea:focus {
 /*-- Section 6 --*/
 
 .section-6 {
-    padding: 99px 0 65px 0;
+    padding: 56px 0 14px 0;
 }
 
 .h-desc {
-    max-width: 1000px;
-    margin: 52px auto;
+    max-width: 850px;
+    margin: 36px auto;
     text-align: center;
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 29px;
 }
 
 .thumbnails-6 {
@@ -2069,7 +2072,7 @@ textarea:focus {
     width: 47%;
     position: relative;
     margin: 20px 1.5% 100px 1.5%;
-    padding: 44px 1% 67px 1%;
+    padding: 44px 3% 44px 3%;
     border-style: solid;
     border-width: 4px;
     border-color: rgb(31, 182, 255);
@@ -2081,15 +2084,15 @@ textarea:focus {
 }
 
 .thumb-6 .thumb-title h3 {
-    padding: 12px 0;
-    font-size: 60px;
-    line-height: 70px;
+    padding: 4px 0;
+    font-size: 48px;
+    line-height: 52px;
     color: #1fb6ff;
     font-weight: 900;
 }
 
 .thumb-6 .thumb-descript {
-    min-height: 239px;
+    min-height: 194px;
 }
 
 .thumb-6 .thumb-descript h4 {
@@ -2101,20 +2104,20 @@ textarea:focus {
 }
 
 .thumb-6 .thumb-descript p {
-    padding: 16px 0;
-    font-size: 26px;
-    line-height: 35px;
+    padding: 8px 0;
+    font-size: 19px;
+    line-height: 23px;
     color: #000000;
 }
 
 .thumb-6 .blue-pill {
     margin: 0 auto;
-    padding: 29px 65px;
-    -webkit-border-radius: 46px;
-    -moz-border-radius: 46px;
-    border-radius: 46px;
-    font-size: 34px;
-    line-height: 37px;
+    padding: 20px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;
+    font-size: 23px;
+    line-height: 27px;
 }
 
 .thumb-6.dark {
@@ -2131,18 +2134,19 @@ textarea:focus {
 
 .thumb-6 .black-pill {
     margin: 0 auto;
-    padding: 29px 65px;
-    -webkit-border-radius: 46px;
-    -moz-border-radius: 46px;
-    border-radius: 46px;
-    font-size: 34px;
-    line-height: 37px;
+    padding: 20px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    border-radius: 33px;
+    font-size: 23px;
+    line-height: 27px;
 }
 
 .thumb-6_btn {
-    min-width: 634px;
+    max-width: 400px;
+    width: 96%;
     position: absolute;
-    bottom: -50px;
+    bottom: -34px;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     -moz-transform: translate(-50%, 0);
@@ -2174,7 +2178,7 @@ textarea:focus {
 .bg_4 .top-row {
     position: relative;
     z-index: 2;
-    padding: 102px 0 106px 0;
+    padding: 86px 0 49px 0;
 }
 
 .white-title h2 {
@@ -2189,15 +2193,15 @@ textarea:focus {
     display: inline-block;
     vertical-align: top;
     width: 25%;
-    margin: 30px 0;
-    padding: 0 55px;
+    margin: 20px 0;
+    padding: 0 20px;
     text-align: center;
 }
 
 .thumb-7 .img-box {
     text-align: center;
     height: 126px;
-    margin: 0 0 32px 0;
+    margin: 0 0 25px 0;
     position: relative;
 }
 
@@ -2211,16 +2215,15 @@ textarea:focus {
 }
 
 .thumb-7 h3 {
-    padding: 12px 0;
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 24px;
+    line-height: 35px;
     color: #ffffff;
     font-weight: normal;
 }
 
 .thumb-7 p {
-    padding: 13px 0;
-    font-size: 18px;
+    padding: 9px 0;
+    font-size: 17px;
     line-height: 21px;
     color: #ffffff;
 }
@@ -2276,7 +2279,7 @@ textarea:focus {
 
 .blue-pill_2.blue-pill_2_2 {
     width: 100%;
-    max-width: 572px;
+    max-width: 439px;
 }
 
 /*-- /Section 7 --*/
@@ -2284,7 +2287,7 @@ textarea:focus {
 /*-- Section 8 --*/
 
 .section-8 .top-row {
-    padding: 99px 0 69px 0;
+    padding: 86px 0 70px 0;
 }
 
 .thumbnails-8 {
@@ -2294,16 +2297,16 @@ textarea:focus {
 .thumb-8 {
     display: inline-block;
     vertical-align: top;
-    width: 296px;
-    padding: 20px 25px;
+    width: 215px;
+    padding: 20px 15px;
     text-align: center;
 }
 
 .thumb-8 .icon-box {
-    width: 184px;
-    height: 184px;
+    width: 150px;
+    height: 150px;
     position: relative;
-    margin: 29px auto;
+    margin: 20px auto;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(225, 232, 234);
@@ -2321,8 +2324,8 @@ textarea:focus {
 }
 
 .thumb-8 h3 {
-    font-size: 21px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 21px;
     font-weight: normal;
 }
 
