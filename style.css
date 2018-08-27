@@ -959,31 +959,6 @@ textarea:focus {
     color: #ffffff;
 }
 
-/*.header-site.active {
-    background: rgba(0, 0, 0, .7);
-    padding: 0;
-}
-
-.header-site.active .logo-img {
-    display: inline-block;
-    vertical-align: top;
-    width: 50px;
-}
-
-.header-site.active .logo p {
-    margin: 15px 0 0 26px;
-    font-size: 33px;
-    line-height: 34px;
-}
-
-.header-site.active .respmenubtn {
-    margin: 2px 4.5% 0 0;
-}
-
-.header-site.active .blue-pill {
-    margin: 3px 0;
-}*/
-
 .sign_wrapp {
     display: inline-block;
     vertical-align: top;
