@@ -18,6 +18,56 @@
 
 <body>
 
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Регистрация</h3>
+			<div class="popup-form">
+				<form>
+					<div class="input_wrapp">
+						<i class="fas fa-user-circle"></i>
+						<input type="email" placeholder="EMAIL" />
+					</div>
+					<div class="input_wrapp">
+						<i class="fas fa-unlock"></i>
+						<input type="password" placeholder="ПАРОЛЬ" />
+						<button type="button" class="show_pass"><i class="far fa-eye-slash"></i></button>
+					</div>
+					<div class="input_wrapp">
+						<i class="fas fa-unlock"></i>
+						<input type="password" placeholder="ПОВТОРИТЕ ПАРОЛЬ" />
+						<button type="button" class="show_pass"><i class="far fa-eye-slash"></i></button>
+					</div>
+					<button type="submit" class="blue-pill">Зарегистрироваться</button>
+				</form>
+			</div>
+			<div class="popup_footer">
+				<h5>Уже есть аккаунт?</h5>
+				<a href="#" class="grey-link">Войти</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_2">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Забыли пароль?</h3>
+			<div class="popup-form popup-form_2">
+				<form>
+					<div class="input_wrapp">
+						<i class="fas fa-user-circle"></i>
+						<input type="email" placeholder="EMAIL" />
+					</div>
+					<button type="submit" class="blue-pill">Сменить пароль</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
 	<div class="wrapper">
 
 	<!-- Header -->
@@ -36,7 +86,7 @@
 						<div class="logo-img">
 							<img src="img/logo.png" alt="" />
 						</div>
-						<p>Monster Comment</p>
+						<p><img src="img/logoname.png" alt="" /></p>
 					</a>
 				</div>
 				<div class="right">
@@ -62,10 +112,10 @@
 						<div>
 							<ul class="sign_list">
 								<li>
-									<a href="#" class="blue-link">Забыли пароль?</a>
+									<a href="#" class="blue-link show_popup" data-popup-name="popup_2">Забыли пароль?</a>
 								</li>
 								<li>
-									<a href="#" class="blue-link">Регистрация</a>
+									<a href="#" class="blue-link show_popup" data-popup-name="popup_1">Регистрация</a>
 								</li>
 							</ul>
 						</div>
