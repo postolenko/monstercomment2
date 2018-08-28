@@ -320,7 +320,8 @@
 	.blue-pill_2 {
 	    min-width: 300px;
 	    margin: 10px 0;
-	    padding: 19px 25px;
+	    padding: 19px 20px;
+	    font-size: 23px;
 	}
 
 	.video-box .inner {
@@ -361,15 +362,15 @@
 	}
 
 	.section-footer .col-1 {
-	    width: 55%;
+	    width: 49%;
 	}
 
 	.section-footer .col-2 {
-	    width: 45%;
+	    width: 51%;
 	}
 
 	.section-footer h3 {
-	    font-size: 26px;
+	    font-size: 25px;
 	    line-height: 34px;
 	}
 
@@ -422,6 +423,15 @@
 
 	.item-2 .col-1 {
 	    width: 83px;
+	}
+
+	.section-footer.white p {
+	    line-height: 25px;
+	}
+
+	.section-footer.white p span {
+	    font-size: 25px;
+	    line-height: 32px;
 	}
 
 	/*-- /Section 4 --*/
@@ -550,6 +560,26 @@
 	}
 
 	/*-- /Section 8 --*/
+
+	/*-- Backgrounds --*/
+
+	.bg_1 {
+		background-image: url(img/promo_bg_tab.jpg);
+	}
+
+	.bg_2 {
+	    background-image: url(img/bg_2_tab.jpg);
+	}
+
+	.bg_3 {
+	    background-image: url(img/bg_4_tab.jpg);
+	}
+
+	.bg_4 {
+	    background-image: url(img/bg_2_tab.jpg);
+	}
+
+	/*-- /Backgrounds --*/
 
 }
 
