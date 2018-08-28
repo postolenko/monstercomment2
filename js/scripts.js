@@ -11,6 +11,8 @@ $(window).load(function() {
     getGetPromoCenterPosition();
     getHeaderParams();
     getLinesWidth();
+    getTHumbsHeight();
+    getAdaptivePositionElements();
 
 });
 
@@ -21,6 +23,8 @@ $(window).resize(function() {
     getGetPromoCenterPosition();
     getHeaderParams();
     getLinesWidth();
+    getTHumbsHeight();
+    getAdaptivePositionElements();
 
 });
 
@@ -155,6 +159,56 @@ function getLinesWidth() {
             }
 
         });
+
+    });
+
+}
+
+function getAdaptivePositionElements() {
+
+    $(".append-elem").each(function() {
+
+        screenParam = parseInt( $(this).attr("data-min-screen") );
+
+        indexElem = $(this).attr("data-append-desktop-elem");
+
+        if( bodyWidth <= screenParam ) {
+
+            $("[data-append-elem = '"+ indexElem +"']").append($(this).children());
+
+        }
+
+         if( bodyWidth > screenParam ) {
+
+            $("[data-append-desktop-elem = '"+ indexElem +"']").append($("[data-append-elem = '"+ indexElem +"']").children());
+
+        }
+
+    });
+
+}
+
+function getTHumbsHeight() {
+
+    $(".set_height .thumb .inner").css({"height" : "auto"});
+
+    $(".set_height").each(function() {
+
+        thumbsHeightArr = [];
+
+        thumb = $(this).find(".thumb");
+
+        thumb.each(function() {
+
+            thumbHeight = $(this).find(".inner").height();
+
+            thumbsHeightArr.push(thumbHeight);
+
+        });
+
+        maxThumbHeight = Math.max.apply(null, thumbsHeightArr);
+
+        thumb.find(".inner").height(maxThumbHeight);
 
     });
 

@@ -359,6 +359,85 @@ textarea:focus {
 
 }
 
+.slick-slide {
+    outline: none;
+}
+
+.slick-arrow {
+    display: block;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 61%;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 2;
+    border: 1px solid transparent;
+    background-color: transparent;
+    background-image: url(img/arrows_sprite.png);
+    background-repeat: no-repeat;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.slick-arrow:hover {
+    opacity: 1;
+}
+
+.slick-prev {
+    background-position: -2px -1px;
+    left: 2%;
+}
+
+.slick-next {
+    background-position: -96px -1px;
+    right: 2%;
+}
+
+.slick-dots {
+    text-align: center;
+}
+
+.slick-dots li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.slick-dots li button {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 0;
+    line-height: 0;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #ffffff;
+}
+
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -396,6 +475,10 @@ textarea:focus {
 
 .align-left {
     text-align: left;
+}
+
+.visible-1024 {
+    display: none !important;
 }
 
 /*-- Pills --*/
@@ -878,12 +961,12 @@ textarea:focus {
 }
 
 .header-site .left {
-    width: 40%;
+    width: 36%;
     padding: 10px 1% 10px 0;
 }
 
 .header-site .right {
-    width: 60%;
+    width: 64%;
     padding: 0 0 10px 1%;
     text-align: right;
 }
@@ -1091,13 +1174,17 @@ textarea:focus {
     padding: 1px 9px;
 }
 
+.sign-in i {
+    display: none;
+}
+
 .header-site.active {
     background: rgba(0, 0, 0, .7);
     padding: 0;
 }
 
 .header-site.active .sign_wrapp {
-    padding: 4px 50px 4px 29px;
+    padding: 4px 0;
     background-color: transparent;
 }
 
@@ -1191,6 +1278,10 @@ textarea:focus {
 
 .video-box .inner {
     height: 400px;
+    background-image: url(img/video_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     overflow: hidden;
     -webkit-border-radius: 10px;
@@ -1605,8 +1696,6 @@ textarea:focus {
 }
 
 .thumb-3 h3 {
-    display: block;
-    min-height: 66px;
     padding: 0 0 14px 0;
     font-size: 25px;
     line-height: 26px;
@@ -1684,7 +1773,7 @@ textarea:focus {
 .thumb-4 .img-box img {
     display: block;
     max-width: 98%;
-    min-height: 98%;
+    max-height: 98%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1954,7 +2043,8 @@ textarea:focus {
     width: calc(33.33% - 30px);
     margin: 196px 15px 30px 15px;
     position: relative;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
+    background-color: #f3f7f8;
     -webkit-border-radius: 0 0 11px 11px;
     -moz-border-radius: 0 0 11px 11px;
     border-radius: 0 0 11px 11px;
@@ -2024,7 +2114,6 @@ textarea:focus {
 .thumb-5 .icon-box {
     width: 222px;
     height: 222px;
-    margin: 0 auto;
     background: #ffffff;
     position: absolute;
     top: -139px;
@@ -2075,7 +2164,7 @@ textarea:focus {
 
 .thumb-5 .thumb-descript {
     min-height: 296px;
-    padding: 0 40px;
+    padding: 0 40px 30px 40px;
 }
 
 .thumb-5 .btn_wrapp {
@@ -2546,6 +2635,31 @@ textarea:focus {
 .popup-form_2 {
     padding: 31px 0 23px 0;
     border-bottom: none;
+}
+
+.popup-form_2 .sign_list {
+    margin: 20px 0 0 0;
+}
+
+.popup-form_2 .sign_list .blue-link {
+    margin: 20px 0 0 0;
+}
+
+.popup-form_2 .sign_list .blue-link:link,
+.popup-form_2 .sign_list .blue-link:visited {
+    border-bottom: 1px dotted #1fb6ff;
+    color: #1fb6ff;
+}
+
+.popup-form_2 .sign_list .blue-link:active,
+.popup-form_2 .sign_list .blue-link.active {
+    border-bottom: 1px dotted transparent;
+    color: #1fb6ff;
+}
+
+.popup-form_2 .sign_list .blue-link:hover {
+    border-bottom: 1px dotted transparent;
+    color: #1fb6ff;
 }
 
 /*-- /Popups --*/

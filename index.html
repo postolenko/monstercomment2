@@ -66,6 +66,17 @@
 		</div>
 	</div>
 
+	<div class="popup_wrapp popup_wrapp_resp scroll" data-popup ="popup_3">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Вход</h3>
+			<div class="popup-form popup-form_2">
+				<div class="append-elem" data-append-elem = "2" ></div>
+				<div class="append-elem" data-append-elem = "3" ></div>
+			</div>
+		</div>
+	</div>
+
 	<!-- /Popups -->
 
 	<div class="wrapper">
@@ -90,26 +101,31 @@
 					</a>
 				</div>
 				<div class="right">
-					<div class="sign_wrapp">
+					<div class="sign_wrapp">						
 						<form>
 							<div class="inline-blocks">
 								<div>
 									<a href="#"><img src="img/telegram.png" alt="" style="width: 50px;"></a>
 								</div>
-								<div class="input_wrapp">
-									<i class="fas fa-user-circle"></i>
-									<input type="email" placeholder="Email" />
+								<div class="visible-1024">
+									<a href="#" class="blue-pill sign-in show_popup" data-popup-name="popup_3"><span>Войти</span><i class="fas fa-sign-in-alt"></i></a>
 								</div>
-								<div class="input_wrapp">
-									<i class="fas fa-unlock"></i>
-									<input type="password" placeholder="Пароль" />
-								</div>
-								<div>
-									<button type="submit" class="blue-pill">Войти</button>
+								<div class="append-elem"  data-append-desktop-elem = "2" data-min-screen = "1024">
+									<div class="input_wrapp">
+										<i class="fas fa-user-circle"></i>
+										<input type="email" placeholder="Email" />
+									</div>
+									<div class="input_wrapp">
+										<i class="fas fa-unlock"></i>
+										<input type="password" placeholder="Пароль" />
+									</div>
+									<div>
+										<button type="submit" class="blue-pill">Войти</button>
+									</div>
 								</div>
 							</div>
 						</form>
-						<div>
+						<div class="append-elem"  data-append-desktop-elem = "3" data-min-screen = "1024">
 							<ul class="sign_list">
 								<li>
 									<a href="#" class="blue-link show_popup" data-popup-name="popup_2">Забыли пароль?</a>
@@ -137,9 +153,12 @@
 				<section class="promo-sect bg_1 full_height">
 					<div class="two-cols inner center-position">
 						<div class="row clearfix">
+							<div class="append-elem" data-append-elem = "1" ></div>
 							<div class="left">
 								<div class="promo-desc">
-									<h1>Живые комментарии в Instagram бесплатно!</h1>
+									<div class="append-elem"  data-append-desktop-elem = "1" data-min-screen = "1024">
+										<h1>Живые комментарии в Instagram бесплатно!</h1>
+									</div>
 									<div class="promo-content">
 										<p>Хотите, чтобы под каждым вашим фото были сотни комментариев от реальных пользователей?</p>
 										<p>Узнайте, как повысить популярность личного бренда или товара уже сегодня!</p>
@@ -151,7 +170,7 @@
 								<div class="video-box_wrapp">
 									<div class="video-box">
 										<div class="inner">
-											<img class="video-bg" src="img/video_img.jpg" alt="">
+											<!-- <img class="video-bg" src="img/video_img.jpg" alt=""> -->
 											<a data-fancybox href="https://www.youtube.com/watch?v=sxKuo-X8VSY" class="play-btn"><i class="play"></i></a>
 										</div>
 									</div>
@@ -310,7 +329,7 @@
 								</div>
 
 								<div class="overflow_hidden">
-									<div class="thumbnails-4 offset-ziro">
+									<div class="thumbnails-4 slider_1 offset-ziro">
 										<div class="thumb-4">
 											<div class="img-box">
 												<img src="img/icon_01.png" alt="" />
@@ -366,6 +385,7 @@
 				<section>
 
 					<div class="two-cols_2">
+						<div class="append-elem" data-append-elem = "4" ></div>
 						<div class="row clearfix">
 							<div class="left">
 								<div class="items_box">
@@ -385,9 +405,12 @@
 								</div>
 							</div>
 							<div class="right">
-								<div class="title_wrapp">
-									<h2>Что дает</h2>
-									<h3>раскрученный профиль в Инстаграм?</h3>
+
+								<div class="append-elem"  data-append-desktop-elem = "4" data-min-screen = "1024">
+									<div class="title_wrapp">
+										<h2>Что дает</h2>
+										<h3>раскрученный профиль в Инстаграм?</h3>
+									</div>
 								</div>
 
 								<p class="p-desc">Размещение комментариев от живых пользователей, а не ботов, повысит активность страницы и вовлечет подписчиков в дискуссию</p>
@@ -467,8 +490,8 @@
 							</div>
 
 							<div class="overflow_hidden">
-								<div class="thumbnails-5 offset-ziro">
-									<div class="thumb-5">
+								<div class="thumbnails-5 slider_2 offset-ziro set_height">
+									<div class="thumb-5 thumb">
 										<div class="inner">
 											<div class="thumb_header">
 												<div class="icon-box">
@@ -500,7 +523,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="thumb-5">
+									<div class="thumb-5 thumb">
 										<div class="inner">
 											<div class="thumb_header">		
 												<div class="icon-box">
@@ -531,7 +554,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="thumb-5">
+									<div class="thumb-5 thumb">
 										<div class="inner">
 											<div class="thumb_header">
 												<div class="icon-box">
@@ -587,26 +610,30 @@
 						<p class="h-desc">Итак, вы уже знаете, что вам нужны комментарии и коммуникации с живыми людьми, но не знаете, как их получить?</p>
 
 						<div class="overflow_hidden">
-							<div class="thumbnails-6 offset-ziro">
-								<div class="thumb-6">
-									<div class="thumb-title">
-										<h3>Бесплатно</h3>
+							<div class="thumbnails-6 offset-ziro set_height">
+								<div class="thumb-6 thumb">
+									<div class="inner">
+										<div class="thumb-title">
+											<h3>Бесплатно</h3>
+										</div>
+										<div class="thumb-descript">
+											<h4>Бартер</h4>
+											<p>Вы пишете ХХХ комментариев под постами в ответ вам также пишут комментарии настоящие люди, что обеспечивает постоянную активность в аккаунте</p>
+										</div>
+										<a href="#" class="thumb-6_btn blue-pill">Протестируйте бесплатно!</a>
 									</div>
-									<div class="thumb-descript">
-										<h4>Бартер</h4>
-										<p>Вы пишете ХХХ комментариев под постами в ответ вам также пишут комментарии настоящие люди, что обеспечивает постоянную активность в аккаунте</p>
-									</div>
-									<a href="#" class="thumb-6_btn blue-pill">Протестируйте бесплатно!</a>
 								</div>
-								<div class="thumb-6 dark">
-									<div class="thumb-title">
-										<h3>Платно</h3>
+								<div class="thumb-6 thumb dark">
+									<div class="inner">
+										<div class="thumb-title">
+											<h3>Платно</h3>
+										</div>
+										<div class="thumb-descript">
+											<h4>Платный тариф</h4>
+											<p>Выберите тарифный план, который максимально соответствует вашим потребностям и получите живую активность под каждым вашим постом. Пока вы занимаетесь своими делами - ваша прибыль растет</p>
+										</div>
+										<a href="#" class="thumb-6_btn black-pill">Выбрать тариф</a>
 									</div>
-									<div class="thumb-descript">
-										<h4>Платный тариф</h4>
-										<p>Выберите тарифный план, который максимально соответствует вашим потребностям и получите живую активность под каждым вашим постом. Пока вы занимаетесь своими делами - ваша прибыль растет</p>
-									</div>
-									<a href="#" class="thumb-6_btn black-pill">Выбрать тариф</a>
 								</div>
 							</div>
 						</div>
@@ -781,7 +808,7 @@
 
 		<!-- /Footer -->
 		<script type="text/javascript" src="vendors/js/jquery.js"></script>
-		<!-- <script type="text/javascript" src="slick/slick.js"></script> -->
+		<script type="text/javascript" src="slick/slick.js"></script>
 		<script type="text/javascript" src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
 		<script type="text/javascript" src="vendors/js/smoothscroll.js"></script>
 		<script type="text/javascript" src="vendors/js/jquery.fancybox.js"></script>

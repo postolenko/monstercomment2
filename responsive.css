@@ -1,18 +1,614 @@
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1380px) {
 
 	
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+	h1 {
+	    font-size: 42px;
+	    line-height: 53px;
+	}
+
+	ol li {
+	    padding: 6px 0 6px 27px;
+		font-size: 17px;
+		line-height: 19px;
+	}
+
+	ol li:before {
+	    top: 3px;
+	}
+
+	/*-- Header --*/
+
+	.header-site .left {
+	    padding: 2px 1% 10px 0;
+	}
+
+	.logo p {
+	    max-width: 212px;
+	    margin: 20px 0 0 16px;
+	}
+
+	.sign_wrapp {
+	    padding: 10px 20px;
+	}
+
+	.input_wrapp {
+	    width: 172px;
+	}
+
+	.blue-pill {
+	    min-width: 129px;
+	}
+
+	.sign_list {
+	    margin: 0;
+	}
+
+	.blue-link {
+	    font-size: 14px;
+	    line-height: 14px;
+	}
+
+	/*-- /Header --*/
+
+	/*-- Section 1 --*/
+
+	.video-box .inner {
+	    height: 327px;
+	}
+
+	.video-desc h3 {
+	    font-size: 18px;
+	    line-height: 22px;
+	}
+
+	.video-desc p {
+	    font-size: 20px;
+	    line-height: 23px;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- Section 2 --*/
+
+	.section-2 {
+	    padding: 30px 0;
+	}
+
+	.thumb-3 .img-box {
+		zoom: .8;
+	}
+
+	.thumb-3 h3 {
+	    padding: 0 0 20px 0;
+	    font-size: 21px;
+	    line-height: 23px;
+	    font-weight: normal;
+	}
+
+	.thumb-3 p,
+	.thumb-3.big-font p {
+	    font-size: 14px;
+	    line-height: 19px;
+	}
+
+	.blue-pill_2 {
+	    -webkit-border-radius: 32px;
+	    -moz-border-radius: 32px;
+	    border-radius: 32px;
+	    margin: 33px 0;
+	    padding: 14px;
+	}
+
+	/*-- /Section 2 --*/
+
+	/*-- Section 5 --*/
+
+	.section-5 {
+	    padding: 60px 0 31px 0;
+	}
+
+	.thumb-5 .thumb-title h3 {
+		font-size: 24px;
+		line-height: 27px;
+	}
+
+	.thumb-5 .thumb-descript {
+		min-height: 275px;
+	    padding: 0 30px 30px 30px;
+	}
+
+	.thumb-5 .thumb-footer p.p-1 {
+	    padding: 6px 0;
+	    font-size: 20px;
+	    line-height: 23px;
+	}
+
+	/*-- /Section 5 --*/
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+	/*-- Section 5 --*/
+
+	.thumb-5 .thumb-title {
+	    min-height: 44px;
+	}
+
+	.slider_2 .slick-arrow {
+	    top: 17%;
+	}
+
+	/*-- /Section 5 --*/
+
+	/*-- Section 6 --*/
+
+	.section-6 {
+	    padding: 56px 0 60px 0;
+	}
+
+	.h-desc {
+	    margin: 25px auto;
+	    font-size: 17px;
+    	line-height: 20px;
+	}
+
+	.thumb-6 {
+		margin: 20px 1.5% 20px 1.5%;
+	    padding: 37px 2% 39px 2%;
+	}
+
+	.thumb-6 .inner {
+	    padding-bottom: 73px;
+	    position: relative;
+	}
+
+	.thumb-6 .thumb-title h3 {
+	    font-size: 40px;
+	    line-height: 45px;
+	}
+
+	.thumb-6 .thumb-descript h4 {
+	    padding: 20px 0;
+	    font-size: 28px;
+	    line-height: 32px;
+	}
+
+	.thumb-6 .thumb-descript p {
+	    font-size: 17px;
+	    line-height: 21px;
+	}
+
+	.thumb-6_btn {
+	    max-width: 295px;
+	    bottom: 0;
+	}
+
+	.thumb-6 .blue-pill {
+   		padding: 15px 5px;
+	   	-webkit-border-radius: 26px;
+	    -moz-border-radius: 26px;
+	    border-radius: 26px;
+	    font-size: 17px;
+	    line-height: 18px;
+	}
+
+	.thumb-6 .black-pill {
+	    padding: 15px 5px;
+	   	-webkit-border-radius: 26px;
+	    -moz-border-radius: 26px;
+	    border-radius: 26px;
+	    font-size: 17px;
+	    line-height: 18px;
+	}
+
+	/*-- /Section 6 --*/
+
+	/*-- Section 7 --*/
+
+	.thumb-7 .img-box {
+	    zoom: .75;
+	}
+
+	.thumb-7 h3 {
+		padding: 5px 0;
+	    font-size: 19px;
+	    line-height: 28px;
+	}
+
+	.thumb-7 p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	/*-- /Section 7 --*/
+
+	/*-- Section 8 --*/
+
+	.section-8 .top-row {
+	    padding: 68px 0 36px 0;
+	}
+
+	.thumb-8 {
+	    width: 202px;
+	    padding: 11px 16px;
+	}
+
+	/*-- /Section 8 --*/
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	h1 {
+		font-size: 50px;
+		line-height: 56px;
+	}
+
+	h2 {
+	    font-size: 50px;
+	    line-height: 53px;
+	}
+
+	h3 {
+	    font-size: 28px;
+	    line-height: 29px;
+	}
+
+	h2 + h3 {
+	    padding: 10px 0 0 0;
+	}
+
+	h4 {
+		font-size: 21px;
+		line-height: 30px;
+	}
+
+	ol li {
+	    padding: 2px 0 2px 27px;
+	}
+
+	/*-- Header --*/
+
+	.header-site.active .sign_wrapp {
+	    padding: 16px 0 4px 0;
+	}
+
+	.sign_wrapp {
+	    padding: 6px 20px;
+	}
+
+	.visible-1024 {
+	    display: block !important;
+	}
+
+	.inline-blocks > div.visible-1024 {
+	    display: inline-block !important;
+	}
+
+	.sign_wrapp .inline-blocks .append-elem {
+	    display: none;
+	}
+
+	.sign_wrapp .inline-blocks {
+	    margin: 0 -6px;
+	}
+
+	.sign_wrapp .inline-blocks div {
+		margin: 3px 6px;
+	}
+
+	/*-- /Header --*/
+
+	/*-- Section 1 --*/
+
+	.center-position {
+	    margin: 0;
+	}
+
+	.promo-desc p {
+	    font-size: 20px;
+	    line-height: 26px;
+	}
+
+	.blue-pill_2 {
+	    min-width: 300px;
+	    margin: 10px 0;
+	    padding: 19px 25px;
+	}
+
+	.video-box .inner {
+	    height: 221px;
+	}
+
+	.video-desc h3 {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+
+	.video-desc p {
+	    font-size: 18px;
+	    line-height: 20px;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- Section 2 --*/
+
+	.thumb-3 .img-box {
+	    zoom: .55;
+	}
+
+	/*-- /Section 2 --*/
+
+	/*-- Section 3 --*/
+
+	.thumb-4 h3 {
+		margin: 0 0 7px 0;
+	    font-size: 21px;
+	    line-height: 28px;
+	}
+
+	.thumb-4 p {
+	    font-size: 14px;
+	    line-height: 16px;
+	}
+
+	.section-footer .col-1 {
+	    width: 55%;
+	}
+
+	.section-footer .col-2 {
+	    width: 45%;
+	}
+
+	.section-footer h3 {
+	    font-size: 26px;
+	    line-height: 34px;
+	}
+
+	.section-footer p {
+	    padding: 0;
+	    font-size: 17px;
+	    line-height: 25px;
+	}
+
+	/*-- /Section 3 --*/
+
+	/*-- Section 4 --*/
+
+	.two-cols_2 .left {
+		width: 47%;
+	    padding: 10px 1% 20px 0;
+	}
+
+	.two-cols_2 .right {
+		width: 53%;
+		padding-left: 3%;
+	}
+
+	.items_box h3 {
+		padding: 0 0 15px 0;
+	    font-size: 21px;
+	    line-height: 25px;
+	}
+
+	.item h3 {
+	    padding: 8px 0;
+	    font-size: 40px;
+	    line-height: 45px;
+	}
+
+	.item p {
+	    padding: 5px 0;
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+
+	.two-cols_2 .right p {
+	    font-size: 17px;
+	    line-height: 23px;
+	}
+
+	.item-2 {
+	    margin: 5px 0;
+	}
+
+	.item-2 .col-1 {
+	    width: 83px;
+	}
+
+	/*-- /Section 4 --*/
+
+	/*-- Section 7 --*/
+
+	.thumb-7 {
+	    padding: 0 8px;
+	}
+
+	.thumb-7 .img-box {
+	    zoom: .75;
+	}
+
+	.thumb-7 h3 {
+	    font-size: 15px;
+	    line-height: 21px;
+	}
+
+	.thumb-7 p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	/*-- /Section 7 --*/
 
 }
 
 @media only screen and (max-width: 768px) {
 
-	
+	/*-- Section 1 --*/
+
+	.promo-desc p {
+    	padding: 11px 0;
+	    font-size: 17px;
+	    line-height: 20px;
+	}
+
+	.blue-pill_2 {
+	    padding: 13px 25px;
+	}
+
+	.video-box .inner {
+	    height: 184px;
+	}
+
+	.play-btn {
+	    width: 70px;
+	    height: 70px;
+	}
+
+	.play {
+	    width: 27px;
+	    height: 30px;
+	}
+
+	.video-desc:after {
+	    right: -31px;
+	}
+
+	/*-- /Section 1 --*/
+
+	/*-- Section 3 --*/
+
+	.bg_2 > .inner {
+	    padding: 27px 0;
+	}
+
+	.thumbnails-4 {
+	    margin: 0;
+	}
+
+	.thumb-4 {
+	    margin: 20px 0;
+	}
+
+	.thumb-4 h3 {
+		min-height: auto;
+	}
+
+	/*-- /Section 3 --*/
+
+	/*-- Section 5 --*/
+
+	.thumb-5:before {
+	    width: 192px;
+	    height: 192px;
+	    top: -128px;
+	    margin: 0 0 0 -96px;
+	}
+
+	.thumb-5 .icon-box {
+	    width: 160px;
+	    height: 160px;
+	    top: -111px;
+	    margin: 0 0 0 -80px;
+	}
+
+	.thumb-5 .icon-box i {
+	    top: 11px;
+	}
+
+	.thumb-5 .icon-box i.icon_05 {
+	    top: 1px;
+	}
+
+	.thumb-5 .thumb-title h3 {
+	    font-size: 21px;
+	    line-height: 25px;
+	}
+
+	.thumb-5 .thumb-descript {
+	    padding: 0 20px 30px 20px;
+	}
+
+	.thumb-5 .thumb-footer {
+	    padding: 0 20px 20px 20px;
+	}
+
+	/*-- /Section 5 --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	/*-- Header --*/
+
+	.header-site .left {
+	    width: 41%;
+	}
+
+	.header-site .right {
+	    width: 59%;
+	}
+
+	.logo-img {
+		display: none;
+	}
+
+	/*-- /Header --*/
 
 }
 
 @media only screen and (max-width: 480px) {
 
-	
+	.row {
+	    padding: 0 10px;
+	}
+
+	/*-- Header --*/
+
+	.header-site .left {
+	    width: 54%;
+	}
+
+	.header-site .right {
+	    width: 46%;
+	}
+
+	.sign_wrapp {
+	    padding: 5px 0 0 0;
+	    background-color: rgba(0, 0, 0, 0);
+	}
+
+	.sign-in {
+	    min-width: 52px;
+	}
+
+	.sign-in span {
+	    display: none;
+	}
+
+	.sign-in i {
+	    display: block;
+		font-size: 23px;
+		line-height: 23px;
+	}
+
+	.header-site.active .left {
+	    padding: 0 1% 0 0;
+	}
+
+	.header-site.active .sign_wrapp {
+	    padding: 5px 0 0 0;
+	}
+
+	/*-- /Header --*/
 	
 }
 
@@ -21,3 +617,12 @@
 	
 
 }
+
+@media only screen and (min-width: 1025px) {
+
+	.popup_wrapp_resp {
+	    display: none !important;
+	}
+
+}
+
