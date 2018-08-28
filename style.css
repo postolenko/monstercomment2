@@ -2418,7 +2418,7 @@ textarea:focus {
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, .4);
+    background: rgba(0, 0, 0, .7);
     z-index: 15;
 }
 
@@ -2426,7 +2426,7 @@ textarea:focus {
     display: block;
     max-width: 570px;
     position: relative;
-    margin: 90px auto 20px auto;
+    margin: 140px auto 20px auto;
     padding: 46px 0 25px 0;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
