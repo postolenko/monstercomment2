@@ -38,6 +38,8 @@ $(document).ready(function() {
    
     $(".show_popup").click(function(e) {
 
+        $(".popup_wrapp").fadeOut(300);
+
         e.preventDefault();
 
         popupName = $(this).attr("data-popup-name");

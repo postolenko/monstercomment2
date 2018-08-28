@@ -236,7 +236,7 @@
 
 	.thumb-8 {
 	    width: 202px;
-	    padding: 11px 16px;
+	    padding: 11px 20px;
 	}
 
 	/*-- /Section 8 --*/
@@ -542,6 +542,14 @@
 	}
 
 	/*-- /Section 5 --*/
+
+	/*-- Section 8 --*/
+
+	.popup {
+	    margin: 80px auto 20px auto;
+	}
+
+	/*-- /Section 8 --*/
 
 }
 
