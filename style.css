@@ -1040,7 +1040,7 @@ textarea:focus {
 }
 
 .header-site.active .left {
-    padding: 4px 1% 4px 25px;
+    padding: 4px 1% 4px 0;
 }
 
 .header-site.active .right {
