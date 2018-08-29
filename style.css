@@ -1429,9 +1429,11 @@ textarea:focus {
 }
 
 .thumb-3 .img-box {
+    display: inline-block;
+    width: 100%;
     max-width: 238px;
     text-align: center;
-    margin: 24px auto;
+    margin: 24px 0;
     position: relative;
 }
 
