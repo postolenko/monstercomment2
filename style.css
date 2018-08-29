@@ -1898,7 +1898,7 @@ textarea:focus {
     border-radius: 12px;
     background-color: rgb(255, 255, 255);
     background-image: url(img/bg_3.jpg);
-    background-size: contain;
+    background-size: cover;
     background-position: center bottom;
     background-repeat: no-repeat;
 }
@@ -2043,7 +2043,6 @@ textarea:focus {
     width: calc(33.33% - 30px);
     margin: 196px 15px 30px 15px;
     position: relative;
-    /*background-color: #ffffff;*/
     background-color: #f3f7f8;
     -webkit-border-radius: 0 0 11px 11px;
     -moz-border-radius: 0 0 11px 11px;
@@ -2172,10 +2171,9 @@ textarea:focus {
 }
 
 .thumb-5 .btn_wrapp .blue-pill {
-    display: inline-block;
-    vertical-align: top;
-    min-width: 270px;
-    margin: 0;
+    display: block;
+    max-width: 270px;
+    margin: 0 auto;
     position: relative;
     top: -24px;
 }
