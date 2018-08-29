@@ -22,7 +22,10 @@ $(window).resize(function() {
     
     getHeaderParams();
     getLinesWidth();
+
+    $(".set_height .thumb .inner").css({"height" : "auto"});
     getTHumbsHeight();
+
     getAdaptivePositionElements();
     getGetPromoCenterPosition();
 
@@ -191,8 +194,6 @@ function getAdaptivePositionElements() {
 }
 
 function getTHumbsHeight() {
-
-    $(".set_height .thumb .inner").css({"height" : "auto"});
 
     $(".set_height").each(function() {
 
