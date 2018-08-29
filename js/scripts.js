@@ -8,23 +8,23 @@ var shapeLineWidht;
 
 $(window).load(function() {
 
-    getGetPromoCenterPosition();
     getHeaderParams();
     getLinesWidth();
     getTHumbsHeight();
     getAdaptivePositionElements();
+    getGetPromoCenterPosition();
 
 });
 
 $(window).resize(function() {
 
     bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
-
-    getGetPromoCenterPosition();
+    
     getHeaderParams();
     getLinesWidth();
     getTHumbsHeight();
     getAdaptivePositionElements();
+    getGetPromoCenterPosition();
 
 });
 
