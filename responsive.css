@@ -856,10 +856,11 @@
 
 	.thumb-3 {
 	    width: 100%;
+	    padding: 0;
 	}
 
 	.blue-pill_wrapp .blue-pill_2 {
-	    margin: 5px 0;
+	    margin: 20px 0;
 	}
 
 	.blue-pill_2 {
