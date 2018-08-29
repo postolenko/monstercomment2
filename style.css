@@ -343,22 +343,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 .slick-slide {
     outline: none;
 }
@@ -971,102 +955,6 @@ textarea:focus {
     text-align: right;
 }
 
-/* ----- Responsive Menu Button ------ */
-
-.respmenubtn {
-    display: inline-block;
-    vertical-align: top;
-    width: 60px;
-    height: 60px;
-    margin: 29px 4.5% 0 0;
-    background: transparent;
-    cursor: pointer;
-    z-index: 12;
-    border: 1px solid transparent;
-}
-
-.respmenubtn span {
-    display: block;
-    width: 60px;
-    height: 5px;
-    background: #ffffff;
-    margin: 10px 0;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    -webkit-transition-property: transform, background;
-    -webkit-transition-duration: .3s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: transform, background;
-    -moz-transition-duration: .3s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: transform, background;
-    -ms-transition-duration: .3s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: transform, background;
-    -o-transition-duration: .3s;
-    -o-transition-timing-function: ease;
-
-    transition-property: transform, background;
-    transition-duration: .3s;
-    transition-timing-function: ease;
-}
-
-.respmenubtn span:nth-child(1) {
-    width: 45px;
-}
-
-.respmenubtn span:nth-child(2) {
-    width: 30px;
-}
-
-.respmenubtn span:nth-child(3) {
-    width: 55px;
-}
-
-.respmenubtn:active {
-    -webkit-tap-highlight-color: rgba(0,0,0,0); 
-    -webkit-tap-highlight-color: transparent;
-}
-
-.respmenubtn:hover span {
-    background: #1fb6ff;
-}
-
-.respmenubtn.active span {
-    position: relative;
-    width: 63px;
-    top: 8px;
-    left: -2px;
-    background: #1fb6ff;
-}
-
-.respmenubtn.active span:last-child {
-    display: none;
-}
-
-.respmenubtn.active span:first-child {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-.respmenubtn.active span:nth-child(2) {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    position: relative;
-    top: -7px;
-    left: -2px;
-}
-
-/* ----- / Responsive Menu Button ------ */
-
 .logo {
     display: inline-block;
     vertical-align: top;
@@ -1091,12 +979,6 @@ textarea:focus {
     max-width: 250px;
     margin: 14px 0 0 16px;
     white-space: nowrap;
-    /*text-transform: uppercase;*/
-/*    font-family: "Ubuntu", "Arial", "Verdana", sans-serif;
-    font-size: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    color: #ffffff;*/
 }
 
 .logo p img {
@@ -1129,7 +1011,6 @@ textarea:focus {
 .input_wrapp {
     width: 200px;
     height: 48px;
-    /*overflow: hidden;*/
     position: relative;
     border-style: solid;
     border-width: 2px;
@@ -1862,14 +1743,6 @@ textarea:focus {
     padding: 20px 0 20px 1%;
 }
 
-.two-cols_2 {
-
-}
-
-.two-cols_2 .right {
-
-}
-
 .two-cols_2 .right h2 {
     text-align: left;
 }
@@ -1940,10 +1813,6 @@ textarea:focus {
 
 .items-2_wrapp {
     margin: 34px 0 0 0;
-}
-
-.items-2_wrapp h4 {
-
 }
 
 .item-2 {
@@ -2340,10 +2209,6 @@ textarea:focus {
     color: #ffffff;
 }
 
-.thumbnails-7 {
-    /*margin: 21px 0;*/
-}
-
 .thumb-7 {
     display: inline-block;
     vertical-align: top;
@@ -2494,9 +2359,6 @@ textarea:focus {
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
 
-.footer {
-
-}
 
 /*-- Popups --*/
 
