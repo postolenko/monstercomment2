@@ -1640,6 +1640,10 @@ a:active {
     margin: 21px 0;
 }
 
+.slider_1 .slick-arrow {
+    top: 56%;
+}
+
 .thumb-4 {
     display: inline-block;
     vertical-align: top;
@@ -1906,6 +1910,22 @@ a:active {
 
 .thumbnails-5 {
     margin: 0 -15px;
+}
+
+.slider_2 {
+    position: relative;
+}
+
+.slider_2 .slick-arrow {
+    top: 80px;
+}
+
+.slider_2 .slick-prev {
+    left: 16px;
+}
+
+.slider_2 .slick-next {
+    right: 15px;
 }
 
 .thumb-5 {
