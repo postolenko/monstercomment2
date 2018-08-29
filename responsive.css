@@ -1,9 +1,3 @@
-@media only screen and (max-width: 1380px) {
-
-	
-
-}
-
 @media only screen and (max-width: 1280px) {
 
 	h1 {
@@ -80,9 +74,132 @@
 	}
 
 	.thumb-3 .img-box {
-		-webkit-zoom: .8;
-		-moz-zoom: .8;
-		zoom: .8;		
+	    max-width: 160px;
+	}
+
+	.tooltip_1 i.fa-heart {
+	    margin: 0 5px 0 0;
+	}
+
+	.tooltip_1 i.fa-plus {
+	    margin: 0 1px;
+	    font-size: 11px;
+	}
+
+	.tooltip:after {
+	    width: 10px;
+	    height: 10px;
+	    bottom: -5px;
+	    left: 50%;
+	    margin: 0 0 0 -5px;
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+	}
+
+	.tooltip i {
+	    font-size: 16px;
+	}
+
+	.tooltip_1 {
+	    top: 118px;
+	    left: -30%;
+	}
+
+	.tooltip_2 {
+	    width: 91px;
+	    top: 76px;
+	    right: -39%;
+	}
+
+	.tooltip_2 i.fa-heart {
+	    font-size: 17px;
+	}
+
+	.tooltip_2 i.fa-plus {
+	    font-size: 10px;
+	}
+
+	.tooltip_2:after {
+	    width: 14px;
+	    height: 14px;
+	    bottom: -7px;
+	    margin: 0 0 0 -7px;
+	}
+
+	.tooltip_3 {
+	    min-width: 146px;
+	    padding: 9px;
+	    bottom: 29px;
+	    right: -12.5%;
+	}
+
+	.tooltip .desc > div {
+	    margin: 0 2px;
+	}
+
+	.tooltip_3 i {
+	    font-size: 11px;
+	}
+
+	.tooltip p {
+	    padding: 0 4px;
+	    font-size: 11px !important;
+	    line-height: 11px !important;
+	}
+
+	.tooltip_4 {
+	    width: 74px;
+	    padding: 10px;
+	    top: 178px;
+    	left: -13%;
+		-webkit-border-radius: 7px;
+		-moz-border-radius: 7px;
+		border-radius: 7px;
+	}
+
+	.tooltip_4 .fa-user {
+	    margin: 0 4px 0 0;
+	    font-size: 15px;
+	}
+
+	.tooltip_4 .fa-plus {
+	    margin: 0 1px;
+	    font-size: 11px;
+	}
+
+	.tooltip_5 {
+	    top: 130px;
+	    right: -28%;
+	}
+
+	.tooltip_5:after {
+	    width: 10px;
+	    height: 10px;
+	    bottom: -5px;
+	    left: 50%;
+	    margin: 0 0 0 -6px;
+	    -webkit-border-radius: 2px;
+	    -moz-border-radius: 2px;
+	    border-radius: 2px;
+	}
+
+	.tooltip_6 {
+	    width: 102px;
+	    padding: 10px;
+	    top: 61px;
+	    left: -45%;
+	    -webkit-border-radius: 8px;
+	    -moz-border-radius: 8px;
+	    border-radius: 8px;
+	}
+
+	.tooltip_6 .fa-comment {
+	    font-size: 17px;
+	}
+
+	.tooltip_6 .fa-plus {
+	    font-size: 12px;
 	}
 
 	.thumb-3 h3 {
@@ -213,14 +330,8 @@
 
 	/*-- Section 7 --*/
 
-	.thumb-7 .img-box {
-	    -webkit-zoom: .75;
-	    -moz-zoom: .75;
-	    zoom: .75;
-	}
-
 	.thumb-7 h3 {
-		padding: 5px 0;
+		padding: 5px 0 11px 0;
 	    font-size: 19px;
 	    line-height: 28px;
 	}
@@ -344,16 +455,6 @@
 
 	/*-- /Section 1 --*/
 
-	/*-- Section 2 --*/
-
-	.thumb-3 .img-box {
-	    -webkit-zoom: .55;
-	    -moz-zoom: .55;
-	    zoom: .55;
-	}
-
-	/*-- /Section 2 --*/
-
 	/*-- Section 3 --*/
 
 	.thumb-4 h3 {
@@ -448,12 +549,6 @@
 	    padding: 0 8px;
 	}
 
-	.thumb-7 .img-box {
-	    -webkit-zoom: .75;
-	    -moz-zoom: .75;
-	    zoom: .75;
-	}
-
 	.thumb-7 h3 {
 	    font-size: 15px;
 	    line-height: 21px;
@@ -465,6 +560,22 @@
 	}
 
 	/*-- /Section 7 --*/
+
+}
+
+@media only screen and (max-width: 860px) {
+
+	/*-- Section 2 --*/
+
+	.thumbnails-3 {
+		text-align: center;
+	}
+
+	.thumb-3 {
+	    width: 50%;
+	}
+
+	/*-- /Section 2 --*/
 
 }
 
@@ -626,7 +737,7 @@
 	.thumb-7 .cell-1 {
 		display: table-cell;
 		vertical-align: top;
-		width: 90px;
+		width: 79px;
 	}
 
 	.thumb-7 .cell-2 {
@@ -637,10 +748,12 @@
 
 	.thumb-7 .img-box {
 	    height: auto;
+	    margin: 0 0 16px 0;
 	    text-align: left;
 	}
 
-	.thumb-7 .img-box i {
+	.thumb-7 .img-box img {
+		max-width: 54px;
 	    position: relative;
 	    left: 0;
 	    -webkit-transform: translate(0, 0);
@@ -654,24 +767,6 @@
 
 	.circle_shape {
 		display: none;
-	}
-
-	.icon_09 {
-	    -webkit-zoom: .8;
-	    -moz-zoom: .8;
-	    zoom: .8;
-	}
-
-	.icon_10 {
-	    -webkit-zoom: .7;
-	    -moz-zoom: .7;
-	    zoom: .7;
-	}
-
-	.icon_11 {
-	    -webkit-zoom: .7;
-	    -moz-zoom: .7;
-	    zoom: .7;
 	}
 
 	/*-- /Section 7 --*/
@@ -710,18 +805,6 @@
 	}
 
 	/*-- /Section 1 --*/
-
-	/*-- Section 2 --*/
-
-	.thumbnails-3 {
-		text-align: center;
-	}
-
-	.thumb-3 {
-	    width: 50%;
-	}
-
-	/*-- /Section 2 --*/
 
 	/*-- Section 3 --*/
 
@@ -1017,6 +1100,18 @@
 	}
 
 	/*-- /Section 1 --*/
+
+	/*-- Section 2 --*/
+
+	.tooltip_2 {
+	    right: -37%;
+	}
+
+	.tooltip_6 {
+	    left: -37%;
+	}
+
+	/*-- /Section 2 --*/
 
 	/*-- /Section 5 --*/
 
