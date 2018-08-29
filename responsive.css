@@ -919,6 +919,26 @@
 
 	/*-- /Section 5 --*/
 
+	/*-- Backgrounds --*/
+
+	.bg_1 {
+		background-image: url(img/promo_bg_mob.jpg);
+	}
+
+	.bg_2 {
+	    background-image: url(img/bg_2_mob.jpg);
+	}
+
+	.bg_3 {
+	    background-image: url(img/bg_4_mob.jpg);
+	}
+
+	.bg_4 {
+	    background-image: url(img/bg_2_mob.jpg);
+	}
+
+	/*-- /Backgrounds --*/
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -1048,12 +1068,6 @@
 
 	/*-- /Popups --*/
 	
-}
-
-@media only screen and (max-width: 320px) {
-
-	
-
 }
 
 @media only screen and (min-width: 1025px) {
