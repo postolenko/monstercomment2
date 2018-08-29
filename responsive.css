@@ -80,7 +80,9 @@
 	}
 
 	.thumb-3 .img-box {
-		zoom: .8;
+		-webkit-zoom: .8;
+		-moz-zoom: .8;
+		zoom: .8;		
 	}
 
 	.thumb-3 h3 {
@@ -212,6 +214,8 @@
 	/*-- Section 7 --*/
 
 	.thumb-7 .img-box {
+	    -webkit-zoom: .75;
+	    -moz-zoom: .75;
 	    zoom: .75;
 	}
 
@@ -343,6 +347,8 @@
 	/*-- Section 2 --*/
 
 	.thumb-3 .img-box {
+	    -webkit-zoom: .55;
+	    -moz-zoom: .55;
 	    zoom: .55;
 	}
 
@@ -443,6 +449,8 @@
 	}
 
 	.thumb-7 .img-box {
+	    -webkit-zoom: .75;
+	    -moz-zoom: .75;
 	    zoom: .75;
 	}
 
@@ -649,14 +657,20 @@
 	}
 
 	.icon_09 {
+	    -webkit-zoom: .8;
+	    -moz-zoom: .8;
 	    zoom: .8;
 	}
 
 	.icon_10 {
+	    -webkit-zoom: .7;
+	    -moz-zoom: .7;
 	    zoom: .7;
 	}
 
 	.icon_11 {
+	    -webkit-zoom: .7;
+	    -moz-zoom: .7;
 	    zoom: .7;
 	}
 
