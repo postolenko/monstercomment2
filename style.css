@@ -2923,7 +2923,6 @@ a:active {
 
 .dropdown_title {
     height: 48px;
-    cursor: pointer;
     position: relative;
     padding: 13px 35px 10px 17px;
     border-style: solid;
@@ -2933,6 +2932,10 @@ a:active {
     border-radius: 25px;
     border-color: rgb(225, 232, 234);
     background-color: rgb(255, 255, 255);
+}
+
+.dropdown_wrapp.actual .dropdown_title {
+    cursor: pointer;
 }
 
 .dropdown_title .fa-angle-down {
