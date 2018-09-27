@@ -108,6 +108,83 @@ $(document).ready(function() {
 
     });
 
+    // -------------------------------
+
+    $(".dropdown_wrapp").each( function() {
+
+        $(this).find(".dropdown_list").css({
+            "display" : "none"
+        });
+
+        if( $(this).find(".dropdown_list ul li").length > 0 ) {
+
+            $(this).addClass("actual");
+        }
+
+    });
+
+
+    $(".actual .dropdown_title").click(function(e) {
+
+        e.preventDefault();
+
+        parentBlock = $(this).closest(".dropdown_wrapp");
+
+        var dropdownList = parentBlock.find(".dropdown_list");
+
+        if( dropdownList.is(":hidden") ) {
+
+            dropdownList.slideDown(300);
+            parentBlock.addClass("active");
+
+        } else {
+
+            dropdownList.slideUp(300);
+            parentBlock.removeClass("active");
+
+        }
+
+    });
+
+    $(document).mouseup(function (e){
+
+        hide_element = $('.dropdown_list');
+
+        if (!hide_element.is(e.target)
+
+            && hide_element.has(e.target).length === 0) {
+
+            parentBlock = hide_element.closest(".dropdown_wrapp");
+            hide_element.slideUp(300);
+            parentBlock.removeClass("active");
+        }
+
+    });
+
+    $(this).keydown(function(eventObject){
+
+        if (eventObject.which == 27) {
+
+            $('.dropdown_list').slideUp(300);
+
+        }
+
+    });
+
+    $(".dropdown_wrapp .dropdown_list li").click(function(e) {
+
+        e.preventDefault();
+
+        parentBlock = $(this).closest(".dropdown_wrapp");
+
+        var dropdownTitleVal = parentBlock.find(".dropdown_title .val");
+        var numVal = $(this).find(".val").text();
+        dropdownTitleVal.text(numVal);
+
+        console.log(numVal);
+
+    });
+
 });
 
 function getGetPromoCenterPosition() {    
@@ -132,15 +209,26 @@ function getGetPromoCenterPosition() {
 
 function getHeaderParams() {
 
-    if( $(".header-site").offset().top >= 20 ) {
+    if( $(".header-site").length > 0 ) {
 
-        $(".header-site").addClass("active");
+        if( $(".header-site").offset().top >= 20 ) {
 
-    } else {
+            $(".header-site").addClass("active");
 
-        $(".header-site").removeClass("active");
+        } else {
+
+            $(".header-site").removeClass("active");
+
+        }
+
+    } else if($(".header-site_2").length > 0) {
+
+        $(".wrapper").css({
+            "padding-top" : $(".header-site_2").height() + "px"
+        });
 
     }
+
 
 }
 
