@@ -3122,6 +3122,10 @@ a:active {
     transform: rotate(-180deg);
 }
 
+.val_wrapp {
+    white-space: nowrap;
+}
+
 .val_wrapp i {
     display: inline-block;
     vertical-align: top;

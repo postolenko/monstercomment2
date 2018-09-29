@@ -26,6 +26,10 @@
 	    margin: 20px 0 0 16px;
 	}
 
+	.logo_2 p {
+	    margin-top: 8px;
+	}
+
 	.sign_wrapp {
 	    padding: 10px 20px;
 	}
@@ -249,6 +253,14 @@
 
 	/*-- /Section 5 --*/
 
+	/*-- Section 1 - Rates --*/
+
+	.rate_thumb {
+	    width: 31.33%;
+	}
+
+	/*-- /Section 1 - Rates --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -415,6 +427,10 @@
 		margin: 3px 6px;
 	}
 
+	.logo p {
+	    max-width: 157px;
+	}
+
 	/*-- /Header --*/
 
 	/*-- Section 1 --*/
@@ -557,6 +573,22 @@
 
 	/*-- /Section 7 --*/
 
+	/*-- Section 1 - Rates --*/
+
+	.rate_thumb {
+	    width: 48%;
+	}
+
+	/*-- /Section 1 - Rates --*/
+
+	.footer .left,
+	.footer .right {
+	    width: 100%;
+	    float: none;
+	    padding: 10px 0;
+	    text-align: center;
+	}
+
 }
 
 @media only screen and (max-width: 860px) {
@@ -675,6 +707,41 @@
 	}
 
 	/*-- /Section 5 --*/
+
+	.info-box {
+		display: block;
+	}
+
+	.info-box .info-col:nth-child(1),
+	.info-box .info-col:nth-child(2) {
+		display: block;
+	    width: 100%;
+	    padding: 13px 0;
+	}
+
+	.info-box .info-col:nth-child(1) {
+		padding-bottom: 4px;
+	}
+
+	.info-box .info-col:nth-child(2) {
+		padding-top: 4px;
+	}
+
+	.info-box .btn_wrapp {
+	    text-align: center;
+	}
+
+	/*-- Footer --*/
+
+	.footer .left, .footer .right {
+	    padding: 10px 0 0 0;
+	}
+
+	.cols-inner_wrapp {
+	    margin: 0;
+	}
+
+	/*-- /Footer --*/
 
 	/*-- Backgrounds --*/
 
@@ -893,6 +960,15 @@
 
 	/*-- /Section 8 --*/
 
+	/*-- Section 1 - Rates --*/
+
+	.rate_thumb {
+	    width: 100%;
+	    margin: 55px 0 6px 0;
+	}
+
+	/*-- /Section 1 - Rates --*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -917,6 +993,11 @@
 	    line-height: 18px;
 	}
 
+	.inner_title h2 {
+	    font-size: 21px;
+	    line-height: 30px;
+	}
+
 	/*-- Header --*/
 
 	.header-site .left {
@@ -929,6 +1010,10 @@
 
 	.logo-img {
 		display: none;
+	}
+
+	.logo_2 .logo-img {
+	    display: inline-block;
 	}
 
 	/*-- /Header --*/
@@ -1032,6 +1117,35 @@
 	}
 
 	/*-- /Backgrounds --*/
+
+	/*-- Section 1 - Rates --*/
+
+	.inner_title {
+	    padding: 10px 0;
+	}
+
+	.rates_thumbs_wrapp h3 {
+	    font-size: 19px;
+	    line-height: 22px;
+	}
+
+	/*-- /Section 1 - Rates --*/
+
+	/*-- Footer --*/
+
+	.footer {
+	    padding: 10px 0 14px 0;
+	}
+
+	.footer-nav li {
+	    padding: 3px 14px;
+	}
+
+	p.cop {
+	    padding: 11px 0;
+	}
+
+	/*-- /Footer --*/
 
 }
 
@@ -1174,6 +1288,24 @@
 
 	/*-- /Popups --*/
 	
+}
+
+@media only screen and (max-width: 350px) {
+
+	.info-box .btn_wrapp {
+	    margin: 0;
+	}
+
+	.info-box .blue-pill {
+		width: 100% !important;
+	    margin: 5px 0;
+	    padding: 12px 10px 14px 10px;
+	}
+
+	.blue-pill .fa-telegram-plane {
+	    margin: -2px 9px -7px 0;
+	}
+
 }
 
 @media only screen and (min-width: 1025px) {
