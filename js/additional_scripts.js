@@ -1,6 +1,6 @@
 $(window).on("load",function(){
 
-	$(".scroll").mCustomScrollbar();
+	// $(".scroll").mCustomScrollbar();
 
 });
 
@@ -104,6 +104,21 @@ function getRespSliders() {
 
     }
 
+
+}
+
+
+function getScrollBar() {
+
+	if ( bodyWidth > 900 ) {
+
+		$(".scroll").mCustomScrollbar();
+
+	} else {
+
+		$(".scroll").mCustomScrollbar("destroy");
+
+	}
 
 }
 

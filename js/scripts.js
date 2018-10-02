@@ -185,6 +185,38 @@ $(document).ready(function() {
 
     });
 
+    // ----------------
+
+    $(".count-box button").click(function(e) {
+
+        e.preventDefault();
+
+        parentBlock= $(this).closest(".count-box");
+
+        var countInput = parentBlock.find(".count-num input");
+
+        var countVal = countInput.val();
+
+        if(countVal == "") {
+
+            countVal = 1;
+
+        }
+
+        if( $(this).hasClass("minus-btn") && countVal > 1 ) {
+
+            countVal--;
+
+        } else if( $(this).hasClass("plus-btn")) {
+
+            countVal++;
+
+        }
+
+        countInput.val(countVal);
+
+    });
+    
 });
 
 function getGetPromoCenterPosition() {    
