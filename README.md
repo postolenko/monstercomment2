@@ -9,3 +9,5 @@
 # http://postolenko.github.io/monstercomment2/comment.html
 # http://postolenko.github.io/monstercomment2/comment_2.html
 # http://postolenko.github.io/monstercomment2/comment_3.html
+# http://postolenko.github.io/monstercomment2/comment_4.html
+# http://postolenko.github.io/monstercomment2/comment_5.html
