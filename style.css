@@ -4627,6 +4627,47 @@ p.question-p {
 
 /*-- /Section 1 - Comments 6 --*/
 
+/*-- Section 1 - Comments 7 --*/
+
+.footer_2 {
+    padding: 9px 0 2px 0;
+}
+
+.footer_2 p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.footer_2 p a {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+/*-- /Section 1 - Comments 7 --*/
+
+/*-- Section 1 - Comments 8 --*/
+
+.blue-info_2 {
+    width: 100%;
+    margin: 12px 0 5px 0;
+    padding: 6px 14px 3px 14px;
+}
+
+.fa-cog {
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.blue-info i.fa-cog {
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+/*-- /Section 1 - Comments 8 --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
