@@ -2964,7 +2964,8 @@ a:active {
 /*-- Section 1 - Rates --*/
 
 .inner_title {
-    padding: 19px 0;
+    /*padding: 19px 0;*/
+    padding: 19px 0 9px 0;
 }
 
 .inner_title h2 {
@@ -3024,6 +3025,10 @@ a:active {
     margin-right: 20px;
     position: relative;
     top: 3px;
+}
+
+.rates_thumbs_wrapp {
+    padding: 12px 0 0 0;
 }
 
 .rates_thumbs_wrapp h3 {
@@ -3441,7 +3446,6 @@ a:active {
     display: table-cell;
     vertical-align: top;
     width: 105px;
-    /*padding: 24px 5px 22px 7%;*/
     padding: 24px 5px 22px 3%;
     text-align: center;
 }
@@ -3458,10 +3462,6 @@ a:active {
     vertical-align: top;
     max-width: 98%;
     max-height: 98%;
-}
-
-.item_2 .descript_2 {
-
 }
 
 .item_2 .descript_2 p {
@@ -3492,7 +3492,6 @@ p i {
 .form-two-cols {
     display: table;
     width: 100%;
-    /*margin: 12px 0;*/
 }
 
 .form-two-cols > .col-inner:nth-child(1) {
@@ -3550,8 +3549,6 @@ p i {
 .important_box {
     display: table;
     width: 100%;
-    /*margin: 12px 0;*/
-    /*margin: 8px 0;*/
     margin: 16px 0 5px 0;
 }
 
@@ -3788,10 +3785,6 @@ p .fa-exchange-alt {
 
 /*-- Section 1 - Start --*/
 
-.two-cols_templ_2 {
-
-}
-
 .two-cols_templ_2 > .left {
     width: 54.5%;
     padding: 0 2% 15px 0;
@@ -3857,10 +3850,6 @@ p .fa-exchange-alt {
 .item_2_2 .inner {
     border-color: rgb(175, 216, 228);
     background-color: transparent;
-}
-
-.item_inner-row_2 {
-
 }
 
 .item_inner-row_2 .important_box {
@@ -4369,10 +4358,6 @@ p .fa-exchange-alt {
     color: #1fb6ff;
 }
 
-.confirmed {
-
-}
-
 .comment-text_wrapp_2.off p {
     color: #df4747;
 }
@@ -4449,10 +4434,6 @@ p .fa-exchange-alt {
     padding: 0;
     font-size: 15px;
     line-height: 19px;
-}
-
-.add-comment-box {
-
 }
 
 p.question-p {
@@ -4667,6 +4648,14 @@ p.question-p {
 }
 
 /*-- /Section 1 - Comments 8 --*/
+
+/*-- Section 1 - And Comment --*/
+
+.btn_wrapp_3 {
+    padding: 34px 0 17px 0;
+}
+
+/*-- /Section 1 - And Comment --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

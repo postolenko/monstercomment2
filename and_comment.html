@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">	
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<title>Monster Comment</title>
+</head>
+
+<body>
+
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Регистрация</h3>
+			<div class="popup-form">
+				<form>
+					<div class="input_wrapp">
+						<i class="fas fa-user-circle"></i>
+						<input type="email" placeholder="EMAIL" />
+					</div>
+					<div class="input_wrapp">
+						<i class="fas fa-unlock"></i>
+						<input type="password" placeholder="ПАРОЛЬ" />
+						<button type="button" class="show_pass"><i class="far fa-eye-slash"></i></button>
+					</div>
+					<div class="input_wrapp">
+						<i class="fas fa-unlock"></i>
+						<input type="password" placeholder="ПОВТОРИТЕ ПАРОЛЬ" />
+						<button type="button" class="show_pass"><i class="far fa-eye-slash"></i></button>
+					</div>
+					<button type="submit" class="blue-pill">Зарегистрироваться</button>
+				</form>
+			</div>
+			<div class="popup_footer">
+				<h5>Уже есть аккаунт?</h5>
+				<a href="#" class="grey-link">Войти</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_2">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Забыли пароль?</h3>
+			<div class="popup-form popup-form_2">
+				<form>
+					<div class="input_wrapp">
+						<i class="fas fa-user-circle"></i>
+						<input type="email" placeholder="EMAIL" />
+					</div>
+					<button type="submit" class="blue-pill">Сменить пароль</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp popup_wrapp_resp scroll" data-popup ="popup_3">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Вход</h3>
+			<div class="popup-form popup-form_2">
+				<div class="append-elem" data-append-elem = "2" ></div>
+				<div class="append-elem" data-append-elem = "3" ></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
+	<div class="wrapper">
+	<!-- Header -->
+		
+	<header>
+
+		<div class="header-site_2">
+			<div class="row clearfix">
+				<div class="left">
+					<a href="#" class="logo logo_2">
+						<div class="logo-img">
+							<img src="img/logo_2.png" alt="" />
+						</div>
+						<p><img src="img/logoname_2.png" alt="" /></p>
+					</a>
+				</div>
+				<div class="right">
+					<div class="header_thumbnails">
+						<div class="thumb-9">
+							<div class="thumb-10">
+								<div class="col">
+									<i class="up_arrow"></i>
+								</div>
+								<div class="col">
+									<p>188</p>
+								</div>
+							</div>
+							<div class="thumb-10">
+								<div class="col">
+									<i class="down_arrow"></i>
+								</div>
+								<div class="col">
+									<p>245</p>
+								</div>
+							</div>
+						</div>
+						<div class="thumb-9">
+							<div class="thumb-10">
+								<div class="col">
+									<i class="cup"></i>
+								</div>
+								<div class="col">
+									<p>55058</p>
+									<p class="p-2">место  <a href="#" class="blue-link">в рейтинге</a></p>
+									<a href="#" class="question_link"><i class="fas fa-question-circle"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="thumb-9 thumb-9_2">
+							<p>1925 руб.</p>
+							<a class="blue-circle-pill"><i class="fas fa-plus"></i></a>
+						</div>
+
+						<div class="thumb-11">
+							<div class="col">
+								<div class="img-box">
+									<img src="img/user.jpg" alt="" />
+								</div>
+							</div>
+							<div class="col">
+								<p>ellieprettygirl</p>
+							</div>
+							<button type="button" class="blue-circle-pill"><i class="fas fa-angle-down"></i></button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+								
+	</header>
+
+	<!-- /Header -->
+
+		<!-- Content -->
+			<div class="content">
+
+				<!-- Section 1 - And Comment -->
+
+				<section>
+					
+					<div class="row">
+						
+						<div class="breadcrumbs_wrapp">
+							<ul class="breadcrumbs">
+								<li><a href="#">Главная</a></li>
+								<li><a href="#">Комментарии</a></li>
+							</ul>
+						</div>
+
+						<div class="inner_title">
+							<h2>Комментарии</h2>
+						</div>						
+
+						<div class="two-cols_templ clearfix">
+							
+							<div class="left">
+
+								<div class="item_2">
+									<div class="inner">
+										<div class="inner-row">
+											<div class="col">
+												<img src="img/icon_24.png" alt="" />
+											</div>
+											<div class="col">
+												<div class="descript_2">
+													<p>Раздача комментариев закончена!</p>
+													<p>Теперь вы можете начать получение комментариев</p>
+												</div>
+												<div class="btn_wrapp_3">
+													<button type="submit" class="blue-pill w-280">Начать получение</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="right">
+
+								<div class="col-title col-title_2">
+									<div class="col">
+										<p>Статус активных запросов</p>
+									</div>
+									<div class="col">
+										<button type="button" class="transparent-pill"><i class="fas fa-sync"></i>Обновить</button>
+									</div>
+								</div>
+								
+								<div class="item_2 item_2_2">
+									<div class="inner">
+										<div class="inner_3">
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Номер:</h4>
+												</div>
+												<div class="item_3-col">
+													<p class="comment_num"># 13465</p>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Пост:</h4>
+												</div>
+												<div class="item_3-col">
+													<p><a href="#" class="blue-link_3">www.instagram.com/p/BkDX3ElAvRp/</a></p>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Получено:</h4>
+												</div>
+												<div class="item_3-col">
+													<p>0 из 5</p>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Создан:</h4>
+												</div>
+												<div class="item_3-col">
+													<p>16.06.2018 16:07</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item_2 item_2_2">
+									<div class="inner">
+										<div class="inner_3">
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Номер:</h4>
+												</div>
+												<div class="item_3-col">
+													<p class="comment_num"># 13465</p>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Пост:</h4>
+												</div>
+												<div class="item_3-col">
+													<p><a href="#" class="blue-link_3">www.instagram.com/p/BkDX3ElAvRp/</a></p>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Получено:</h4>
+												</div>
+												<div class="item_3-col">
+													<p>0 из 5</p>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Создан:</h4>
+												</div>
+												<div class="item_3-col">
+													<p>16.06.2018 16:07</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="inner_3 inner_3_2">
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Пользователь:</h4>
+												</div>
+												<div class="item_3-col">
+													<p><a href="#" class="blue-link_3">marry_s</a></p>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Комментарий:</h4>
+												</div>
+												<div class="item_3-col">
+													<p class="italick">Отличное качество. где бы я не покупала вещи, вы действительно стараетесь следовать за качеством в мировом смысле этого слова, очень приятно!!!!</p>
+													<div class="add-comment-box">
+														<div>
+															<p class="question-p"><a href="#" class="question-link"><i class="fas fa-question-circle"></i></a>Напишите и отправьте новый верный комментарий, который нужно оставить</p>
+														</div>
+														<div class="input_wrapp">
+															<input type="text" placeholder="Дословный комментарий" />
+														</div>
+														<div class="align-right">
+															<a href="#" class="red-info">
+																<p>Отправить <span class="time">2 : 30</span></p>
+															</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="inner_3 inner_3_2">
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Пользователь:</h4>
+												</div>
+												<div class="item_3-col">
+													<p><a href="#" class="blue-link_3">marry_s</a></p>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Комментарий:</h4>
+												</div>
+												<div class="item_3-col">
+													<p class="italick">Отличное качество. где бы я не покупала вещи, вы действительно стараетесь следовать за качеством в мировом смысле этого слова, очень приятно!!!!</p>
+												</div>
+											</div>
+											<div class="btn_wrapp_2">
+												<div class="btn_wrapp-col">
+													<a href="#" class="blue-info">
+														<i class="fas fa-check"></i>
+														<p>Подтвердить<span class="time">2 : 30</span></p>
+													</a>
+												</div>
+												<div class="btn_wrapp-col">
+													<a href="#" class="red-info">
+														<i class="fas fa-times-circle"></i>
+														<p>Отклонить</p>
+													</a>
+												</div>
+											</div>
+										</div>
+
+										<div class="inner_3 inner_3_2">
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Пользователь:</h4>
+												</div>
+												<div class="item_3-col">
+													<div class="inner-title">
+														<div class="title-col">
+															<p><a href="#" class="blue-link_3">ksenia8765</a></p>
+														</div>
+														<div class="title-col">
+															<p class="blue-p">Подтвержден<i class="fas fa-check"></i></p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Комментарий:</h4>
+												</div>
+												<div class="item_3-col">
+													<p class="italick">Отличное качество. где бы я не покупала вещи, вы действительно стараетесь следовать за качеством в мировом смысле этого слова, очень приятно!!!!</p>
+												</div>
+											</div>
+										</div>
+
+										<div class="inner_3 inner_3_2 disabled">
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Пользователь:</h4>
+												</div>
+												<div class="item_3-col">
+													<div class="inner-title">
+														<div class="title-col">
+															<p><a href="#" class="blue-link_3">angelina_lot</a></p>
+														</div>
+														<div class="title-col">
+															<p class="red-p disabled-pill">Отклонен <i class="fas fa-times-circle"></i></p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="item_3">
+												<div class="item_3-col">
+													<h4>Комментарий:</h4>
+												</div>
+												<div class="item_3-col">
+													<p class="italick">Отличное качество. где бы я не покупала вещи, вы действительно стараетесь следовать за качеством в мировом смысле этого слова, очень приятно!!!!</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</section>
+
+				<!-- /Section 1 - And Comment -->
+
+			</div>
+		<!-- /Content -->
+
+		<!-- Footer -->
+
+		<footer>
+
+			<div class="footer">
+
+				<div class="row clearfix">
+					
+					<div class="left">
+						<a href="#" class="logo logo_2">
+							<div class="logo-img">
+								<img src="img/logo_2.png" alt="" />
+							</div>
+							<p><img src="img/logoname_2.png" alt="" /></p>
+						</a>
+					</div>
+					<div class="right">
+						<div class="cols-inner_wrapp">
+							<div class="col-inner">
+								<ul class="footer-nav">
+									<li><a href="#">Пользовательское соглашение</a></li>
+									<li><a href="#">Техническая поддержка</a></li>
+								</ul>
+							</div>
+							<div class="col-inner">
+								<p class="cop">2018 Все права защищены</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+		<!-- /Footer -->
+		<script src="vendors/js/jquery.js"></script>
+		<script src="slick/slick.js"></script>
+		<script src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="vendors/js/smoothscroll.js"></script>
+		<script src="vendors/js/jquery.fancybox.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/additional_scripts.js"></script>
+	
+	</div>
+
+</body>
+</html>

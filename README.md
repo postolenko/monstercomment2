@@ -13,3 +13,5 @@
 # http://postolenko.github.io/monstercomment2/comment_5.html
 # http://postolenko.github.io/monstercomment2/comment_6.html
 # http://postolenko.github.io/monstercomment2/comment_7.html
+# http://postolenko.github.io/monstercomment2/and_comment.html
+# http://postolenko.github.io/monstercomment2/and_comment_2.html
