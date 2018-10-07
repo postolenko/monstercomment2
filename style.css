@@ -5010,6 +5010,116 @@ p.question-p {
 
 /*-- /Section 1 - Getting Comment 5 --*/
 
+/*-- Section 1 - Getting Comment 6 --*/
+
+.inner_3_3 {
+    margin: 0 10%;
+    padding: 27px 0 15px 0;
+    border-bottom: 1px solid #e1e8ea;
+}
+
+.two-cols_4 {
+    display: table;
+    width: 100%;
+}
+
+.two-cols_4 .two-col:nth-child(1) {
+    display: table-cell;
+    vertical-align: middle;
+    width: 150px;
+    padding: 1px 5px 1px 0;
+}
+
+.two-cols_4 .two-col:nth-child(2) {
+    display: table-cell;
+    vertical-align: middle;
+    width: auto;
+    padding: 1px 0 1px 5px;
+}
+
+.two-cols_4  h3 {
+    font-family: "Ubuntu";
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.light-info {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 180px;
+    padding: 7px 14px 8px 14px;
+    background-color: rgb(175, 216, 228);
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #ffffff;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.light-info:hover {
+    -webkit-box-shadow: 0 5px 10px 0 rgba(175, 216, 228,.5);
+    -moz-box-shadow: 0 5px 10px 0 rgba(175, 216, 228,.5);
+    box-shadow: 0 5px 10px 0 rgba(175, 216, 228,.5);
+}
+
+.light-info i {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+    font-size: 15px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.light-info p {
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.two-cols_4 .blue-info {
+    min-width: 180px;
+}
+
+.btn_wrapp_5 {
+    padding: 29px 6% 25px 6%;
+}
+
+.btn_wrapp_5 .blue-pill {
+    min-width: 220px;
+}
+
+/*-- /Section 1 - Getting Comment 6 --*/
 
 
 /*-------------------------------------------*/
