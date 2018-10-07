@@ -15,3 +15,4 @@
 # http://postolenko.github.io/monstercomment2/comment_7.html
 # http://postolenko.github.io/monstercomment2/and_comment.html
 # http://postolenko.github.io/monstercomment2/and_comment_2.html
+# http://postolenko.github.io/monstercomment2/getting_comments.html

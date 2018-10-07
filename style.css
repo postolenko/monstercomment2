@@ -765,6 +765,62 @@ a:active {
     box-shadow: 0 6px 17px 0 rgba(27,156,218,.75);
 }
 
+.bluelight-pill {
+    display: block;
+    cursor: pointer;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: #8fdaff;
+    border: 1px solid transparent;
+    min-width: 170px;
+    padding: 12px 15px 14px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Ubuntu", "Arial", "Verdana", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #ffffff;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.bluelight-pill:link,
+.bluelight-pill:visited {
+    box-shadow: none;
+}
+
+.bluelight-pill:active,
+.bluelight-pill.active {
+    -webkit-box-shadow: 0 6px 17px 0 rgba(143,218,255,.75);
+    -moz-box-shadow: 0 6px 17px 0 rgba(143,218,255,.75);
+    box-shadow: 0 6px 17px 0 rgba(143,218,255,.75);
+}
+
+.bluelight-pill:hover {
+    -webkit-box-shadow: 0 6px 17px 0 rgba(143,218,255,.75);
+    -moz-box-shadow: 0 6px 17px 0 rgba(143,218,255,.75);
+    box-shadow: 0 6px 17px 0 rgba(143,218,255,.75);
+}
+
 /*-- /Pills --*/
 
 /*-- Links --*/
@@ -3454,7 +3510,7 @@ a:active {
     display: table-cell;
     vertical-align: top;
     width: auto;
-    padding: 17px 6% 17px 5px;
+    padding: 17px 5% 17px 5px;
 }
 
 .item_2 .inner .col img {
@@ -4656,6 +4712,220 @@ p.question-p {
 }
 
 /*-- /Section 1 - And Comment --*/
+
+/*-- Section 1 - Getting Comment --*/
+
+.important-box {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 32px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(222, 244, 255);
+    /*margin: 7px 0;*/
+    margin: 7px 0 22px 0;
+    padding: 4px 10px;
+}
+
+.important-box i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+    font-size: 17px;
+    line-height: 18px;
+    color: #1fb6ff;
+}
+
+.important-box p {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    color: #000000;
+}
+
+.inner-row_3 {
+    display: table;
+    width: 84%;
+    margin: 0 auto;
+    padding: 13px 0;
+    border-bottom: 1px solid #e1e8ea;
+}
+
+.inner-row_3:nth-child(1) {
+    border-top: 1px solid #e1e8ea;
+}
+
+.inner-row_3:last-child {
+    border-bottom: none;
+}
+
+.inner-row_3 > .col:nth-child(1) {
+    display: table-cell;
+    vertical-align: top;
+    width: 37px !important;
+    padding: 7px 5px 0 0 !important;
+}
+
+.inner-row_3 > .col:nth-child(2) {
+    display: table-cell;
+    vertical-align: top;
+    width: auto!important;
+    padding: 0 0 0 5px !important;
+}
+
+.num-icon {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 30px;
+    min-height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #e1e8ea;
+    text-align: center;
+    padding: 0 3px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    color: #8f9395;
+}
+
+.inner-row_3 h4 {
+    padding: 10px 0;
+    font-family: "Ubuntu";
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.inner-row_3 .input_wrapp {
+    width: 100%;
+    margin: 6px 0 16px 0;
+}
+
+.inner-row_3 .input_wrapp input {
+    padding: 0 18px;
+}
+
+.radios_wrapp {
+    margin: 0 -10px 7px 0;
+}
+
+.radio {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 30px 10px 0;
+    position: relative;
+}
+
+.radio input {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.radio label {
+    position: relative;
+    cursor: pointer;
+    padding: 8px 0 8px 40px;
+    font-family: "Ubuntu";
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #969696;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.radio label:before {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid #e2e9ea;
+}
+
+.radio label:after {
+    display: block;
+    opacity: 0;
+    content: "";
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    background-color: #1fb6ff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.radio input:checked + label {
+    color: #000000;
+}
+
+.radio input:checked + label:after {
+    opacity: 1;
+}
+
+.radios_wrapp + .input_wrapp {
+    margin-top: 16px;
+}
+
+.btn_wrapp_4 {
+    padding: 4px 8% 45px 8%;
+}
+
+/*-- /Section 1 - Getting Commen --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
