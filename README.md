@@ -21,3 +21,4 @@
 # http://postolenko.github.io/monstercomment2/getting_comments_4.html
 # http://postolenko.github.io/monstercomment2/getting_comments_5.html
 # http://postolenko.github.io/monstercomment2/getting_comments_6.html
+# http://postolenko.github.io/monstercomment2/getting_comments_7.html
