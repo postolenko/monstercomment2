@@ -4925,6 +4925,15 @@ p.question-p {
     padding: 4px 8% 45px 8%;
 }
 
+.inputs_wrapp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inputs_wrapp .input_wrapp {
+    margin: 6px 0 9px 0;
+}
+
 /*-- /Section 1 - Getting Comment --*/
 
 /*-- Section 1 - Getting Comment 3 --*/

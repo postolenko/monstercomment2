@@ -17,3 +17,4 @@
 # http://postolenko.github.io/monstercomment2/and_comment_2.html
 # http://postolenko.github.io/monstercomment2/getting_comments.html
 # http://postolenko.github.io/monstercomment2/getting_comments_2.html
+# http://postolenko.github.io/monstercomment2/getting_comments_3.html
