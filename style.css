@@ -4989,6 +4989,10 @@ p.question-p {
     margin-top: -14px;
 }
 
+/*-- /Section 1 - Getting Comment 4 --*/
+
+/*-- Section 1 - Getting Comment 5 --*/
+
 .num-icon.checked {
     background-color: #1fb6ff;
 }
@@ -5000,7 +5004,13 @@ p.question-p {
     color: #ffffff;
 }
 
-/*-- /Section 1 - Getting Comment 4 --*/
+.btn_wrapp_4 .blue-pill {
+    width: 100%;
+}
+
+/*-- /Section 1 - Getting Comment 5 --*/
+
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
