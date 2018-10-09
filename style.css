@@ -1731,7 +1731,7 @@ a:active {
     font-family: "Ubuntu";
     font-size: 12px;
     line-height: 20px;
-    font-weight: bold;
+    font-weight: 500;
     color: #fefefe;
     -webkit-transition-property: box-shadow;
     -webkit-transition-duration: .3s;
