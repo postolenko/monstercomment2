@@ -1730,7 +1730,7 @@ a:active {
     text-transform: uppercase;
     font-size: 12px;
     line-height: 20px;
-    font-weight: 500;
+    font-weight: bold;
     color: #fefefe;
     -webkit-transition-property: box-shadow;
     -webkit-transition-duration: .3s;
@@ -1916,10 +1916,7 @@ a:active {
 .dropdown-menu {
     padding: 6px 4% 1px 8%;
     border-top: 1px solid #e1e8ea;
-    /*height: calc(100vh - 92px);*/
-    /*max-height: 715px;*/
     max-height: calc(100vh - 92px);
-    /*height: 100vh;*/
     position: relative;
     overflow: hidden;
     -webkit-border-radius: 0 0 30px 30px;
@@ -1932,8 +1929,6 @@ a:active {
 }
 
 .dropdown-menu .scroll_menu {
-    /*height: calc(100vh - 92px);*/
-    /*height: calc(100vh - 92px);*/
     max-height: calc(100vh - 92px);
     min-height: 320px;
     padding-bottom: 92px;
