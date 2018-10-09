@@ -1728,6 +1728,7 @@ a:active {
     border-radius: 19px;
     background-color: rgb(31, 182, 255);
     text-transform: uppercase;
+    font-family: "Ubuntu";
     font-size: 12px;
     line-height: 20px;
     font-weight: bold;
