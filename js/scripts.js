@@ -235,11 +235,17 @@ $(document).ready(function() {
 
             dropdownMenu.slideDown(300);
             parentBlock.addClass("active");
+            setTimeout(function() {                
+                dropdownMenu.find(".scroll_menu").mCustomScrollbar();
+            }, 400);
 
         } else {
 
             dropdownMenu.slideUp(300);
             parentBlock.removeClass("active");
+            setTimeout(function() {                
+                dropdownMenu.find(".scroll_menu").mCustomScrollbar('destroy');
+            }, 400);
 
         }
 
@@ -253,6 +259,9 @@ $(document).ready(function() {
 
                 $(".dropdown-menu").slideUp(300);
                 $(".dropdown-menu").closest(".dropdown-thumb").removeClass("active");
+                setTimeout(function() {                
+                    $(".dropdown-menu").mCustomScrollbar('destroy');
+                }, 400);
 
             }
 
@@ -270,6 +279,9 @@ $(document).ready(function() {
 
             hide_element.slideUp(300);
             hide_element.closest(".dropdown-thumb").removeClass("active");
+            setTimeout(function() {                
+                hide_element.mCustomScrollbar('destroy');
+            }, 400);
         }
 
     });
@@ -395,16 +407,16 @@ function getTHumbsHeight() {
 
 function getDropdownMenu() {
 
-    $(".dropdown-menu").css({
-        "max-height" : "auto"
-    });
+    // $(".scroll_menu").css({
+    //     "max-height" : "auto"
+    // });
 
-    var topCoord = $(".dropdown-menu").offset().top;    
-    var footerHeight = $(".dropdown_footer").height();
-    var dropdownMenuHeight = $(window).height() - topCoord - footerHeight;
+    // var topCoord = $(".dropdown-menu").offset().top;    
+    // var footerHeight = $(".dropdown_footer").height();
+    // var dropdownMenuHeight = $(window).height() - topCoord - footerHeight;
 
-    $(".dropdown-menu").css({
-        "max-height" : dropdownMenuHeight + "px"
-    });
+    // $(".dropdown-menu").css({
+    //     "max-height" : dropdownMenuHeight + "px"
+    // });
 
 }

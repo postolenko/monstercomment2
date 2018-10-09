@@ -1914,10 +1914,14 @@ a:active {
 }
 
 .dropdown-menu {
-    padding: 6px 4% 21px 8%;
+    padding: 6px 4% 1px 8%;
     border-top: 1px solid #e1e8ea;
-    height: calc(100vh - 80px);
-    max-height: 690px;
+    /*height: calc(100vh - 92px);*/
+    /*max-height: 715px;*/
+    max-height: calc(100vh - 92px);
+    /*height: 100vh;*/
+    position: relative;
+    overflow: hidden;
     -webkit-border-radius: 0 0 30px 30px;
     -moz-border-radius: 0 0 30px 30px;
     border-radius: 0 0 30px 30px;
@@ -1927,11 +1931,22 @@ a:active {
     box-shadow: 0 2px 5px 0 rgba(31, 28, 22, .2);
 }
 
+.dropdown-menu .scroll_menu {
+    /*height: calc(100vh - 92px);*/
+    /*height: calc(100vh - 92px);*/
+    max-height: calc(100vh - 92px);
+    padding-bottom: 92px;
+}
+
 .dropdown-menu ul li {
     margin: 13px 0;
     padding: 0 0 0 28px;
     line-height: 14px;
     position: relative;
+}
+
+.dropdown-menu ul li:last-child {
+    margin-bottom: 0;
 }
 
 .dropdown-menu ul li a {
@@ -1988,11 +2003,20 @@ a:active {
 }
 
 .dropdown_footer {
-    padding: 7px 0 20px 0;
+    width: 100%;
+    padding: 15px 9% 29px 9%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background: #ffffff;
 }
 
 .dropdown_footer .blue-pill {
     width: 100%;
+    padding: 9px 15px;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 /*-- /Header Site 2 --*/
