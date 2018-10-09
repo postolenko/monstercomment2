@@ -1935,6 +1935,7 @@ a:active {
     /*height: calc(100vh - 92px);*/
     /*height: calc(100vh - 92px);*/
     max-height: calc(100vh - 92px);
+    min-height: 320px;
     padding-bottom: 92px;
 }
 
