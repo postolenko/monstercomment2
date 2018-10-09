@@ -13,6 +13,7 @@ $(window).load(function() {
     getTHumbsHeight();
     getAdaptivePositionElements();
     getGetPromoCenterPosition();
+    // getDropdownMenu();
 
 });
 
@@ -28,6 +29,7 @@ $(window).resize(function() {
 
     getAdaptivePositionElements();
     getGetPromoCenterPosition();
+    // getDropdownMenu();
 
 });
 
@@ -181,8 +183,6 @@ $(document).ready(function() {
         var numVal = $(this).find(".val").text();
         dropdownTitleVal.text(numVal);
 
-        console.log(numVal);
-
     });
 
     // ----------------
@@ -214,6 +214,63 @@ $(document).ready(function() {
         }
 
         countInput.val(countVal);
+
+    });
+
+    // ------------------
+        
+    $(".dropdown-menu").css({
+        "display" : "none"
+    });
+
+    $(".blue-circle-pill").click(function(e) {
+
+        e.preventDefault();
+
+        parentBlock = $(this).closest(".dropdown-thumb");
+
+        var dropdownMenu = parentBlock.find(".dropdown-menu");
+
+        if( dropdownMenu.is(":hidden") ) {
+
+            dropdownMenu.slideDown(300);
+            parentBlock.addClass("active");
+
+        } else {
+
+            dropdownMenu.slideUp(300);
+            parentBlock.removeClass("active");
+
+        }
+
+    });
+
+    $(this).keydown(function(eventObject){
+
+        if (eventObject.which == 27) {
+
+            if ( $(".dropdown-menu").is(":visible") ) {
+
+                $(".dropdown-menu").slideUp(300);
+                $(".dropdown-menu").closest(".dropdown-thumb").removeClass("active");
+
+            }
+
+        }
+
+    });
+
+    $(document).mouseup(function (e){
+
+        hide_element = $('.dropdown-menu');
+
+        if (!hide_element.is(e.target)
+
+            && hide_element.has(e.target).length === 0) {
+
+            hide_element.slideUp(300);
+            hide_element.closest(".dropdown-thumb").removeClass("active");
+        }
 
     });
     
@@ -332,6 +389,22 @@ function getTHumbsHeight() {
 
         thumb.find(".inner").height(maxThumbHeight);
 
+    });
+
+}
+
+function getDropdownMenu() {
+
+    $(".dropdown-menu").css({
+        "max-height" : "auto"
+    });
+
+    var topCoord = $(".dropdown-menu").offset().top;    
+    var footerHeight = $(".dropdown_footer").height();
+    var dropdownMenuHeight = $(window).height() - topCoord - footerHeight;
+
+    $(".dropdown-menu").css({
+        "max-height" : dropdownMenuHeight + "px"
     });
 
 }
