@@ -1356,6 +1356,17 @@ a:active {
     background-size: contain;
 }
 
+.icon_19 {
+    display: inline-block;
+    vertical-align: top;
+    width: 32px;
+    height: 32px;
+    background-image: url(img/icon_19.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /*-- /Icons --*/
 
 /*-- Breadcrumbs --*/
@@ -1992,8 +2003,6 @@ a:active {
 }
 
 .dropdown-menu ul li a {
-/*    display: inline-block;
-    vertical-align: top;*/
     display: block;
     margin: 5px 5px 5px 11px;
     text-transform: uppercase;
@@ -2697,7 +2706,9 @@ a:active {
 }
 
 .inner-row {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
+    display: table;
+    width: 100%;
     padding: 0 2%;
 }
 
@@ -5880,21 +5891,27 @@ p.question-p {
 .checkbox label:before {
     display: block;
     content: "";
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
     position: absolute;
     top: 0;
     left: 0;
+    border: 2px solid #e1e8ea;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
+    background-color: transparent;
+}
+
+.checkbox input:checked + label:before {
+    border: 2px solid rgb(31, 182, 255);
     background-color: rgb(31, 182, 255);
 }
 
 .checkbox .fa-check {
     display: none;
     position: absolute;
-    top: 7px;
+    top: 8px;
     left: 8px;
     font-size: 15px;
     color: #ffffff;
@@ -5971,6 +5988,139 @@ p.question-p {
 
 p.black {
     color: #000000 !important;
+}
+
+.title_table {
+    display: table;
+    width: 100%;
+}
+
+.title_table .cell:nth-child(1) {
+    display: table-cell;
+    vertical-align: middle;
+    width: 48%;
+    padding: 0 10px 0 0;
+}
+
+.title_table .cell:nth-child(2) {
+    display: table-cell;
+    vertical-align: middle;
+    width: 52%;
+    padding: 0 0 0 10px;
+}
+
+.title_table p {
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.blue-box {
+    padding: 18px 26px;
+    background-color: rgb(31, 182, 255);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.blue-box p {
+    color: #ffffff;
+}
+
+.rate_wrapp {
+    margin: 0 7%;
+    padding: 34px 2% 15px 2%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(225, 232, 234);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+}
+
+.grey_shape {
+    display: inline-block;
+    vertical-align: top;
+    -webkit-border-radius: 0 8px 0 8px;
+    -moz-border-radius: 0 8px 0 8px;
+    border-radius: 0 8px 0 8px;
+    padding: 0 13px;
+    background-color: #e1e8ea;
+    font-family: "Ubuntu";
+    font-size: 10px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.rate_wrapp .grey_shape {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.rate_wrapp h3 {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.rate_wrapp p {
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.rate_title h3 {
+    padding: 5px 0;
+}
+
+.rate_title i,
+.rate_title h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rate_title h3 {
+    padding: 0 12px;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #1fb6ff;
+}
+
+.rate_wrapp .blue-pill {
+    min-width: 240px;
+    margin: 13px 0;
+}
+
+.rate_footer {
+    text-align: center;
+}
+
+.footer-3 {
+    padding: 21px 2% 16px 2%;
+    text-align: center;
+}
+
+.footer-3 p {
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #000000;
 }
 
 /*-- /Section 1 - Payment --*/

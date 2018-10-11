@@ -23,3 +23,5 @@
 # http://postolenko.github.io/monstercomment2/getting_comments_6.html
 # http://postolenko.github.io/monstercomment2/getting_comments_7.html
 # http://postolenko.github.io/monstercomment2/rating.html
+# http://postolenko.github.io/monstercomment2/payment.html
+# http://postolenko.github.io/monstercomment2/payment_2.html
