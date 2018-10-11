@@ -1958,7 +1958,7 @@ a:active {
 }
 
 .dropdown-menu ul li {
-    margin: 13px 0;
+    margin: 21px 0;
     padding: 0 0 0 28px;
     line-height: 14px;
     position: relative;
@@ -2041,7 +2041,7 @@ a:active {
 
 .dropdown-menu ul li i {
     position: absolute;
-    top: 2px;
+    top: -2px;
     left: 0;
     -webkit-transition-property: left;
     -webkit-transition-duration: .3s;
