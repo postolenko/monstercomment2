@@ -2021,18 +2021,6 @@ a:active {
     left: 0;
 }
 
-.dropdown-menu ul li:nth-child(1) a,
-.dropdown-menu ul li:nth-child(2) a,
-.dropdown-menu ul li:nth-child(3) a {
-    font-weight: bold;
-}
-
-.dropdown-menu ul li ul li a,
-.dropdown-menu ul li ul li a,
-.dropdown-menu ul li ul li a {
-    font-weight: 500 !important;
-}
-
 .dropdown_footer {
     width: 100%;
     padding: 15px 9% 29px 9%;
@@ -5450,7 +5438,7 @@ p.question-p {
 
 /*-- /Section 1 - Getting Comment 6 --*/
 
-/*-- Section 1 - Rates --*/
+/*-- Section 1 - Rating --*/
 
 .two-cols-templ_3 {
     margin-bottom: 73px;
@@ -5547,6 +5535,13 @@ p.question-p {
 
 .rates_table .table-row.active p {
     font-weight: normal;
+}
+
+.rates_table .table-row:nth-child(2) p,
+.rates_table .table-row:nth-child(3) p,
+.rates_table .table-row:nth-child(4) p {
+    font-weight: bold;
+    color: #464646;
 }
 
 .cell-inner {
@@ -5666,8 +5661,256 @@ p.question-p {
     color: #1fb6ff;
 }
 
+/*-- /Section 1 - Rating --*/
 
-/*-- /Section 1 - Rates --*/
+/*-- Section 1 - Payment --*/
+
+.two-cols-templ_4 {
+
+}
+
+.two-cols-templ_4 .left {
+    width: 54%;
+    padding: 0 40px 0 0;
+}
+
+.two-cols-templ_4 .right {
+    width: 46%;
+    padding: 0 0 0 40px;
+}
+
+.descript_2_2 {
+    padding-top: 14px;
+}
+
+.payment_input {
+    max-width: 204px;
+    position: relative;
+}
+
+.payment_input input  {
+    padding: 0 43px 0 18px !important;
+}
+
+.ruble {
+    display: inline-block;
+    vertical-align: top;
+    width: 9px;
+    height: 12px;
+    background-image: url(img/ruble.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.payment_input .ruble {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    top: 16px;
+    left: auto;
+    right: 27px;
+}
+
+.paymentway {
+    margin: 2px -1% 15px -1%;
+}
+
+.payment-thumb {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    padding: 5px 6px;
+    position: relative;
+    text-align: center;
+}
+
+.payment-thumb input {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.payment-thumb label {
+    display: block;
+    cursor: pointer;
+    padding: 1px 2% 12px 2%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 0 0 2px rgb(225,232,234);
+    -moz-box-shadow: 0 0 0 2px rgb(225,232,234);
+    box-shadow: 0 0 0 2px rgb(225,232,234);
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.payment-thumb input:checked + label {
+    -webkit-box-shadow: 0 0 0 3px rgb(31, 182, 255);
+    -moz-box-shadow: 0 0 0 3px rgb(31, 182, 255);
+    box-shadow: 0 0 0 3px rgb(31, 182, 255);
+}
+
+.payment-thumb .icon-box {
+    height: 58px;
+    position: relative;
+}
+
+.payment-thumb .icon-box img {
+    display: block;
+    max-width: 98%;
+    max-height: 98%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.payment-thumb p {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.checkboxes_wrapp {
+    padding-top: 3px;
+}
+
+.checkbox {
+    margin: 17px 0;
+    position: relative;
+}
+
+.checkbox input {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.checkbox label {
+    padding: 6px 5px 6px 47px;
+    position: relative;
+    cursor: pointer;
+    font-family: "Ubuntu";
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #000000;
+}
+
+.checkbox label a {
+    font-family: "Ubuntu";
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: normal;
+}
+
+.checkbox label:before {
+    display: block;
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: rgb(31, 182, 255);
+}
+
+.checkbox .fa-check {
+    display: none;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.checkbox input:checked + label .fa-check {
+    display: block;
+}
+
+.btn_wrapp_5 {
+    padding: 4px 8% 37px 8%;
+}
+
+.btn_wrapp_5 .blue-pill {
+    width: 100%;
+}
+
+.table-2_wrapp {
+
+}
+
+.table-2_wrapp h5 {
+
+}
+
+.table-2 {
+
+}
+
+.table-2 .table-row {
+
+}
+
+.table-2 .table-cell {
+
+}
+
+.table-2 .table-cell {
+
+}
+
+.table-2 .table-cell {
+
+}
+
+.table-2 .table-cell {
+
+}
+
+.table-2 .table-cell p {
+
+}
+
+.table-2 .table-cell p {
+
+}
+
+.table-2 .table-cell p {
+
+}
+
+
+/*-- /Section 1 - Payment --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
