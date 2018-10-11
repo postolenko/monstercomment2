@@ -13,6 +13,7 @@ $(window).load(function() {
     getTHumbsHeight();
     getAdaptivePositionElements();
     getGetPromoCenterPosition();
+    getTableHeaderBg();
     // getDropdownMenu();
 
 });
@@ -29,6 +30,7 @@ $(window).resize(function() {
 
     getAdaptivePositionElements();
     getGetPromoCenterPosition();
+    getTableHeaderBg();
     // getDropdownMenu();
 
 });
@@ -419,4 +421,12 @@ function getDropdownMenu() {
     //     "max-height" : dropdownMenuHeight + "px"
     // });
 
+}
+
+function getTableHeaderBg() {
+    $(".rates_table_wrapp").each(function() {
+        $(this).find(".rates_table_bg").css({
+            "height" : $(this).find(".rates_table .table-row:eq(0)").height() + "px"
+        });
+    });
 }
