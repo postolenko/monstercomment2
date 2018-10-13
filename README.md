@@ -26,3 +26,4 @@
 # http://postolenko.github.io/monstercomment2/payment.html
 # http://postolenko.github.io/monstercomment2/payment_2.html
 # http://postolenko.github.io/monstercomment2/support.html
+# http://postolenko.github.io/monstercomment2/appeals.html
