@@ -6777,6 +6777,45 @@ p.open {
 
 /*-- /Section 1 - Partners --*/
 
+/*-- Section 1 - Rule Service --*/
+
+.btn_wrapp_6 {
+    padding: 11px 0;
+}
+
+.btn_wrapp_6 ul {
+    margin: 0 -5px;
+}
+
+.btn_wrapp_6 ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.blue-pill .fa-arrow-up {
+    margin-right: 12px;
+}
+
+.blue-pill .fa-arrow-down {
+    margin-right: 12px;
+}
+
+.article_3 {
+    padding: 25px 0 69px 0;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.article_3 p {
+    padding: 10px 0;
+}
+
+/*-- /Section 1 - Rule Service --*/
+
+
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
