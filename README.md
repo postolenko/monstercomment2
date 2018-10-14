@@ -30,3 +30,4 @@
 # http://postolenko.github.io/monstercomment2/partners.html
 # http://postolenko.github.io/monstercomment2/bonuce.html
 # http://postolenko.github.io/monstercomment2/rule_service.html
+# http://postolenko.github.io/monstercomment2/profile_settings.html

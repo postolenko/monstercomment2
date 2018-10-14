@@ -345,6 +345,28 @@ $(document).ready(function() {
         }
 
     });
+
+    // -------------------------
+
+    $(".eye_btn").click(function(e) {
+        
+        e.preventDefault();
+
+        parentBlock = $(this).closest(".password");
+
+        var inputPass = parentBlock.find("input");
+
+        if( inputPass.attr("type") == "password" ) {
+
+            inputPass.attr("type", "text");
+
+        } else {
+
+            inputPass.attr("type", "password");
+
+        }
+
+    });
     
 });
 

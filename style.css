@@ -821,6 +821,118 @@ a:active {
     box-shadow: 0 6px 17px 0 rgba(143,218,255,.75);
 }
 
+.red-pill {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    background-color: #df4747;
+    border: 1px solid transparent;
+    padding: 6px 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Ubuntu", "Arial", "Verdana", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #ffffff;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.red-pill:link,
+.red-pill:visited {
+    box-shadow: none;
+}
+
+.red-pill:active,
+.red-pill.active {
+    -webkit-box-shadow: 0 4px 10px 0 rgba(223,71,71,.75);
+    -moz-box-shadow: 0 4px 10px 0 rgba(223,71,71,.75);
+    box-shadow: 0 4px 10px 0 rgba(223,71,71,.75);
+}
+
+.red-pill:hover {
+    -webkit-box-shadow: 0 4px 10px 0 rgba(223,71,71,.75);
+    -moz-box-shadow: 0 4px 10px 0 rgba(223,71,71,.75);
+    box-shadow: 0 4px 10px 0 rgba(223,71,71,.75);
+}
+
+.blue-pill_4 {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    background-color: #1fb6ff;
+    border: 1px solid transparent;
+    padding: 6px 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Ubuntu", "Arial", "Verdana", sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: normal;
+    color: #ffffff;
+    -webkit-transition-property: box-shadow;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: box-shadow;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: box-shadow;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: box-shadow;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: box-shadow;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.blue-pill_4:link,
+.blue-pill_4:visited {
+    box-shadow: none;
+}
+
+.blue-pill_4:active,
+.blue-pill_4.active {
+    -webkit-box-shadow: 0 4px 10px 0 rgba(27,156,218,.75);
+    -moz-box-shadow: 0 4px 10px 0 rgba(27,156,218,.75);
+    box-shadow: 0 4px 10px 0 rgba(27,156,218,.75);
+}
+
+.blue-pill_4:hover {
+    -webkit-box-shadow: 0 4px 10px 0 rgba(27,156,218,.75);
+    -moz-box-shadow: 0 4px 10px 0 rgba(27,156,218,.75);
+    box-shadow: 0 4px 10px 0 rgba(27,156,218,.75);
+}
+
 /*-- /Pills --*/
 
 /*-- Links --*/
@@ -6814,6 +6926,164 @@ p.open {
 
 /*-- /Section 1 - Rule Service --*/
 
+/*-- Section 1 - Profile Settings --*/
+
+.prifile_sect {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+.avatar {
+
+}
+
+.avatar .img-box {
+    width: 128px;
+    height: 128px;
+    margin: 35px auto;
+    overflow: hidden;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(31, 182, 255);
+    background-color: rgb(31, 182, 255);
+}
+
+.avatar .img-box img {
+    display: block;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.avatar-settings {
+    margin: 20px -13px;
+    text-align: center;
+}
+
+.avatar-settings li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 13px;
+}
+
+.inner_5 {
+    padding: 26px 0 11px 0 !important;
+}
+
+.inner_5 .inner-row_3 {
+    border-top: none;
+}
+
+.input_wrapp_box p {
+    padding: 16px 0 0 0;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.inner_5_2 {
+    padding-top: 10px !important;
+}
+
+.input-two-cols {
+    display: table;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-two-cols .two-cols-col:nth-child(1) {
+    display: table-cell;
+    vertical-align: top;
+    width: 53%;
+    padding: 5px 5px 5px 0;
+}
+
+.input-two-cols .two-cols-col:nth-child(2) {
+    display: table-cell;
+    vertical-align: top;
+    width: 47%;
+    padding: 5px 0 5px 5px;
+}
+
+.input-two-cols .input_wrapp {
+    margin: 0;
+}
+
+.input-two-cols .input_wrapp {
+    width: 100%;
+}
+
+.input-two-cols .blue-pill {
+    width: 100%;
+}
+
+.password input {
+    padding-right: 50px;
+}
+
+.eye_btn {
+    display: block;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid transparent;
+    background: transparent;
+}
+
+.fa-eye {
+    font-size: 18px;
+    line-height: 21px;
+    color: #1fb6ff;
+}
+
+.input_wrapp .eye_btn {
+    margin-top: -12px;
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    z-index: 2;
+}
+
+.eye_btn .fa-eye {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+p.grey-p {
+    padding: 5px 0;
+    text-transform: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #82999d;
+}
+
+.btn_wrapp_7 {
+    padding: 22px 0 48px 0;
+}
+
+.btn_wrapp_7 .blue-pill {
+    min-width: 290px;
+}
+
+/*-- /Section 1 - Profile Settings --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
