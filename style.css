@@ -6290,15 +6290,14 @@ p.black {
     font-size: 13px;
     line-height: 15px;
     color: #1fb6ff;
-    margin-top: -8px;
     position: absolute;
-    top: 50%;
+    top: 22px;
     left: 7%;
 }
 
 .sidebar-nav li a {
     display: block;
-    padding: 19px 5px 19px 15%;
+    padding: 20px 4% 18px 15%;
     text-transform: uppercase;
     font-family: "Ubuntu";
     font-size: 15px;
@@ -6933,10 +6932,6 @@ p.open {
     margin: 0 auto;
 }
 
-.avatar {
-
-}
-
 .avatar .img-box {
     width: 128px;
     height: 128px;
@@ -7084,6 +7079,45 @@ p.grey-p {
 }
 
 /*-- /Section 1 - Profile Settings --*/
+
+/*-- Section 1 - Knowledge base --*/
+
+.two-cols_templ_6 {
+    margin-bottom: 79px;
+}
+
+.two-cols_templ_6 .left {
+    width: 32%;
+    padding: 15px 35px 15px 0;
+}
+
+.two-cols_templ_6 .right {
+    width: 68%;
+    padding: 26px 0 15px 35px;
+}
+
+.sidebar-nav_2 {
+
+}
+
+.sidebar-nav_2 li a {
+    text-transform: none;
+}
+
+.knowledge_item {    
+    margin: 22px 0;
+    padding: 14px 4% 14px 0;
+    border-top: 1px solid #e1e8ea;
+}
+
+.knowledge_item p {
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+/*-- /Section 1 - Knowledge base --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

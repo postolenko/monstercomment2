@@ -31,3 +31,4 @@
 # http://postolenko.github.io/monstercomment2/bonuce.html
 # http://postolenko.github.io/monstercomment2/rule_service.html
 # http://postolenko.github.io/monstercomment2/profile_settings.html
+# http://postolenko.github.io/monstercomment2/knowledge_base.html
