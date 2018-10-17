@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="style.css">	
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/jquery.fancybox.css">	
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<title>Monster Comment</title>
+</head>
+
+<body>
+
+	<!-- Popups -->
+
+	<div class="popup_wrapp scroll" data-popup ="popup_1">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Регистрация</h3>
+			<div class="popup-form">
+				<form>
+					<div class="input_wrapp">
+						<i class="fas fa-user-circle"></i>
+						<input type="email" placeholder="EMAIL" />
+					</div>
+					<div class="input_wrapp">
+						<i class="fas fa-unlock"></i>
+						<input type="password" placeholder="ПАРОЛЬ" />
+						<button type="button" class="show_pass"><i class="far fa-eye-slash"></i></button>
+					</div>
+					<div class="input_wrapp">
+						<i class="fas fa-unlock"></i>
+						<input type="password" placeholder="ПОВТОРИТЕ ПАРОЛЬ" />
+						<button type="button" class="show_pass"><i class="far fa-eye-slash"></i></button>
+					</div>
+					<button type="submit" class="blue-pill">Зарегистрироваться</button>
+				</form>
+			</div>
+			<div class="popup_footer">
+				<h5>Уже есть аккаунт?</h5>
+				<a href="#" class="grey-link">Войти</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp scroll" data-popup ="popup_2">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Забыли пароль?</h3>
+			<div class="popup-form popup-form_2">
+				<form>
+					<div class="input_wrapp">
+						<i class="fas fa-user-circle"></i>
+						<input type="email" placeholder="EMAIL" />
+					</div>
+					<button type="submit" class="blue-pill">Сменить пароль</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup_wrapp popup_wrapp_resp scroll" data-popup ="popup_3">
+		<div class="popup">
+			<button type="button" class="close-popup"></button>
+			<h3>Вход</h3>
+			<div class="popup-form popup-form_2">
+				<div class="append-elem" data-append-elem = "2" ></div>
+				<div class="append-elem" data-append-elem = "3" ></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- /Popups -->
+
+	<div class="wrapper">
+	<!-- Header -->
+		
+	<header>
+
+		<div class="header-site_2">
+			<div class="row clearfix">
+				<div class="left">
+					<a href="#" class="logo logo_2">
+						<div class="logo-img">
+							<img src="img/logo_2.png" alt="" />
+						</div>
+						<p><img src="img/logoname_2.png" alt="" /></p>
+					</a>
+				</div>
+				<div class="right">
+					<div class="header_thumbnails">
+						<div class="thumb-9">
+							<div class="thumb-10">
+								<div class="col">
+									<i class="up_arrow"></i>
+								</div>
+								<div class="col">
+									<p>188</p>
+								</div>
+							</div>
+							<div class="thumb-10">
+								<div class="col">
+									<i class="down_arrow"></i>
+								</div>
+								<div class="col">
+									<p>245</p>
+								</div>
+							</div>
+						</div>
+						<div class="thumb-9">
+							<div class="thumb-10">
+								<div class="col">
+									<i class="cup"></i>
+								</div>
+								<div class="col">
+									<p>55058</p>
+									<p class="p-2">место  <a href="#" class="blue-link">в рейтинге</a></p>
+									<a href="#" class="question_link"><i class="fas fa-question-circle"></i></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="thumb-9 thumb-9_2">
+							<p>1925 руб.</p>
+							<a class="blue-circle-pill"><i class="fas fa-plus"></i></a>
+						</div>
+
+						<div class="dropdown-thumb_wrapp">
+							<div class="thumb-11 dropdown-thumb">
+								<div class="thumb-11_title">
+									<div class="col">
+										<div class="img-box">
+											<img src="img/user.jpg" alt="" />
+										</div>
+									</div>
+									<div class="col">
+										<p>ellieprettygirl</p>
+									</div>
+									<button type="button" class="blue-circle-pill blue-circle-pill_2">menu <i class="fas fa-angle-down"></i></button>
+								</div>
+								<div class="dropdown-menu">
+									<ul class="scroll_menu">
+										<li><i class="icon_18"></i><a href="#">Главная</a></li>
+										<li><i class="icon_19"></i><a href="#">Профили</a></li>
+										<li><i class="icon_20"></i><a href="#">Тарифы</a></li>
+										<li><i class="icon_21"></i><a href="#">Партнеры</a></li>
+										<li><i class="icon_22"></i><a href="#">Бонусы</a></li>
+										<li><i class="icon_23"></i><a href="#">Правила сервиса</a></li>
+										<li><i class="icon_24"></i><a href="#">Настройки пользователя</a></li>
+										<li><i class="icon_25"></i><a href="#">Партнерская программа</a></li>
+										<li><i class="icon_26"></i><a href="#">База знаний</a></li>
+										<li><i class="icon_27"></i><a href="#">Поддержка</a></li>
+										<li><i class="icon_28"></i><a href="#">Оплата</a></li>
+										<li><i class="icon_29"></i><a href="#">Рейтинги</a></li>
+										<li><i class="icon_30"></i><a href="#">Новости</a></li>
+										<li><i class="icon_31"></i><a href="#">Обращения</a></li>
+									</ul>
+									<div class="dropdown_footer">
+										<a href="#" class="blue-pill">Выход из системы</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+								
+	</header>
+
+	<!-- /Header -->
+
+		<!-- Content -->
+			<div class="content">
+
+				<!-- Section 1 - News Page -->
+
+				<section>
+					
+					<div class="row">
+						
+						<div class="breadcrumbs_wrapp">
+							<ul class="breadcrumbs">
+								<li><a href="#">Главная</a></li>
+								<li><a href="#">Новости</a></li>
+								<li><a href="#">Компания представила новый облачный сервис</a></li>
+							</ul>
+						</div>
+
+						<div class="inner_title">
+							<h2>Компания представила новый облачный сервис</h2>
+						</div>						
+
+						<div class="two-cols_templ_7 clearfix">
+							
+							<div class="left">
+
+								<div class="news_article">
+
+									<img src="img/news.jpg" alt="" />
+
+									<p>Alphabet (Google) объявил о запуске своей новой дочерней компании, которая будет работать в сфере кибербезопасности, под названием «Chronicle». По данным официального сайта, новый продукт — это новый облачный сервис кибербезопасности, который представляет собой платформу («cybersecurity intelligence platform»), основанную на элементах искусственного интеллекта и работающую на базе серверов Google.</p>
+
+									<p>Члены команды Chronicle являются выходцами из подразделения перспективных разработок “Google X, the moonshot factory”, известного такими проектами, как Google Self-driving Car, Google Glass, Loon, Wing и др. По данным Fastcompany, «Chronicle» уже развернула свой продукт в нескольких компаниях из списка Fortune 500 для тестирования и улучшения.</p>
+
+									<p>«Chronicle разрабатывает платформу для разведки и аналитики кибербезопасности, чтобы помочь другим предприятиям лучше понимать и управлять своими данными, связанными с безопасностью. После двух лет, проведённых в подразделении X, Chronicle пришёл к тому, чтобы стать новым независимым бизнесом в составе Alphabet, который поможет компаниям находить и останавливать кибератаки, до того, как они смогут причинить им вред», — сообщается на сайте X.</p>
+
+									<p>В общем, интересная компания, судя по всему. И есть такое ощущение, что данное начинание Google (новый облачный сервис кибербезопасности) открывает новую страницу передела мирового информационного пространства, о чем (в части контента) я совсем недавно писал — подробнее см. тут: Как Google и Facebook медленно, но уверенно захватывают мировое информационное пространство. Только в данном случае речь идёт о той части информационного пространства, которая непосредственно относится к мировой инфраструктуре данных</p>
+
+								</div>
+
+								<div class="thumb_footer">
+									<div class="col">
+										<div class="inlines_p">
+											<p class="blue_font">20:10</p>
+											<p class="grey_font">13 сен 2018</p>
+										</div>
+									</div>
+									<div class="col">
+										<p class="grey_font"><i class="fas fa-eye"></i>10</p>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="right">
+
+								<div class="right-sidebar">
+									<h2>Популярные новости</h2>
+									<div>
+										<div class="miniature-news">
+											<div class="col">
+												<div class="img-box">
+													<img src="img/news_01copy.jpg" alt="" />
+												</div>
+											</div>
+											<div class="col">
+												<div class="descript">
+													<a href="#" class="title">Компания представила новый облачный сервис</a>
+												</div>
+												<div class="thumb_footer">
+													<div class="col">
+														<div class="inlines_p">
+															<p class="blue_font">20:10</p>
+															<p class="grey_font">13 сен 2018</p>
+														</div>
+													</div>
+													<div class="col">
+														<p class="grey_font"><i class="fas fa-eye"></i>10</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="miniature-news">
+											<div class="col">
+												<div class="img-box">
+													<img src="img/news_03copy.jpg" alt="" />
+												</div>
+											</div>
+											<div class="col">
+												<div class="descript">
+													<a href="#" class="title">Компания представила новый облачный сервис</a>
+												</div>
+												<div class="thumb_footer">
+													<div class="col">
+														<div class="inlines_p">
+															<p class="blue_font">20:10</p>
+															<p class="grey_font">13 сен 2018</p>
+														</div>
+													</div>
+													<div class="col">
+														<p class="grey_font"><i class="fas fa-eye"></i>10</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="miniature-news">
+											<div class="col">
+												<div class="img-box">
+													<img src="img/news_06copy.jpg" alt="" />
+												</div>
+											</div>
+											<div class="col">
+												<div class="descript">
+													<a href="#" class="title">Компания представила новый облачный сервис</a>
+												</div>
+												<div class="thumb_footer">
+													<div class="col">
+														<div class="inlines_p">
+															<p class="blue_font">20:10</p>
+															<p class="grey_font">13 сен 2018</p>
+														</div>
+													</div>
+													<div class="col">
+														<p class="grey_font"><i class="fas fa-eye"></i>10</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>					
+
+					</div>
+
+				</section>
+
+				<!-- /Section 1 - News Page -->
+
+			</div>
+		<!-- /Content -->
+
+		<!-- Footer -->
+
+		<footer>
+
+			<div class="footer">
+
+				<div class="row clearfix">
+					
+					<div class="left">
+						<a href="#" class="logo logo_2">
+							<div class="logo-img">
+								<img src="img/logo_2.png" alt="" />
+							</div>
+							<p><img src="img/logoname_2.png" alt="" /></p>
+						</a>
+					</div>
+					<div class="right">
+						<div class="cols-inner_wrapp">
+							<div class="col-inner">
+								<ul class="footer-nav">
+									<li><a href="#">Пользовательское соглашение</a></li>
+									<li><a href="#">Техническая поддержка</a></li>
+								</ul>
+							</div>
+							<div class="col-inner">
+								<p class="cop">2018 Все права защищены</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+		<!-- /Footer -->
+		<script src="vendors/js/jquery.js"></script>
+		<script src="slick/slick.js"></script>
+		<script src="vendors/js/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="vendors/js/smoothscroll.js"></script>
+		<script src="vendors/js/jquery.fancybox.js"></script>
+		<script src="js/scripts.js"></script>
+		<script src="js/additional_scripts.js"></script>
+	
+	</div>
+
+</body>
+</html>
