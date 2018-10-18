@@ -280,7 +280,7 @@
 	}
 
 	.h-desc {
-	    margin: 25px auto;
+	    margin: 43px auto 24px auto;
 	    font-size: 17px;
     	line-height: 20px;
 	}
@@ -371,7 +371,7 @@
 
 	h1 {
 		font-size: 50px;
-		line-height: 56px;
+		line-height: 58px;
 	}
 
 	h2 {
@@ -400,7 +400,11 @@
 	/*-- Header --*/
 
 	.header-site.active .sign_wrapp {
-	    padding: 16px 0 4px 0;
+		padding: 17px 0 0 0;
+	}
+
+	.header-site.active .respmenubtn {
+	    margin-top: 9px;
 	}
 
 	.sign_wrapp {
@@ -469,6 +473,10 @@
 
 	/*-- Section 3 --*/
 
+	h2 + h3 {
+	    padding: 29px 0 0 0;
+	}
+
 	.thumb-4 h3 {
 		margin: 0 0 7px 0;
 	    font-size: 21px;
@@ -513,6 +521,10 @@
 		padding-left: 3%;
 	}
 
+	.items-2_wrapp {
+	    margin: 29px 0 0 0;
+	}
+
 	.items_box h3 {
 		padding: 0 0 15px 0;
 	    font-size: 21px;
@@ -527,17 +539,11 @@
 
 	.item p {
 	    padding: 5px 0;
-	    font-size: 14px;
-	    line-height: 21px;
 	}
 
 	.two-cols_2 .right p {
 	    font-size: 17px;
-	    line-height: 23px;
-	}
-
-	.item-2 {
-	    margin: 5px 0;
+	    line-height: 18px;
 	}
 
 	.item-2 .col-1 {
@@ -545,7 +551,7 @@
 	}
 
 	.section-footer.white p {
-	    line-height: 25px;
+	    line-height: 18px;
 	}
 
 	.section-footer.white p span {
@@ -609,10 +615,106 @@
 
 @media only screen and (max-width: 768px) {
 
+	.row {
+	    padding: 0 45px;
+	}
+
+	/*-- Header --*/
+
+	.header-site .left {
+	    width: 55%;
+	}
+
+	.header-site .right {
+	    width: 45%;
+	    padding: 0 0 2px 1%;
+	}
+
+	.header-site.active .logo p {
+	    margin: 13px 0 0 16px;
+	}
+
+	.header-site.active .sign_wrapp {
+	    padding: 7px 0 0 0;
+	}
+
+	.respmenubtn {
+    	display: inline-block;
+    }
+
+	.logo-img {
+		display: none;
+	}
+
+	.main-nav_wrapp {
+		/*display: block;*/
+		display: none;
+		width: 100%;
+		height: 100vh;
+		margin: 0;
+		padding: 50px 2% 70px 2%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 11;
+		background: rgba(0, 0, 0, .9);
+	}
+
+	.main-nav {
+		height: calc(100vh - 90px);
+		margin: 0;
+		padding: 0;
+	}
+
+	.main-nav li {
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.main-nav li a {
+		display: block;
+		padding: 0 2%;		
+		text-align: center;
+		font-size: 23px;
+		line-height: 23px;
+		font-weight: bold;
+	}
+
+	.main-nav li a:after {
+		display: none;
+	}
+
+	.telegram_icon {
+	    width: 40px;
+	}
+
+	.sign_wrapp {
+	    padding: 11px 0 0 0;
+	    background-color: rgba(0, 0, 0, 0);
+	}
+
+	.header-site .blue-pill {
+	    min-width: 120px;
+	    padding: 8px 15px 9px 15px;
+	    font-size: 17px;
+	    line-height: 20px;
+	}
+
+	/*-- /Header --*/
+
 	/*-- Section 1 --*/
 
+	.two-cols .left {
+	    width: 50%;
+	}
+
+	.two-cols .right {
+	    width: 50%;
+	}
+
 	.promo-desc p {
-    	padding: 11px 0;
+    	padding: 10px 0;
 	    font-size: 17px;
 	    line-height: 20px;
 	}
@@ -621,8 +723,12 @@
 	    padding: 13px 15px;
 	}
 
+	.promo-desc .blue-pill_2 {
+		margin-top: 68px;
+	}
+
 	.video-box .inner {
-	    height: 184px;
+	    height: 171px;
 	}
 
 	.play-btn {
@@ -647,12 +753,16 @@
 		right: -26%;
 	}
 
+	.blue-pill_wrapp .blue-pill_2 {
+	    margin: 5px 0 18px 0;
+	}
+
 	/*-- /Section 2 --*/
 
 	/*-- Section 3 --*/
 
 	.bg_2 > .inner {
-	    padding: 27px 0;
+	    padding: 54px 0 41px 0;
 	}
 
 	.thumbnails-4 {
@@ -669,7 +779,50 @@
 
 	/*-- /Section 3 --*/
 
+	/*-- Section 4 --*/
+
+	.items_box {
+	    padding: 31px 12%;
+	}
+
+	.items_box h3 {
+	    padding: 0 0 7px 0;
+	}
+
+	.item h3 {
+	    padding: 18px 0 0 0;
+	    font-size: 40px;
+	    line-height: 45px;
+	}
+
+	.item p {
+	    font-size: 14px;
+	    line-height: 16px;
+	}
+
+	.item-2 .col-1 {
+	    width: 65px;
+	}
+
+	.item-icon {
+		max-width: 49px;
+	}
+
+	.item-icon_2 {
+		max-width: 62px;
+	}
+
+	.item-icon_3 {
+		max-width: 66px;
+	}
+
+	/*-- /Section 4 --*/
+
 	/*-- Section 5 --*/
+
+	.thumb-5 {
+		margin: 170px 15px 19px 15px;
+	}
 
 	.thumb-5:before {
 	    width: 192px;
@@ -863,8 +1016,14 @@
 
 	.promo-desc p {
 	    padding: 7px 0;
-	    font-size: 16px;
-	    line-height: 18px;
+	}
+
+	.promo-desc .blue-pill_2 {
+	    margin-top: 31px;
+	}
+
+	.video-box_wrapp {
+	    margin: 8px 0;
 	}
 
 	/*-- /Section 1 --*/
@@ -907,7 +1066,7 @@
 	/*-- Section 6 --*/
 
 	.thumbnails-6 {
-	    margin: 0;
+	    margin: 12px 0 4px 0;
 	}
 
 	.thumb-6 {
@@ -973,9 +1132,13 @@
 
 @media only screen and (max-width: 600px) {
 
+	.row {
+	    padding: 0 15px;
+	}
+
 	h1 {
 	    font-size: 30px;
-	    line-height: 43px;
+	    line-height: 36px;
 	}
 
 	h2 {
@@ -984,8 +1147,8 @@
 	}
 
 	h3 {
-	    font-size: 18px;
-	    line-height: 19px;
+		font-size: 18px;
+		line-height: 24px;
 	}
 
 	ol li {
@@ -998,18 +1161,27 @@
 	    line-height: 30px;
 	}
 
+	h2 + h3 {
+	    padding: 3px 0 0 0;
+	}
+
 	/*-- Header --*/
 
 	.header-site .left {
-	    width: 41%;
+	    width: 51%;
 	}
 
 	.header-site .right {
-	    width: 59%;
+	    width: 49%;
 	}
 
-	.logo-img {
-		display: none;
+	.header-site.active .logo p {
+	    margin: 13px 0 0 11px;
+	}
+
+	.logo p {
+	    max-width: 139px;
+	    margin: 20px 0 0 7px;
 	}
 
 	.logo_2 .logo-img {
@@ -1098,6 +1270,32 @@
 
 	/*-- /Section 5 --*/
 
+	/*-- Section 6 --*/
+
+	.section-6 {
+	    padding: 35px 0 39px 0;
+	}
+
+	.h-desc {
+	    margin: 29px auto 24px auto;
+	}
+
+	.thumb-6 {
+	    margin: 7px 0;
+	}
+
+	.thumb-6 .blue-pill {
+	    font-size: 15px;
+	    font-weight: 500;
+	}
+
+	.thumb-6 .black-pill {
+	    font-size: 15px;
+	    font-weight: 500;
+	}
+
+	/*-- /Section 6 --*/
+
 	/*-- Backgrounds --*/
 
 	.bg_1 {
@@ -1157,7 +1355,7 @@
 
 	/*-- Header --*/
 
-	.header-site .left {
+/*	.header-site .left {
 	    width: 54%;
 	}
 
@@ -1168,29 +1366,29 @@
 	.sign_wrapp {
 	    padding: 5px 0 0 0;
 	    background-color: rgba(0, 0, 0, 0);
-	}
+	}*/
 
-	.sign-in {
+/*	.sign-in {
 	    min-width: 52px;
-	}
+	}*/
 
-	.sign-in span {
+/*	.sign-in span {
 	    display: none;
-	}
+	}*/
 
-	.sign-in i {
+/*	.sign-in i {
 	    display: block;
 		font-size: 23px;
 		line-height: 23px;
-	}
+	}*/
 
-	.header-site.active .left {
+/*	.header-site.active .left {
 	    padding: 0 1% 0 0;
 	}
 
 	.header-site.active .sign_wrapp {
 	    padding: 5px 0 0 0;
-	}
+	}*/
 
 	/*-- /Header --*/
 
@@ -1223,6 +1421,32 @@
 
 	/*-- /Section 2 --*/
 
+	/*-- Section 3 --*/
+
+	.thumb-4 {
+	    padding: 0 9px;
+	}
+
+	.slider_1 .slick-arrow {
+	    top: 57%;
+	}
+
+	.section-footer {
+	    padding: 20px 0 23px 0;
+	}
+
+	.section-footer p {
+	   	padding: 10px 0;
+	    font-size: 14px;
+	    line-height: 22px;
+	}
+
+	.section-footer .blue-pill_2 {
+	    margin: 0;
+	}
+
+	/*-- /Section 3 --*/
+
 	/*-- /Section 5 --*/
 
 	.thumb-5 .thumb-footer p.p-1 {
@@ -1236,6 +1460,18 @@
 	}
 
 	/*-- /Section 5 --*/
+
+	/*-- Section 7 --*/
+
+	.thumbnails-7  {
+		margin: 19px 0 16px 0;
+	}
+
+	.thumb-7 {
+	    margin: 14px 0;
+	}
+
+	/*-- /Section 7 --*/
 
 	/*-- Section 8 --*/
 
@@ -1254,9 +1490,14 @@
 	}
 
 	.thumb-8 h3 {
-	    font-size: 11px;
+	    font-size: 12px;
 	    line-height: 16px;
 	    font-weight: bold;
+	}
+
+	.thumb-8 .icon-box img {
+	    max-width: 46%;
+	    max-height: 46%;
 	}
 
 	/*-- /Section 8 --*/
@@ -1288,6 +1529,77 @@
 
 	/*-- /Popups --*/
 	
+}
+
+@media only screen and (max-width: 410px) {
+
+	/*-- Header --*/
+
+	.sign_wrapp .inline-blocks {
+	    margin: 0 -3px;
+	}
+
+	.sign_wrapp .inline-blocks div {
+	    margin: 3px;
+	}
+
+	.header-site .blue-pill.sign-in {
+	    min-width: 40px;
+	    padding: 9px 9px;
+	}
+
+	.header-site .left {
+	    width: 64%;
+	}
+
+	.header-site .right {
+	    width: 36%;
+	}
+
+	.logo p {
+	    max-width: 126px;
+	    margin: 20px 0 0 11px;
+	}
+
+	.sign-in span {
+	    display: none;
+	}
+
+	.sign-in i {
+	    display: inline-block;
+	}
+
+	.respmenubtn {
+	    width: 33px;
+	    height: 33px;
+	}
+
+	.respmenubtn span {
+	    width: 27px;
+	    height: 2px;
+	    margin: 0 0 6px 0;
+	}
+
+	.respmenubtn span:nth-child(1) {
+	    width: 22px;
+	}
+
+	.respmenubtn span:nth-child(2) {
+	    width: 15px;
+	}
+
+	.respmenubtn.active span:nth-child(1) {
+	    width: 34px;
+	}
+
+	.respmenubtn.active span:nth-child(2) {
+	    width: 34px;
+		top: -1px;
+		left: -2px;
+	}
+
+	/*-- /Header --*/
+
 }
 
 @media only screen and (max-width: 350px) {
