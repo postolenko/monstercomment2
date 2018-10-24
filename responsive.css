@@ -261,6 +261,20 @@
 
 	/*-- /Section 1 - Rates --*/
 
+	/*-- Section 1 - Profiles --*/
+
+	.two-cols_templ .left {
+	    padding: 0 1% 15px 0;
+	}
+
+	.two-cols_templ .right {
+	    padding: 0 0 15px 1%;
+	}
+
+	/*-- .Section 1 - Profiles --*/
+
+
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -363,6 +377,28 @@
 	}
 
 	/*-- /Section 8 --*/
+
+	/*-- Section 1 - Profiles --*/
+
+	.two-cols_templ .left,
+	.two-cols_templ .right {
+		width: 100%;
+		float: none;
+	    padding: 0;
+	}
+
+	.inner-row_2:after {
+	    width: 107%;
+	    left: -7%;
+	}
+
+	.item_2 .descript_2 p {
+	    padding: 3px 0;
+	    font-size: 15px;
+	    line-height: 16px;
+	}
+
+	/*-- /Section 1 - Profiles --*/
 
 
 }
@@ -1127,6 +1163,43 @@
 	}
 
 	/*-- /Section 1 - Rates --*/
+
+	/*-- Section 1 - Profiles --*/
+
+	.item_2 {
+	    padding: 5px 0;
+	}
+
+	.item_2 .inner-row_resp {
+
+	}
+
+	.inner-row {
+	    padding: 0 15px;
+	}
+
+	.item_2 .inner_resp {
+	    padding: 4px 0;
+	}
+
+	.item_2 .inner_resp .col:nth-child(1) {
+		display: none;
+	}
+
+	.item_2 .inner_resp .col:nth-child(2) {
+	    padding: 6px 5px 11px 5px;
+	}
+
+	.descript_2 .korona {
+	    margin: -4px 6px 0 2px;
+	}
+
+	.blue-link_2 {
+		font-size: 15px;
+	    line-height: 16px;
+	}
+
+	/*-- /Section 1 - Profiles --*/
 
 }
 

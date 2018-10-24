@@ -35,3 +35,4 @@
 # http://postolenko.github.io/monstercomment2/news.html
 # http://postolenko.github.io/monstercomment2/news_page.html
 # http://postolenko.github.io/monstercomment2/affiliate_program.html
+# http://postolenko.github.io/monstercomment2/test_page.html

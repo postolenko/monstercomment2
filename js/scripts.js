@@ -15,6 +15,7 @@ $(window).load(function() {
     getGetPromoCenterPosition();
     getTableHeaderBg();
     // getDropdownMenu();
+    getFooterPosition();
 
 });
 
@@ -32,6 +33,7 @@ $(window).resize(function() {
     getGetPromoCenterPosition();
     getTableHeaderBg();
     // getDropdownMenu();
+    getFooterPosition();
 
 });
 
@@ -542,4 +544,16 @@ function getTableHeaderBg() {
             "height" : $(this).find(".table-3 .table-row:eq(0)").height() + "px"
         });
     });
+}
+
+function getFooterPosition() {
+
+    $(".footer_sect").css({
+        "margin-top" : -$(".footer_sect").height() + "px"
+    });
+
+    $(".wrapper").css({
+        "padding-bottom" : $(".footer_sect").height() + "px"
+    });
+
 }
