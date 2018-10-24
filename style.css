@@ -1834,12 +1834,14 @@ a:active {
 .header-site_2 .left {
     width: 20%;
     padding: 13px 1% 10px 0;
+    /*outline: 1px solid red;*/
 }
 
 .header-site_2 .right {
     width: 80%;
     padding: 0 0 0 1%;
     text-align: right;
+    /*outline: 1px solid red;*/
 }
 
 .logo_2 p {
@@ -2312,7 +2314,278 @@ a:active {
     line-height: 16px;
 }
 
+.resp_nav {
+    display: none;
+    width: 100%;
+    height: calc(100vh - 50px);
+    padding: 19px 35px;
+    background: #0d0e0e;
+    position: fixed;
+    top: 50px;
+    left: 0;
+}
+
+.resp_nav_header {
+ 
+}
+
+.resp_nav_header .col:nth-child(1) {
+    width: 47%;
+    float: left;
+    padding: 18px 5px 5px 0;
+}
+
+.resp_nav_header .col:nth-child(2) {
+    width: 53%;
+    float: right;
+    text-align: right;
+    padding: 5px 0 5px 5px;
+}
+
+.user-name {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.resp_nav_header .thumb-9 {
+    min-height: 45px;
+    margin: 0;
+    padding: 12px 10px;
+}
+
+.resp_nav_header .thumb-9_2 .blue-circle-pill {
+    top: 5px;
+    right: 5px;
+}
+
+.resp_nav .dropdown-menu {
+    display: block !important;
+    padding: 0;
+    border-top: none;
+    background-color: transparent;
+}
+
+.resp_nav .dropdown-menu .scroll_menu {
+    max-height: auto;
+    min-height: 0;
+    padding-bottom: 0;
+}
+
+.resp_nav .dropdown_footer {
+    background: transparent;
+    padding: 21px 0 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.resp_nav .dropdown_footer .blue-pill {
+    max-width: 240px;
+}
+
+.resp_nav_menu ul li {
+    margin: 13px 0;
+    padding: 0 0 0 28px;
+    line-height: 14px;
+    position: relative;
+    -webkit-transition-property: padding;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: padding;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: padding;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: padding;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: padding;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.resp_nav_menu ul li:last-child {
+    margin-bottom: 0;
+}
+
+.resp_nav_menu ul li:hover {
+    padding: 0 0 0 42px;
+}
+
+.resp_nav_menu ul li a {
+    display: block;
+    margin: 5px 5px 5px 11px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #000000;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.resp_nav_menu ul li a:link,
+.resp_nav_menu ul li a:visited {
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.resp_nav_menu ul li a:active,
+.resp_nav_menu ul li a.active {
+    font-weight: bold;
+    color: #009ae5;
+}
+
+.resp_nav_menu ul li a:hover {
+    font-weight: bold;
+    color: #009ae5;
+}
+
+.resp_nav_menu ul li i {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    -webkit-transition-property: left;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: left;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: left;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: left;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: left;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.resp_nav_menu ul li:hover i {
+    left: 14px;
+}
+
 /*-- /Header Site 2 --*/
+
+/* ----- Responsive Menu Button 2 ------ */
+
+.respmenubtn_2 {
+    /*display: inline-block;*/
+    display: none;
+    vertical-align: middle;
+    width: 23px;
+    height: 23px;
+    margin-top: 14px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    z-index: 12;
+    border: 1px solid transparent;
+    text-align: left;
+}
+
+.respmenubtn_2 span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #ffffff;
+    margin: 0 0 4px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-transition-property: transform, border, background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform, border, background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform, border, background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform, border, background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform, border, background;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.respmenubtn_2 span:last-child {
+    margin: 0;
+}
+
+.respmenubtn_2:active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-tap-highlight-color: transparent;
+}
+
+.respmenubtn_2:hover span {
+    background: #ffffff;
+}
+
+.respmenubtn_2.active span {
+    position: relative;
+    width: 24px;
+    top: 0;
+    left: -1px;
+    margin: 0;
+    background: #ffffff;
+}
+
+.respmenubtn_2.active span:last-child {
+    display: none;
+}
+
+.respmenubtn_2.active span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.respmenubtn_2.active span:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    position: relative;
+    top: -2px;
+    left: -1px;
+}
+
+/* ----- / Responsive Menu Button 2 ------ */
 
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
@@ -2927,7 +3200,8 @@ a:active {
     /*margin: 0 auto;*/
     display: table;
     width: 100%;
-    padding: 0 2%;
+    /*padding: 0 2%;*/
+    padding: 0;
 }
 
 .section-footer .col-1 {

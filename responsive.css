@@ -1,3 +1,15 @@
+@media only screen and (max-width: 1390px) {
+
+	/*-- Header 2 --*/
+
+	.thumb-9_1 {
+		display: none;
+	}
+
+	/*-- /Header 2 --*/
+
+}
+
 @media only screen and (max-width: 1280px) {
 
 	h1 {
@@ -27,7 +39,7 @@
 	}
 
 	.logo_2 p {
-	    margin-top: 8px;
+	    margin-top: 5px;
 	}
 
 	.sign_wrapp {
@@ -52,6 +64,18 @@
 	}
 
 	/*-- /Header --*/
+
+	/*-- Header 2 --*/
+
+	.header-site_2 .left {
+		width: 29%;
+	}
+
+	.header-site_2 .right {
+		width: 71%;
+	}
+
+	/*-- /Header 2 --*/
 
 	/*-- Section 1 --*/
 
@@ -273,7 +297,25 @@
 
 	/*-- .Section 1 - Profiles --*/
 
+}
 
+@media only screen and (max-width: 1224px) {
+
+	/*-- Header 2 --*/
+
+	.header-site_2 .left {
+		width: 31%;
+	}
+
+	.header-site_2 .right {
+		width: 69%;
+	}
+
+	.thumb-9_3 {
+		display: none;
+	}
+
+	/*-- /Header 2 --*/
 
 }
 
@@ -635,6 +677,41 @@
 
 @media only screen and (max-width: 860px) {
 
+	/*-- Header 2 --*/
+
+	.header-site_2 .left {
+	    width: 35%;
+	}
+
+	.header-site_2 .right {
+	    width: 65%;
+	}
+
+	.thumb-11_title {
+	    padding-right: 105px;
+	}
+
+	.thumb-9_2 {
+	    padding-right: 60px;
+	    padding-top: 19px;
+	    min-width: 140px;
+	}
+
+	.dropdown-thumb_wrapp {
+	    width: 245px;
+	    height: 58px;
+	}
+
+	.thumb-11_title .col:nth-child(1) {
+	    display: none;
+	}
+
+	.thumb-11_title .col:nth-child(2) {
+	    height: 58px;
+	}
+
+	/*-- /Header 2 --*/
+
 	/*-- Section 2 --*/
 
 	.thumbnails-3 {
@@ -652,7 +729,7 @@
 @media only screen and (max-width: 768px) {
 
 	.row {
-	    padding: 0 45px;
+	    padding: 0 35px;
 	}
 
 	/*-- Header --*/
@@ -738,6 +815,47 @@
 	}
 
 	/*-- /Header --*/
+
+	/*-- Header 2 --*/
+
+	.header-site_2 > .row {
+		background: #000000;
+	}
+
+	.header-site_2 .left {
+	    width: 76%;
+	    padding: 6px 1% 4px 0;
+	}
+
+	.header-site_2 .right {
+	    width: 24%;
+	}
+
+	.logo_2 .logo-img {
+		display: inline-block;
+	}
+
+	.header-site_2 .right .thumb-9_2 {
+		display: none;
+	}
+
+	.logo_2 .logo-img {
+	    width: 31px;
+	}
+
+	.logo_2 p {
+	    margin-top: 4px;
+	}
+
+	.dropdown-thumb_wrapp {
+	    display: none;
+	}
+
+	.respmenubtn_2 {
+		display: inline-block;
+	}
+
+	/*-- /Header 2 --*/
 
 	/*-- Section 1 --*/
 
@@ -1254,7 +1372,6 @@
 
 	.logo p {
 	    max-width: 139px;
-	    margin: 20px 0 0 7px;
 	}
 
 	.logo_2 .logo-img {
@@ -1262,6 +1379,14 @@
 	}
 
 	/*-- /Header --*/
+
+	/*-- Header 1 --*/
+
+	.resp_nav {
+	    padding: 19px 15px;
+	}
+
+	/*-- /Header 2 --*/
 
 	/*-- Section 1 --*/
 
@@ -1585,6 +1710,31 @@
 	
 }
 
+@media only screen and (max-width: 450px) {
+
+	.header-site .left {
+	    width: 64%;
+	}
+
+	.header-site .right {
+	    width: 36%;
+	}
+
+	.header-site .blue-pill.sign-in {
+	    min-width: 40px;
+	    padding: 9px 9px;
+	}
+
+	.sign-in span {
+	    display: none;
+	}
+
+	.sign-in i {
+	    display: inline-block;
+	}
+
+}
+
 @media only screen and (max-width: 410px) {
 
 	/*-- Header --*/
@@ -1597,30 +1747,9 @@
 	    margin: 3px;
 	}
 
-	.header-site .blue-pill.sign-in {
-	    min-width: 40px;
-	    padding: 9px 9px;
-	}
-
-	.header-site .left {
-	    width: 64%;
-	}
-
-	.header-site .right {
-	    width: 36%;
-	}
-
 	.logo p {
 	    max-width: 126px;
-	    margin: 20px 0 0 11px;
-	}
-
-	.sign-in span {
-	    display: none;
-	}
-
-	.sign-in i {
-	    display: inline-block;
+	    margin: 20px 0 0 9px;
 	}
 
 	.respmenubtn {
@@ -1654,6 +1783,14 @@
 
 	/*-- /Header --*/
 
+	/*-- Header 2 --*/
+
+	.logo_2 p {
+	    margin: 7px 0 0 9px;
+	}
+
+	/*-- /Header 2 --*/
+
 }
 
 @media only screen and (max-width: 350px) {
@@ -1685,6 +1822,14 @@
 @media only screen and (min-width: 1025px) {
 
 	.popup_wrapp_resp {
+	    display: none !important;
+	}
+
+}
+
+@media only screen and (min-width: 769px) {
+
+	.resp_nav {
 	    display: none !important;
 	}
 

@@ -7,12 +7,14 @@ $(window).on("load",function(){
 $(window).resize( function() {
 
 	getRespSliders();
+	getScrollBar();
 
 });
 
 $(document).ready(function() {		
 
 	getRespSliders();
+	getScrollBar();
 
 });
 
@@ -110,15 +112,28 @@ function getRespSliders() {
 
 function getScrollBar() {
 
-	if ( bodyWidth > 900 ) {
+	// if ( bodyWidth > 900 ) {
 
-		$(".scroll").mCustomScrollbar();
+	// 	$(".scroll").mCustomScrollbar();
+
+	// } else {
+
+	// 	$(".scroll").mCustomScrollbar("destroy");
+
+	// }
+
+	if ( bodyWidth < 768 ) {
+
+		$(".resp_nav").mCustomScrollbar();
 
 	} else {
 
-		$(".scroll").mCustomScrollbar("destroy");
+		$(".resp_nav").mCustomScrollbar("destroy");
 
 	}
+
+
+
 
 }
 

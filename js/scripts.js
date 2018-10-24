@@ -77,6 +77,39 @@ $(document).ready(function() {
     });
 
     // -----------------------
+
+    $(".respmenubtn_2").click(function() {
+
+        if( $(".resp_nav").is(":hidden") ) {
+
+            $(".resp_nav").fadeIn(300);
+
+            $(this).addClass("active");
+
+        } else {
+
+            $(".resp_nav").fadeOut(300);
+
+            $(this).removeClass("active");
+
+        }
+
+    });
+
+    $(this).keydown(function(eventObject){
+
+        if (eventObject.which == 27 &&
+            $(".resp_nav").is(":visible") ) {
+
+                $(".resp_nav").fadeOut(300);
+
+                $(".respmenubtn_2").removeClass("active");
+
+        }
+
+    });
+
+    // -----------------------
    
     $(".show_popup").click(function(e) {
 
