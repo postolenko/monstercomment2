@@ -1038,28 +1038,6 @@
 	    text-align: center;
 	}
 
-	/*-- Section 1 - Profiles --*/
-
-	.item_2 .inner .col:nth-child(1) {
-	    width: 50px;
-	    padding: 24px 5px;
-	}
-
-	.item_2 .inner .col:nth-child(2) {
-	    padding: 17px 2% 17px 5px;
-	}
-
-	.form-two-cols {
-		display: block;
-	    width: 100%;
-	}
-
-	.form-two-cols .blue-pill {
-	    min-width: 100%;
-	}
-
-	/*-- /Section 1 - Profiles --*/
-
 	/*-- Footer --*/
 
 	.footer .left, .footer .right {
@@ -1303,6 +1281,28 @@
 	}
 
 	/*-- /Section 1 - Rates --*/
+
+	/*-- Section 1 - Profiles --*/
+
+	.item_2 .inner .col:nth-child(1) {
+	    width: 50px;
+	    padding: 24px 5px;
+	}
+
+	.item_2 .inner .col:nth-child(2) {
+	    padding: 17px 2% 17px 5px;
+	}
+
+	.form-two-cols {
+		display: block;
+	    width: 100%;
+	}
+
+	.form-two-cols .blue-pill {
+	    min-width: 100%;
+	}
+
+	/*-- /Section 1 - Profiles --*/
 
 }
 
