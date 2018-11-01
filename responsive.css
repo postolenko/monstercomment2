@@ -1600,20 +1600,42 @@
 	    margin: 10px 0 0 0;
 	}
 
-/*	.input_wrapp_2 input {
-	    height: 39px;
-	    padding: 0 20px 0 40px;
-	    font-size: 15px;
-	    line-height: 38px;
-	}*/
-
-/*	.input_wrapp_2 .fa-at {
-	    top: 12px;
-	    left: 18px;
-	    font-size: 16px;
-	}*/
-
 	/*-- /Section 1 - Profiles --*/
+
+	/*-- Section 1 - Start --*/
+
+	.important_box_2 + .blue-pill {
+	    margin: 10px 0;
+	}
+
+	.col-title p {
+	    padding: 0;
+	}
+
+	.col-title_2 {
+	    display: block;
+	}
+
+	.col-title p {
+	    font-size: 17px;
+	    line-height: 21px;
+	}
+
+	.col-title_2 .col:nth-child(1) {
+		display: block;
+	    padding: 10px 5px 0 0;
+	}
+
+	.col-title_2 .col:nth-child(2) {
+	    display: block;
+	    width: 100%;
+	}
+
+	.col-title_2 .transparent-pill {
+		margin: 10px 0;
+	}
+
+	/*-- /Section 1 - Start --*/
 
 	/*-- Footer --*/
 
