@@ -5406,7 +5406,7 @@ p.question-p {
 }
 
 .item_3 > .item_3-col .blue-link_3 {
-    word-wrap: break-all;
+    word-break: break-all;
 }
 
 .italick {
