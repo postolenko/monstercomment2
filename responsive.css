@@ -1038,6 +1038,28 @@
 	    text-align: center;
 	}
 
+	/*-- Section 1 - Profiles --*/
+
+	.item_2 .inner .col:nth-child(1) {
+	    width: 50px;
+	    padding: 24px 5px;
+	}
+
+	.item_2 .inner .col:nth-child(2) {
+	    padding: 17px 2% 17px 5px;
+	}
+
+	.form-two-cols {
+		display: block;
+	    width: 100%;
+	}
+
+	.form-two-cols .blue-pill {
+	    min-width: 100%;
+	}
+
+	/*-- /Section 1 - Profiles --*/
+
 	/*-- Footer --*/
 
 	.footer .left, .footer .right {
@@ -1282,43 +1304,6 @@
 
 	/*-- /Section 1 - Rates --*/
 
-	/*-- Section 1 - Profiles --*/
-
-	.item_2 {
-	    padding: 5px 0;
-	}
-
-	.item_2 .inner-row_resp {
-
-	}
-
-	.inner-row {
-	    padding: 0 15px;
-	}
-
-	.item_2 .inner_resp {
-	    padding: 4px 0;
-	}
-
-	.item_2 .inner_resp .col:nth-child(1) {
-		display: none;
-	}
-
-	.item_2 .inner_resp .col:nth-child(2) {
-	    padding: 6px 5px 11px 5px;
-	}
-
-	.descript_2 .korona {
-	    margin: -4px 6px 0 2px;
-	}
-
-	.blue-link_2 {
-		font-size: 15px;
-	    line-height: 16px;
-	}
-
-	/*-- /Section 1 - Profiles --*/
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -1538,6 +1523,97 @@
 	}
 
 	/*-- /Section 1 - Rates --*/
+
+	/*-- Section 1 - Profiles --*/
+
+	.fa-exchange-alt {
+	    font-size: 10px;
+	}
+
+	.blue-link_4 {
+	    font-size: 11px;
+	    line-height: 13px;
+	}
+
+	p .fa-exchange-alt {
+	    top: -1px;
+	}
+
+	.inner-row_2 .inner-col-2:nth-child(1) {
+	    padding: 8px 5px 8px 0;
+	}
+
+	.inner-row_2 .inner-col-2:nth-child(2) {
+	    width: 100px;
+	    padding: 8px 0 8px 3px;
+	}
+
+	.reset_box .blue-pill {
+	    min-width: 100%;
+	    margin: 3px 0;
+	}
+
+	.red-link {
+	    font-size: 11px;
+	    line-height: 13px;
+	}
+
+	.grey-link_2 {
+	    font-size: 11px;
+	    line-height: 13px;
+	}
+
+	.fa-clock {
+	    font-size: 11px;
+	    line-height: 13px
+	}
+
+	.fa-times-circle {
+	    font-size: 11px;
+	    line-height: 13px
+	}
+
+	.blue-pill {
+	    min-width: 100%;
+	    padding: 9px 15px 9px 15px;
+	    font-size: 13px;
+	    line-height: 17px;
+	}
+
+	.inner-row_2 p {
+	    font-size: 13px;
+	    line-height: 15px;
+	}
+
+	.form-two-cols > .col-inner:nth-child(1) {
+		display: block;
+		padding: 0 0 5px 0;
+	}
+
+	.form-two-cols > .col-inner:nth-child(2) {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	.reset_box {
+	    margin: 10px 0 0 0;
+	}
+
+	.input_wrapp_2 input {
+	    height: 39px;
+	    padding: 0 20px 0 40px;
+	    font-size: 15px;
+	    line-height: 38px;
+	}
+
+	.input_wrapp_2 .fa-at {
+	    top: 12px;
+	    left: 18px;
+	    font-size: 16px;
+	}
+
+	/*-- /Section 1 - Profiles --*/
 
 	/*-- Footer --*/
 
