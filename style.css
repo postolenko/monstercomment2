@@ -5405,6 +5405,10 @@ p.question-p {
     color: #1fb6ff;
 }
 
+.item_3 > .item_3-col .blue-link_3 {
+    word-wrap: break-all;
+}
+
 .italick {
     font-style: italic;
 }
