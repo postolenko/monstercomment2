@@ -1141,6 +1141,14 @@
 
 	/*-- /Section 7 --*/
 
+	/*-- Section 1 - Comments --*/
+
+	.inner-box_2 {
+	    width: 100%;
+	}
+
+	/*-- /Section 1 - Comments --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -1666,10 +1674,39 @@
 	}
 
 	.inner_3 {
-	    margin: 0 10px;
+	    margin: 10px;
 	}
 
 	/*-- /Section 1 - Start --*/
+
+	/*-- Section 1 - Start --*/
+
+	.blue-info p {
+	    font-size: 13px;
+	}
+
+	.red-info p {
+	    font-size: 13px;
+	}
+
+	.black-info p {
+	    font-size: 13px;
+	}
+
+	.two-cols_3 p {
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+
+	/*-- /Section 1 - Start --*/
+
+	/*-- Section 1 - Comments 8 --*/
+
+	.inner-title > .title-col:nth-child(even) {
+	    padding: 8px 0 5px 5px;
+	}
+
+	/*-- /Section 1 - Comments 8 --*/
 
 	/*-- Footer --*/
 

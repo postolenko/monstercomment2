@@ -5057,6 +5057,10 @@ p .fa-exchange-alt {
     color: #676767;
 }
 
+.comment-link .blue-link_3 {
+    word-break: break-all;
+}
+
 .comment-text_wrapp {
     padding-bottom: 8px;
 }
@@ -5232,6 +5236,10 @@ p .fa-exchange-alt {
     margin-bottom: 15px;
 }
 
+ .two-cols_3 .inner-box_3 p {
+    padding: 0;
+}
+
 .inner-title {
     display: table;
     width: 100%;
@@ -5247,20 +5255,12 @@ p .fa-exchange-alt {
 .inner-title > .title-col:nth-child(even) {
     display: table-cell;
     vertical-align: top;
-    padding: 5px 0 5px 5px;
+    padding: 11px 0 5px 5px;
     text-align: right;
 }
 
 .inner-title .comment_num {
     padding: 0;
-}
-
-.grey-p {
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 15px;
-    font-weight: 500;
-    color: #ababab;
 }
 
 .grey-p i {
@@ -5272,6 +5272,11 @@ p .fa-exchange-alt {
 
 .inner-title .grey-p {
     padding: 2px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #ababab;
 }
 
 .comment-text_wrapp_2 {
@@ -5291,8 +5296,8 @@ p .fa-exchange-alt {
 
 .blue-p {
     text-transform: uppercase;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 12px !important;
+    line-height: 15px !important;
     font-weight: 500;
     color: #1fb6ff;
 }
@@ -5310,8 +5315,8 @@ p .fa-exchange-alt {
 
 .red-p {
     text-transform: uppercase;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 12px !important;
+    line-height: 15px !important;
     font-weight: 500;
     color: #df4747;
 }
