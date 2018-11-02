@@ -1702,9 +1702,9 @@
 
 	/*-- Section 1 - Comments 8 --*/
 
-	.inner-title > .title-col:nth-child(even) {
-	    padding: 8px 0 5px 5px;
-	}
+/*	.inner-title > .title-col:nth-child(even) {
+	    padding: 5px 0 5px 5px;
+	}*/
 
 	/*-- /Section 1 - Comments 8 --*/
 

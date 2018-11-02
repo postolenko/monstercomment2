@@ -5247,14 +5247,14 @@ p .fa-exchange-alt {
 
 .inner-title > .title-col:nth-child(odd) {
     display: table-cell;
-    vertical-align: top;
+    vertical-align: baseline;
     padding: 5px 5px 5px 0;
     text-align: left;
 }
 
 .inner-title > .title-col:nth-child(even) {
     display: table-cell;
-    vertical-align: top;
+    vertical-align: baseline;
     padding: 11px 0 5px 5px;
     text-align: right;
 }
