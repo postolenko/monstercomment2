@@ -1298,7 +1298,7 @@
 	}
 
 	.item_2 .inner .col:nth-child(2) {
-	    padding: 17px 2% 17px 5px;
+	    padding: 17px 3% 17px 5px;
 	}
 
 	.form-two-cols {
@@ -1700,13 +1700,92 @@
 
 	/*-- /Section 1 - Start --*/
 
-	/*-- Section 1 - Comments 8 --*/
+	/*-- Section 1 - Getting Comment --*/
 
-/*	.inner-title > .title-col:nth-child(even) {
-	    padding: 5px 0 5px 5px;
-	}*/
+	.important-box {
+	    margin: 2px 0 7px 0;
+	}
 
-	/*-- /Section 1 - Comments 8 --*/
+	.inner-row_3 {
+	    width: 96%;
+	    padding: 5px 4%;
+	}
+
+	.inner-row_3 h4 {
+	    font-size: 15px;
+	    line-height: 18px;
+	}
+
+	.important-box p {
+	    font-size: 13px !important;
+	    line-height: 20px !important;
+	}
+
+	.radios_wrapp {
+	    margin: 0 0 7px 0;
+	}
+
+	.radio {
+		display: block;
+	    margin: 6px 0 0 0;
+	}
+
+	.btn_wrapp_4 {
+	    padding: 4px 4% 23px 4%;
+	}
+
+	.inner-row_3 .input_wrapp {
+	    width: 100%;
+	    margin: 2px 0 10px 0;
+	}
+
+	/*-- /Section 1 - Getting Comment --*/
+
+	/*-- Section 1 - Getting Comment 2 --*/
+
+	.important_box .col-imp:nth-child(1) {
+	    width: 11px;
+	}
+
+	/*-- /Section 1 - Getting Comment 2 --*/
+
+	/*-- Section 1 - Getting Comment 4 --*/
+
+	.important-box + .two-cols_3 {
+		margin-top: 0;
+	}
+
+	.two-cols_3_2 {
+		display: block;
+	}
+
+	.two-cols_3_2 .two-col:nth-child(1) {
+		display: block;
+	    width: 100%;
+	    padding: 0;
+	}
+
+	.two-cols_3_2 .two-col:nth-child(2) {
+		display: block;
+	    width: 100%;
+	    padding: 0;
+	}
+
+	.two-cols_3_2 p {
+	    padding: 0;
+	}
+
+	.total_price {
+		margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+
+	.total_price p .blue {
+	    font-size: 22px;
+	    line-height: 24px;
+	}
+
+	/*-- /Section 1 - Getting Comment 4 --*/
 
 	/*-- Footer --*/
 
@@ -1880,6 +1959,39 @@
 	}
 
 	/*-- /Section 1 - Start Distribution --*/
+
+	/*-- Section 1 - Getting Comment 6 --*/
+
+	.col-title {
+	    min-height: 31px;
+	    padding: 3px 0 0 0;
+	}
+
+	.two-cols_4 {
+    	display: block;
+	}
+
+	.two-cols_4 .two-col:nth-child(1) {
+		display: block;
+	    width: 100%;
+	    padding: 15px 0 0 0;
+	}
+
+	.two-cols_4 .two-col:nth-child(2) {
+	    display: block;
+	    width: 100%;
+	    padding: 5px 0 0 0;
+	}
+
+	.inner_3_3 {
+	    padding: 3px 0 15px 0;
+	}
+
+	.btn_wrapp_5 {
+	    padding: 4px 0 14px 0;
+	}
+
+	/*-- /Section 1 - Getting Comment 6 --*/
 
 	/*-- Popups --*/
 

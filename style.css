@@ -5622,25 +5622,25 @@ p.question-p {
     -moz-border-radius: 5px;
     border-radius: 5px;
     background-color: rgb(222, 244, 255);
-    margin: 7px 0 22px 0;
-    padding: 4px 10px;
-}
-
-.important-box i {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 2px;
-    font-size: 17px;
-    line-height: 18px;
-    color: #1fb6ff;
+    margin: 15px 0 22px 0;
+    padding: 4px 10px 3px 10px;
 }
 
 .important-box p {
+    font-size: 15px !important;
+    line-height: 21px !important;
+    color: #000000;
+}
+
+.important-box p i {
     display: inline-block;
     vertical-align: middle;
-    font-size: 15px !important;
-    line-height: 18px !important;
-    color: #000000;
+    position: relative;
+    top: -2px;
+    margin-right: 7px;
+    font-size: 17px !important;
+    line-height: 17px !important;
+    color: #1fb6ff;
 }
 
 .inner-row_3 {
@@ -5709,13 +5709,13 @@ p.question-p {
 }
 
 .radios_wrapp {
-    margin: 0 -10px 7px 0;
+    margin: 0 -10px 0 0;
 }
 
 .radio {
     display: inline-block;
     vertical-align: top;
-    margin: 10px 30px 10px 0;
+    margin: 6px 30px 0 0;
     position: relative;
 }
 
@@ -5731,9 +5731,11 @@ p.question-p {
 }
 
 .radio label {
+    display: inline-block;
+    vertical-align: top;
     position: relative;
     cursor: pointer;
-    padding: 8px 0 8px 40px;
+    padding: 6px 0 8px 40px;
     font-family: "Ubuntu";
     font-size: 15px;
     line-height: 22px;
