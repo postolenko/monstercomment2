@@ -442,6 +442,25 @@
 
 	/*-- /Section 1 - Profiles --*/
 
+	/*-- Section 1 - Rating --*/
+
+	.two-cols-templ_3 .left {
+	    width: 100%;
+	    float: none;
+	    padding: 0;
+	}
+
+	.two-cols-templ_3 .right {
+	    width: 100%;
+	    float: none;
+	    padding: 0;
+	}
+
+	.table-3_wrapp {
+	    max-width: 100%;
+	}
+
+	/*-- /Section 1 - Rating --*/
 
 }
 
@@ -1787,6 +1806,38 @@
 
 	/*-- /Section 1 - Getting Comment 4 --*/
 
+	/*-- Section 1 - Rating --*/
+
+	.table-3_wrapp {
+		margin-top: 5px;
+	    padding: 0 2% 22px 2%;
+	}
+
+	.table-3 .table-cell:nth-child(1) {
+	    width: 35%;
+	}
+
+	.table-3 .table-cell:nth-child(2) {
+	    width: 36%;
+	}
+
+	.cell-inner .cell:nth-child(1) {
+	    width: 50px;
+	    padding: 0 5px 0 5px;
+	}
+
+	.table-3 h3 {
+	    font-size: 12px;
+	    line-height: 15px;
+	}
+
+	.table-3 p {
+	    font-size: 14px;
+	    line-height: 21px;
+	}
+
+	/*-- /Section 1 - Rating --*/
+
 	/*-- Footer --*/
 
 	.footer {
@@ -1992,6 +2043,18 @@
 	}
 
 	/*-- /Section 1 - Getting Comment 6 --*/
+
+	/*-- Section 1 - Rating --*/
+
+	.counter-box .cell {
+	    padding: 0 4px;
+	}
+
+	.counter-box .cell .inner {
+	    min-width: 40px;
+	}
+
+	/*-- /Section 1 - Rating --*/
 
 	/*-- Popups --*/
 

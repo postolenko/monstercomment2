@@ -1,6 +1,9 @@
 $(window).on("load",function(){
 
 	$(".scroll").mCustomScrollbar();
+	$(".scroll-x").mCustomScrollbar({
+		axis:'x'
+	});
 
 });
 
