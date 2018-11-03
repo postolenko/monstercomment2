@@ -8,6 +8,24 @@
 
 	/*-- /Header 2 --*/
 
+	/*-- Section 1 - Payment --*/
+
+	.two-cols-templ_4 .left {
+	    width: 54%;
+	    padding: 0 20px 0 0;
+	}
+
+	.two-cols-templ_4 .right {
+	    width: 46%;
+	    padding: 0 0 0 20px;
+	}
+
+	.table-2 .table-cell:nth-child(1) {
+	    width: 50%;
+	}
+
+	/*-- /Section 1 - Payment --*/
+
 }
 
 @media only screen and (max-width: 1280px) {
@@ -461,6 +479,24 @@
 	}
 
 	/*-- /Section 1 - Rating --*/
+
+	/*-- Section 1 - Payment --*/
+
+	.two-cols-templ_4 .left {
+	    width: 100%;
+	    padding: 0;
+	}
+
+	.two-cols-templ_4 .right {
+	    width: 100%;
+	    padding: 0;
+	}
+
+	.table-2 .table-cell:nth-child(1) {
+	    width: 50%;
+	}
+
+	/*-- /Section 1 - Payment --*/
 
 }
 
@@ -1331,6 +1367,14 @@
 
 	/*-- /Section 1 - Profiles --*/
 
+	/*-- Section 1 - Payment --*/
+
+	.payment-thumb {
+	    width: 50%;
+	}
+
+	/*-- .Section 1 - Payment --*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -1813,13 +1857,17 @@
 	    padding: 0 2% 22px 2%;
 	}
 
-	.table-3 .table-cell:nth-child(1) {
-	    width: 35%;
+/*	.table-3 .table-cell:nth-child(1) {
+	    width: 30%;
 	}
 
 	.table-3 .table-cell:nth-child(2) {
-	    width: 36%;
+	    width: 50%;
 	}
+
+	.table-3 .table-cell:nth-child(3) {
+	    width: 20%;
+	}*/
 
 	.cell-inner .cell:nth-child(1) {
 	    width: 50px;
@@ -2039,7 +2087,7 @@
 	}
 
 	.btn_wrapp_5 {
-	    padding: 4px 0 14px 0;
+	    padding: 4px 3% 14px 3%;
 	}
 
 	/*-- /Section 1 - Getting Comment 6 --*/
@@ -2108,6 +2156,14 @@
 	    display: inline-block;
 	}
 
+	/*-- Section 1 - Payment --*/
+
+	.payment-thumb {
+	    width: 100%;
+	}
+
+	/*-- .Section 1 - Payment --*/
+
 }
 
 @media only screen and (max-width: 410px) {
@@ -2165,6 +2221,31 @@
 	}
 
 	/*-- /Header 2 --*/
+
+	/*-- Section 1 - Rating --*/
+
+	.table-3 h3 {
+	    font-size: 10px;
+	    line-height: 12px;
+	}
+
+	.table-3_wrapp {
+		/*max-width: 320px;*/
+	}
+
+	.table-3 .table-cell:nth-child(2) {
+	    width: 100px;
+	}
+
+	.table-3 .table-cell:nth-child(2) {
+	    width: auto;
+	}
+
+	.table-3 .table-cell:nth-child(3) {
+	    width: 50px;
+	}
+
+	/*-- /Section 1 - Rating --*/
 
 }
 

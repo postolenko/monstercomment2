@@ -6041,7 +6041,8 @@ p.question-p {
 
 .table-3_wrapp {
     max-width: 740px;
-    min-width: 420px;
+    /*min-width: 420px;*/
+    min-width: 320px;
     margin: 5px 0;
     padding: 0 5% 40px 5%;
     position: relative;
@@ -6322,7 +6323,7 @@ p.question-p {
 .payment-thumb label {
     display: block;
     cursor: pointer;
-    padding: 1px 2% 12px 2%;
+    padding: 1px 4% 12px 4%;
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
     border-radius: 24px;
@@ -6381,11 +6382,12 @@ p.question-p {
 }
 
 .checkboxes_wrapp {
-    padding-top: 3px;
+    padding-top: 10px;
+    padding-bottom: 4px;
 }
 
 .checkbox {
-    margin: 17px 0;
+    margin: 5px 0;
     position: relative;
 }
 
@@ -6401,6 +6403,8 @@ p.question-p {
 }
 
 .checkbox label {
+    display: inline-block;
+    vertical-align: top;
     padding: 6px 5px 6px 47px;
     position: relative;
     cursor: pointer;
@@ -6451,11 +6455,11 @@ p.question-p {
     display: block;
 }
 
-.btn_wrapp_5 {
-    padding: 31px 8% 37px 8%;
+.btn_wrapp_5_2 {
+    padding: 4px 6% 25px 6%;
 }
 
-.btn_wrapp_5 .blue-pill {
+.btn_wrapp_5_2 .blue-pill {
     width: 100%;
 }
 
