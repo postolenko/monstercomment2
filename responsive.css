@@ -335,6 +335,20 @@
 
 	/*-- /Header 2 --*/
 
+	/*-- Section 1 - Support --*/
+
+	.two-cols_templ_5 .left {
+	    width: 350px;
+	    padding-right: 20px;
+	}
+
+	.two-cols_templ_5 .right {
+	    width: calc(100% - 350px);
+	    padding-left: 20px;
+	}
+
+	/*-- /Section 1 - Support --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -778,6 +792,45 @@
 	}
 
 	/*-- /Section 2 --*/
+
+	/*-- Section 1 - Support --*/
+
+	.sidebar {
+	    margin: 0 0 15px 0;
+	}
+
+	.sidebar_2 {
+	    padding: 0 5% 8px 5%;
+	}
+
+	.two-cols_templ_5 {
+		margin-top: 0;
+	    margin-bottom: 30px;
+	}
+
+	.two-cols_templ_5 .left {
+	    width: 100%;
+	    padding-right: 0;
+	}
+
+	.two-cols_templ_5 .right {
+	    width: 100%;
+	    padding-left: 0;
+	}
+
+	.hide-860 {
+		display: none;
+	}
+
+	.visible-860 {
+	    display: block;
+	}
+
+	.contact_thumb .col:nth-child(1) {
+	    width: 44px;
+	}
+
+	/*-- /Section 1 - Support --*/
 
 }
 

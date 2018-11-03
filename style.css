@@ -4135,6 +4135,7 @@ a:active {
 
 .val_wrapp {
     white-space: nowrap;
+    overflow: hidden;
 }
 
 .val_wrapp i {
@@ -6677,6 +6678,10 @@ p.black {
     padding-left: 40px;
 }
 
+.visible-860 {
+    display: none;
+}
+
 .sidebar {
     margin: 0 0 29px 0;
     border-style: solid;
@@ -6686,6 +6691,16 @@ p.black {
     -moz-border-radius: 12px;
     border-radius: 12px;
     background-color: rgb(249, 251, 251);
+}
+
+.two-cols_templ_5 .dropdown_wrapp {
+    margin-top: 6px;
+}
+
+.dropdown_title_2 {
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
 }
 
 .sidebar-nav {
@@ -6811,6 +6826,7 @@ p.black {
     vertical-align: top;
     width: calc(100% - 52px);
     padding: 6px 0 5px 5px;
+    overflow: hidden;
 }
 
 .contact_thumb .icon-box {
@@ -6841,6 +6857,10 @@ p.black {
     font-size: 15px;
     line-height: 22px;
     color: #000000;
+}
+
+.contact_thumb a.blue-link_3 {
+    word-break: break-all;
 }
 
 .sidebar_footer {
