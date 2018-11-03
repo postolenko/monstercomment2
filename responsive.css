@@ -1093,6 +1093,31 @@
 	    text-align: center;
 	}
 
+	/*-- Section 1 - Payment --*/
+
+	.table-2 .table-cell {
+	    padding: 10px 10px;
+	}
+
+	.table-2 .table-cell:nth-child(1) {
+	    width: auto;
+	}
+
+	.table-2 .table-cell:nth-child(2) {
+	    width: 130px;
+	}
+
+	.table-2 .table-cell:nth-child(3) {
+	    width: 130px;
+	}
+
+	.table-2 .table-cell:nth-child(3) p {
+	    font-size: 15px;
+	    line-height: 17px;
+	}
+
+	/*-- /Section 1 - Payment --*/
+
 	/*-- Footer --*/
 
 	.footer .left, .footer .right {
@@ -1373,7 +1398,7 @@
 	    width: 50%;
 	}
 
-	/*-- .Section 1 - Payment --*/
+	/*-- /Section 1 - Payment --*/
 
 }
 
@@ -1857,18 +1882,6 @@
 	    padding: 0 2% 22px 2%;
 	}
 
-/*	.table-3 .table-cell:nth-child(1) {
-	    width: 30%;
-	}
-
-	.table-3 .table-cell:nth-child(2) {
-	    width: 50%;
-	}
-
-	.table-3 .table-cell:nth-child(3) {
-	    width: 20%;
-	}*/
-
 	.cell-inner .cell:nth-child(1) {
 	    width: 50px;
 	    padding: 0 5px 0 5px;
@@ -1885,6 +1898,52 @@
 	}
 
 	/*-- /Section 1 - Rating --*/
+
+	/*-- Section 1 - Payment --*/
+
+	.table-2_wrapp {
+	    padding: 0;
+	}
+
+	.table-2 {
+	     min-width: 310px;
+	     margin-bottom: 0;
+	}
+
+	.table-2 .table-cell:nth-child(2) {
+	    width: 105px;
+	}
+
+	.table-2 .table-cell:nth-child(3) {
+	    width: 105px;
+	}
+
+	.item_2 .inner .col:nth-child(2) {
+	    padding: 17px 7% 17px 5px;
+	}
+
+	.title_table {
+	    display: block;
+	}
+
+	.title_table .cell:nth-child(1) {
+		display: block;
+	    width: 100%;
+	    padding: 5px 0;
+	}
+
+	.title_table .cell:nth-child(2) {
+		display: block;
+	    width: 100%;
+	    padding: 5px 0;
+	}
+
+	.table-2 .table-cell p {
+	    font-size: 13px;
+	    line-height: 18px;
+	}
+
+	/*-- /Section 1 - Payment --*/
 
 	/*-- Footer --*/
 
@@ -2103,6 +2162,24 @@
 	}
 
 	/*-- /Section 1 - Rating --*/
+
+	/*-- Section 1 - Payment --*/
+
+	.rate_wrapp h3 {
+	    padding: 2px 0;
+	}
+
+	.rate_title h3 {
+	    font-size: 19px;
+	    line-height: 24px;
+	}
+
+	.rate_wrapp .blue-pill {
+	    min-width: 100%;
+	    margin-bottom: 5px;
+	}
+
+	/*-- /Section 1 - Payment --*/
 
 	/*-- Popups --*/
 
