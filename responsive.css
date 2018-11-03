@@ -859,6 +859,14 @@
 
 	/*-- /Section 1 - Appeals --*/
 
+	/*-- Section 1 - Partners --*/
+
+	.article_2 .col:nth-child(1) {
+	    width: 170px;
+	}
+
+	/*-- /Section 1 - Partners --*/
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -1480,6 +1488,18 @@
 
 	/*-- /Section 1 - Payment --*/
 
+	/*-- Section 1 - Partners --*/
+
+	.article_2 {
+	    min-height: auto;
+	}
+
+	.article_content {
+		display: none;
+	}
+
+	/*-- /Section 1 - Partners --*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -2045,6 +2065,11 @@
 
 @media only screen and (max-width: 480px) {
 
+	h5 {
+	    font-size: 19px;
+	    line-height: 22px;
+	}
+
 	.row {
 	    padding: 0 15px;
 	}
@@ -2261,6 +2286,23 @@
 
 	/*-- /Section 1 - Payment --*/
 
+	/*-- Section 1 - Partners --*/
+
+	.article_2 {
+	    margin: 14px 0;
+	    padding: 11px 2% 11px 5px;
+	}
+
+	.article_2 .col:nth-child(1) {
+	    width: 112px;
+	}
+
+	.article_2 .align-right {
+		text-align: left;
+	}
+
+	/*-- /Section 1 - Partners --*/
+
 	/*-- Popups --*/
 
 	.popup {
@@ -2281,10 +2323,6 @@
 	.input_wrapp .show_pass {
 	    right: -26px;
 	}
-
-	/*.input_wrapp input {
-	    font-size: 15px;
-	}*/
 
 	/*-- /Popups --*/
 	
@@ -2319,7 +2357,15 @@
 	    width: 100%;
 	}
 
-	/*-- .Section 1 - Payment --*/
+	/*-- /Section 1 - Payment --*/
+
+	/*-- Section 1 - Partners --*/
+
+	.articles_2_wrapp h5 {
+	    padding: 0 0 10px 0;
+	}
+
+	/*-- /Section 1 - Partners --*/
 
 }
 
@@ -2386,10 +2432,6 @@
 	    line-height: 12px;
 	}
 
-	.table-3_wrapp {
-		/*max-width: 320px;*/
-	}
-
 	.table-3 .table-cell:nth-child(2) {
 	    width: 100px;
 	}
@@ -2403,6 +2445,34 @@
 	}
 
 	/*-- /Section 1 - Rating --*/
+
+	/*-- Section 1 - Partners --*/
+
+	.article_2 {
+	    padding-right: 5%;
+	}
+
+	.article_2 .col:nth-child(1) {
+	    width: 80px;
+	}
+
+	.article_2 .col:nth-child(2) {
+	    padding: 1px 0 5px 20px;
+	}
+
+	.article_2 h5 {
+	    padding: 3px 0 11px 0;
+	    font-size: 16px;
+	    line-height: 19px;
+	}
+
+	.article_2 .blue-pill {
+	    min-width: 100%;
+	    padding: 5px 10px 5px 10px;
+	    font-size: 15px;
+	}
+
+	/*-- /Section 1 - Partners --*/
 
 }
 

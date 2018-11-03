@@ -7289,7 +7289,7 @@ p.open {
     display: table-cell;
     vertical-align: top;
     width: auto;
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 10px 20px;
 }
 
 .article_2 .col img {
@@ -7297,6 +7297,7 @@ p.open {
     width: auto;
     height: auto;
     max-width: 100%;
+    max-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
