@@ -832,6 +832,33 @@
 
 	/*-- /Section 1 - Support --*/
 
+	/*-- Section 1 - Appeals --*/
+
+	.table-3 h3 {
+	    font-size: 12px;
+	    line-height: 15px;
+	}
+
+	.table-3_2 p {
+	    font-size: 13px;
+	    line-height: 17px;
+	}
+
+	.tabs-content .tab {
+	    padding: 10px 0;
+	}
+
+	.tabs-links .tab-link {
+	    font-size: 19px;
+	    line-height: 21px;
+	}
+
+	.table-3_2 .table-row .table-cell {
+	    padding: 10px 10px;
+	}
+
+	/*-- /Section 1 - Appeals --*/
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -2255,9 +2282,9 @@
 	    right: -26px;
 	}
 
-	.input_wrapp input {
+	/*.input_wrapp input {
 	    font-size: 15px;
-	}
+	}*/
 
 	/*-- /Popups --*/
 	

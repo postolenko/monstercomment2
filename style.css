@@ -7149,6 +7149,7 @@ textarea {
     opacity: 0;
     height: 0;
     overflow: hidden;
+    z-index: -1;
     position: absolute;
     top: 0;
     left: 0;
@@ -7177,18 +7178,16 @@ textarea {
 .tabs-content .radio-tab:checked + .tab {
     height: auto;
     overflow: none;
+    z-index: 1;
     position: relative;
     opacity: 1;
 }
 
 .table-3_wrapp_2 {
     max-width: 100%;
+    min-width: 730px;
     margin: 9px 0;
     padding: 0 20px 16px 20px;
-}
-
-.table-3_2 {
-
 }
 
 .table-3_2 .table-row .table-cell {
@@ -7196,23 +7195,23 @@ textarea {
 }
 
 .table-3_2 .table-cell:nth-child(1) {
-    width: 10%;
+    width: 10% !important;
 }
 
 .table-3_2 .table-cell:nth-child(2) {
-    width: 29%;
+    width: 29% !important;
 }
 
 .table-3_2 .table-cell:nth-child(3) {
-    width: 38%;
+    width: 36% !important;
 }
 
 .table-3_2 .table-cell:nth-child(4) {
-    width: 13%;
+    width: 15% !important;
 }
 
 .table-3_2 .table-cell:nth-child(5) {
-    width: auto;
+    width: auto !important;
 }
 
 .table-3_2 p {
