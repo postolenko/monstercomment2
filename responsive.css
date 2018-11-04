@@ -2083,6 +2083,22 @@
 
 	/*-- /Section 1 - Rule Service --*/
 
+	/*-- Section 1 - Profile Settings --*/
+
+	.input-two-cols {
+	    display: block;
+	    margin-top: 10px;
+	}
+
+	.input-two-cols .two-cols-col:nth-child(1),
+	.input-two-cols .two-cols-col:nth-child(2) {
+	    display: block;
+	    width: 100%;
+	    padding: 5px 0;
+	}
+
+	/*-- /Section 1 - Profile Settings --*/
+
 	/*-- Footer --*/
 
 	.footer {
@@ -2511,6 +2527,58 @@
 	}
 
 	/*-- /Section 1 - Partners --*/
+
+	/*-- Section 1 - Profile Settings --*/
+
+	.prifile_sect .item_2 {
+	    padding: 5px 0;
+	}
+
+	.avatar .img-box {
+	    margin: 14px auto;
+	}
+
+	.avatar-settings {
+	    margin: 9px -5px 21px -5px;
+	}
+
+	.avatar-settings li {
+	    padding: 5px;
+	}
+
+	.red-pill {
+	    padding: 6px 17px;
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+
+	.blue-pill_4 {
+	    padding: 6px 17px;
+	    font-size: 14px;
+	    line-height: 18px;
+	}
+
+	.inner_5 {
+	    padding: 0 !important;
+	}
+
+	.input-two-cols {
+	    margin-top: 6px;
+	}
+
+	.input_wrapp_box {
+	    margin: 15px 0;
+	}
+
+	.btn_wrapp_7 .blue-pill {
+	    min-width: 100%;
+	}
+
+	.inner-row_3 .input_wrapp {
+	    margin: 2px 0;
+	}
+
+	/*-- /Section 1 - Profile Settings --*/
 
 }
 
