@@ -7902,6 +7902,7 @@ p .fa-eye {
 .news_article img {
     display: block;
     min-width: 100%;
+    max-width: 100%;
     margin: 15px 0;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
