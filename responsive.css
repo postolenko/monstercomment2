@@ -1206,6 +1206,19 @@
 
 	/*-- /Section 1 - Payment --*/
 
+	/*-- Section 1 - Rule Service --*/
+
+	.article_3 {
+		overflow: hidden;
+		padding: 6px 0 15px 0;
+	}
+
+	.slidedownbtn_wrapp {
+		display: block;
+	}
+
+	/*-- /Section 1 - Rule Service --*/
+
 	/*-- Footer --*/
 
 	.footer .left, .footer .right {
@@ -2044,6 +2057,31 @@
 	}
 
 	/*-- /Section 1 - Payment --*/
+
+	/*-- Section 1 - Rule Service --*/
+
+	.btn_wrapp_6 {
+	    padding: 2px 0;
+	}
+
+	.btn_wrapp_6 .blue-pill {
+		font-size: 12px;
+		line-height: 16px;
+	    padding: 6px 15px 6px 15px;
+	}
+
+	.article_3 {
+	    font-size: 15px;
+	    line-height: 17px;
+	}
+
+	.article_3 p {
+	    padding: 10px 0 7px 0;
+	    font-size: 15px;
+	    line-height: 17px;
+	}
+
+	/*-- /Section 1 - Rule Service --*/
 
 	/*-- Footer --*/
 

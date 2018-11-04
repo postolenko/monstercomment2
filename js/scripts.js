@@ -5,6 +5,7 @@ g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 var shapeLineWidht;
+var defaultHeight;
 
 $(window).load(function() {
 
@@ -15,6 +16,7 @@ $(window).load(function() {
     getGetPromoCenterPosition();
     getTableHeaderBg();
     // getDropdownMenu();
+    getRespDropdownHeight();
     getFooterPosition();
 
 });
@@ -33,6 +35,7 @@ $(window).resize(function() {
     getGetPromoCenterPosition();
     getTableHeaderBg();
     // getDropdownMenu();
+    getRespDropdownHeight();
     getFooterPosition();
 
 });
@@ -435,6 +438,46 @@ $(document).ready(function() {
         }
 
     });
+
+    // -------------------------
+
+    $(".slidedown_btn").click(function(e) {
+
+        e.preventDefault();
+
+        var slideDownBox = $("[data-slidedownbox = '" + $(this).attr("data-slidedownbox-btn") + "']");
+
+        defaultHeight = parseInt( slideDownBox.attr("data-defaultheight") );
+        var fullHeight = slideDownBox.children(".inner").height();
+
+        if( slideDownBox.outerHeight() < fullHeight ) {
+
+            $(this).addClass("active");
+
+            slideDownBox.animate({
+                "height" : fullHeight + "px"
+            }, 300);
+
+            setTimeout(function() {
+                slideDownBox.css({
+                    "height" : "auto"
+                });
+
+                slideDownBox.addClass("shoved");
+
+            }, 500);
+
+        } else {
+
+            slideDownBox.animate({
+                "height" : defaultHeight + "px"
+            }, 300);
+            $(this).removeClass("active");
+            slideDownBox.removeClass("shoved");
+
+        }
+
+    });
     
 });
 
@@ -587,6 +630,28 @@ function getFooterPosition() {
 
     $(".wrapper").css({
         "padding-bottom" : $(".footer_sect").height() + "px"
+    });
+
+}
+
+function getRespDropdownHeight() {    
+
+    $(".slidedownbox").each(function() {
+
+        if( bodyWidth > 768 || $(this).hasClass("shoved") ) {
+
+            $(this).attr("style", "");
+
+        } else {
+
+            defaultHeight = parseInt( $(this).attr("data-defaultheight") );
+
+            $(this).css({
+                "height" : defaultHeight + "px"
+            });
+
+        }
+
     });
 
 }
