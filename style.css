@@ -7646,9 +7646,12 @@ p.grey-p {
     -webkit-border-radius: 12px 12px 0 0;
     -moz-border-radius: 12px 12px 0 0;
     border-radius: 12px 12px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.news_thumb .img-box img {
+/*.news_thumb .img-box img {
     display: block;
     min-width: 100%;
     min-height: 100%;
@@ -7658,7 +7661,7 @@ p.grey-p {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
+}*/
 
 .news_thumb .descript {
     padding: 24px 6% 21px 6%;
@@ -7673,11 +7676,13 @@ p.grey-p {
 
 .news_thumb .descript .inner {
     min-height: 188px;
+    padding-bottom: 15px;
 }
 
 .news_thumb h3 {
     display: block;
     min-height: 65px;
+    padding-bottom: 5px;
     font-family: "Ubuntu";
     font-size: 21px;
     line-height: 24px;
@@ -7704,14 +7709,14 @@ p.grey-p {
 .thumb_footer .col:nth-child(1) {
     display: table-cell;
     vertical-align: middle;
-    width: 60%;
+    width: 68%;
     padding: 0 10px 0 0;
 }
 
 .thumb_footer .col:nth-child(2) {
     display: table-cell;
     vertical-align: middle;
-    width: 40%;
+    width: 32%;
     padding: 0 0 0 10px;
     text-align: right;
 }

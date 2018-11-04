@@ -363,6 +363,20 @@
 
 	/*-- /Section 1 - Knowledge base --*/
 
+	/*-- Section 1 - News --*/
+
+	.two-cols_templ_7 .left {
+	    width: 60%;
+	    padding: 1px 15px 15px 0;
+	}
+
+	.two-cols_templ_7 .right {
+	    width: 40%;
+	    padding: 1px 0 15px 15px;
+	}
+
+	/*-- /Section 1 - News --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -748,6 +762,36 @@
 
 	/*-- /Section 1 - Rates --*/
 
+	/*-- Section 1 - News --*/
+
+	.two-cols_templ_7 .left {
+	    width: 55%;
+	}
+
+	.two-cols_templ_7 .right {
+	    width: 45%;
+	}
+
+	.news_thumbnails {
+	    margin: 0;
+	}
+
+	.news_thumb {
+	    width: 100%;
+	    margin: 15px 0;
+	}
+
+	.news_thumb h3 {
+	    min-height: auto;
+	}
+
+	.news_thumb .descript .inner {
+	    min-height: auto;
+	}
+
+	/*-- /Section 1 - News --*/
+
+
 	.footer .left,
 	.footer .right {
 	    width: 100%;
@@ -905,6 +949,27 @@
 	}
 
 	/*-- /Section 1 - Knowledge base --*/
+
+	/*-- Section 1 - News --*/
+
+	.two-cols_templ_7 .left {
+	    width: 100%;
+	    padding: 0 0 15px 0;
+	}
+
+	.two-cols_templ_7 .right {
+	    width: 100%;
+	    padding: 0 0 15px 0;
+	}
+
+	.right-sidebar {
+	    margin: 0;
+	    padding: 0 0 14px 0;
+	    border: none;
+	    background-color: transparent;
+	}
+
+	/*-- /Section 1 - News --*/
 
 }
 
@@ -2619,6 +2684,15 @@
 
 	/*-- /Section 1 - Profile Settings --*/
 
+	/*-- Section 1 - News --*/
+
+	.right-sidebar h2 {
+	    font-size: 21px;
+	    line-height: 26px;
+	}
+
+	/*-- /Section 1 - News --*/
+
 }
 
 @media only screen and (max-width: 350px) {
@@ -2644,6 +2718,28 @@
 	}
 
 	/*-- /Section 1 - Rates --*/
+
+	/*-- Section 1 - News --*/
+
+	.thumb_footer .col:nth-child(1) {
+		width: 100%;
+		padding: 0;
+	}
+
+	.thumb_footer .col:nth-child(2) {
+		display: none;
+	}
+
+	.pagination {
+	    padding: 12px 0;
+	    text-align: center;
+	}
+
+	.pagination li {
+	    padding: 1px;
+	}
+
+	/*-- /Section 1 - News --*/
 
 }
 
