@@ -5058,6 +5058,7 @@ p .fa-exchange-alt {
 }
 
 .comment-link p {
+    overflow: hidden;
     font-size: 15px;
     line-height: 17px;
     color: #000000;
