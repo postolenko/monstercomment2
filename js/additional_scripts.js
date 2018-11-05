@@ -115,16 +115,6 @@ function getRespSliders() {
 
 function getScrollBar() {
 
-	// if ( bodyWidth > 900 ) {
-
-	// 	$(".scroll").mCustomScrollbar();
-
-	// } else {
-
-	// 	$(".scroll").mCustomScrollbar("destroy");
-
-	// }
-
 	if ( bodyWidth < 768 ) {
 
 		$(".resp_nav").mCustomScrollbar();

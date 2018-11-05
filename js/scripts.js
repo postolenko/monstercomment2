@@ -15,7 +15,6 @@ $(window).load(function() {
     getAdaptivePositionElements();
     getGetPromoCenterPosition();
     getTableHeaderBg();
-    // getDropdownMenu();
     getRespDropdownHeight();
     getFooterPosition();
 
@@ -34,7 +33,6 @@ $(window).resize(function() {
     getAdaptivePositionElements();
     getGetPromoCenterPosition();
     getTableHeaderBg();
-    // getDropdownMenu();
     getRespDropdownHeight();
     getFooterPosition();
 
@@ -595,22 +593,6 @@ function getTHumbsHeight() {
         thumb.find(".inner").height(maxThumbHeight);
 
     });
-
-}
-
-function getDropdownMenu() {
-
-    // $(".scroll_menu").css({
-    //     "max-height" : "auto"
-    // });
-
-    // var topCoord = $(".dropdown-menu").offset().top;    
-    // var footerHeight = $(".dropdown_footer").height();
-    // var dropdownMenuHeight = $(window).height() - topCoord - footerHeight;
-
-    // $(".dropdown-menu").css({
-    //     "max-height" : dropdownMenuHeight + "px"
-    // });
 
 }
 

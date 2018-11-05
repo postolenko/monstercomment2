@@ -1892,6 +1892,10 @@
 	    margin: 7px 0 33px 0;
 	}
 
+	.rate_thumb .descript {
+		min-height: auto;
+	}
+
 	/*-- /Section 1 - Rates --*/
 
 	/*-- Section 1 - Profiles --*/
@@ -2844,4 +2848,3 @@
 	}
 
 }
-

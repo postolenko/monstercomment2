@@ -139,11 +139,6 @@ header {
     z-index: 2;
 }
 
-footer {
-/*    order: 3;
-    -webkit-order: 3;*/
-}
-
 .clearfix:after {
     content: ""; 
     display: block; 
@@ -1486,10 +1481,6 @@ a:active {
     padding: 31px 0 0 0;
 }
 
-.breadcrumbs {
-
-}
-
 .breadcrumbs li {
     display: inline-block;
     vertical-align: top;
@@ -2321,10 +2312,6 @@ a:active {
     position: fixed;
     top: 50px;
     left: 0;
-}
-
-.resp_nav_header {
- 
 }
 
 .resp_nav_header .col:nth-child(1) {
@@ -3223,10 +3210,8 @@ a:active {
 }
 
 .inner-row {
-    /*margin: 0 auto;*/
     display: table;
     width: 100%;
-    /*padding: 0 2%;*/
     padding: 0;
 }
 
@@ -3916,7 +3901,6 @@ a:active {
 /*-- Section 1 - Rates --*/
 
 .inner_title {
-    /*padding: 19px 0;*/
     padding: 19px 0 9px 0;
 }
 
@@ -4521,7 +4505,6 @@ p i {
 
 .important_box {
     display: table;
-    /*width: 100%;*/
     margin: 16px 0 5px 0;
 }
 
@@ -6069,7 +6052,6 @@ p.question-p {
 
 .table-3_wrapp {
     max-width: 740px;
-    /*min-width: 320px;*/
     margin: 5px 0;
     padding: 0 5% 40px 5%;
     position: relative;
@@ -6973,10 +6955,6 @@ p.black {
     color: #000000;
 }
 
-.input_wrapp_3 {
-
-}
-
 .input_wrapp_3 input {
     padding: 0 18px;
 }
@@ -7608,10 +7586,6 @@ p.grey-p {
 .two-cols_templ_6 .right {
     width: 68%;
     padding: 26px 0 15px 35px;
-}
-
-.sidebar-nav_2 {
-
 }
 
 .sidebar-nav_2 li a {
@@ -8286,10 +8260,7 @@ p .fa-eye {
     color: #8d8d8d;
 }
 
-
 /*-- /Section 1 - Affiliate Program --*/
-
-
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
