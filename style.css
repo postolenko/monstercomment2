@@ -1834,14 +1834,12 @@ a:active {
 .header-site_2 .left {
     width: 20%;
     padding: 13px 1% 10px 0;
-    /*outline: 1px solid red;*/
 }
 
 .header-site_2 .right {
     width: 80%;
     padding: 0 0 0 1%;
     text-align: right;
-    /*outline: 1px solid red;*/
 }
 
 .logo_2 p {
@@ -2586,6 +2584,34 @@ a:active {
 }
 
 /* ----- / Responsive Menu Button 2 ------ */
+
+/*-- Soc Links --*/
+
+.soc-links {
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    z-index: 14;
+}
+
+.soc-links li {
+    display: block;
+    width: 40px;
+    margin: 20px 0;
+}
+
+.soc-links li a {
+    -webkit-text-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    -moz-text-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    text-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    font-size: 22px;
+    line-height: 22px;
+    color: #fdfdfd;
+}
+
+/*-- /Soc Links --*/
 
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
