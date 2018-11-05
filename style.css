@@ -8222,6 +8222,10 @@ p .fa-eye {
     border-bottom: 1px solid #e1e8ea;
 }
 
+.table_3_resp > .table-row:last-child {
+    border-bottom: none;
+}
+
 .table_3_resp > .table-row > .table-row {
     display: table-row;
 }
