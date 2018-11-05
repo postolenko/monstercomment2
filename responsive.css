@@ -1676,6 +1676,15 @@
 		display: none;
 	}
 
+	.ie .article_2 .col:nth-child(1) {
+	     min-height: auto;
+	     width: 130px;
+	}
+
+	.ie .article_2 .col:nth-child(1) img {
+	     max-width: 100px;
+	}
+
 	/*-- /Section 1 - Partners --*/
 
 }
@@ -2617,6 +2626,11 @@
 	    padding: 0 0 10px 0;
 	}
 
+	.ie .article_2 .col:nth-child(1) {
+	     min-height: auto;
+	     width: 90px;
+	}
+
 	/*-- /Section 1 - Partners --*/
 
 }
@@ -2722,6 +2736,10 @@
 	    min-width: 100%;
 	    padding: 5px 10px 5px 10px;
 	    font-size: 15px;
+	}
+
+	.ie .article_2 .col:nth-child(1) img {
+	     max-height: 75px;
 	}
 
 	/*-- /Section 1 - Partners --*/

@@ -7285,7 +7285,7 @@ p.open {
     display: table-cell;
     vertical-align: top;
     width: 250px;
-    /*min-height: 296px;*/
+    min-height: 296px;
     position: relative;
     padding: 10px 10px 10px 0;
 }
@@ -7294,7 +7294,7 @@ p.open {
     display: table-cell;
     vertical-align: top;
     width: auto;
-    padding: 10px 0 10px 20px;
+    padding: 10px 10px 10px 20px;
 }
 
 .article_2 .col img {
@@ -7309,6 +7309,13 @@ p.open {
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.ie .article_2 .col img {
+    position: relative;
+    top: 0;
+    left: 7%;
+    transform: none;
 }
 
 .article_2 h5 {
