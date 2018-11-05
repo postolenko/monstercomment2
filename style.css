@@ -8079,6 +8079,10 @@ p .fa-eye {
     margin: 18px -5px;
 }
 
+.ie .copy_box {
+    overflow: hidden;
+}
+
 .copy_box p {
     display: inline-block;
     vertical-align: top;
