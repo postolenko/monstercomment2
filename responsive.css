@@ -791,6 +791,24 @@
 
 	/*-- /Section 1 - News --*/
 
+	/*-- Section 1 - Affiliate Program --*/
+
+	.two-cols_templ_8 .left {
+		width: 100%;
+		padding: 0 0 15px 0;
+	}
+
+	.two-cols_templ_8 .right {
+		display: none;
+	}
+
+	.results_box {
+	    margin: 0;
+	}
+
+	/*-- /Section 1 - Affiliate Program --*/
+
+	/*-- Footer --*/
 
 	.footer .left,
 	.footer .right {
@@ -799,6 +817,8 @@
 	    padding: 10px 0;
 	    text-align: center;
 	}
+
+	/*-- /Footer --*/
 
 }
 
@@ -1433,6 +1453,43 @@
 	}
 
 	/*-- /Section 1 - Comments --*/
+
+	/*-- Section 1 - Affiliate Program --*/
+
+	.thumbnails-12 {
+	    margin: 10px 0 0 0;
+	}
+
+	.thumb-12 {
+	    width: 100%;
+	    min-height: auto;
+	    margin: 42px 0 30px 0;
+	}
+
+	.thumb-12 .descript {
+	    min-height: auto;
+	    padding: 0 0 16px 0;
+	}
+
+	.thumb-12 .inner {
+	    padding-bottom: 17px;
+	    min-height: auto;
+	}
+
+	.resp-sidebar .results_box {
+	    width: 100%;
+	    float: none;
+	   	margin: 3px 0 20px 0;
+	    padding: 23px 4% 16px 4%;
+	}
+
+	.resp-sidebar .blue-box_2 {
+	    width: 100%;
+	    margin: 20px 0;
+	    float: none;
+	}
+
+	/*-- /Section 1 - Affiliate Program --*/
 
 }
 
@@ -2202,6 +2259,35 @@
 	}
 
 	/*-- /Section 1 - Profile Settings --*/
+
+	/*-- Section 1 - Affiliate Program --*/
+
+	.two-cols_templ_8 {
+	    margin-bottom: 27px;
+	}
+
+	.thumb-12 {
+	    margin: 42px 0 10px 0;
+	}
+
+	.thumb-12 h3 {
+	    font-size: 19px;
+	    line-height: 25px;
+	}
+
+	.thumb-12 .inner {
+	    padding-bottom: 30px;
+	}
+
+	.table-3_wrapp {
+	    display: none;
+	}
+
+	.table_3_resp {
+		display: table;
+	}
+
+	/*-- /Section 1 - Affiliate Program --*/
 
 	/*-- Footer --*/
 

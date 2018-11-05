@@ -7651,18 +7651,6 @@ p.grey-p {
     background-repeat: no-repeat;
 }
 
-/*.news_thumb .img-box img {
-    display: block;
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}*/
-
 .news_thumb .descript {
     padding: 24px 6% 21px 6%;
     border-left: 3px solid rgb(225, 232, 234);
@@ -7923,6 +7911,20 @@ p .fa-eye {
 
 /*-- Section 1 - Affiliate Program --*/
 
+.two-cols_templ_8 {
+    margin-bottom: 49px;
+}
+
+.two-cols_templ_8 .left {
+    width: 67%;
+    padding: 1px 15px 15px 0;
+}
+
+.two-cols_templ_8 .right {
+    width: 33%;
+    padding: 1px 0 15px 15px;
+}
+
 .thumbnails-12 {
     margin: 30px -1.5% 0px -1.5%;
 }
@@ -8049,6 +8051,22 @@ p .fa-eye {
     color: #1fb6ff;
 }
 
+.resp-sidebar {
+    padding-bottom: 20px;
+}
+
+.resp-sidebar .results_box {
+    width: 48%;
+    float: left;
+    padding: 23px 4% 16px 4%;
+}
+
+.resp-sidebar .blue-box_2 {
+    width: 48%;
+    margin: 0;
+    float: right;
+}
+
 .copy_box {
     margin: 18px -5px;
 }
@@ -8060,6 +8078,7 @@ p .fa-eye {
 }
 
 .copy_box p .blue-link_3 {
+    word-break: break-all;
     font-weight: 500;
 }
 
@@ -8180,6 +8199,63 @@ p .fa-eye {
     font-size: 14.5px;
     line-height: 17px;
 }
+
+.table_3_resp {
+    display: none;
+    /*display: table;*/
+    width: 100%;
+    margin: 24px 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(175, 216, 228);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 4px 20px 0 20px;
+}
+
+.table_3_resp > .table-row {
+    display: table;
+    width: 100%;
+    padding: 6px 0 10px 0;
+    border-bottom: 1px solid #e1e8ea;
+}
+
+.table_3_resp > .table-row > .table-row {
+    display: table-row;
+}
+
+.table_3_resp .table-cell {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.table_3_resp .table-cell:nth-child(1) {
+    width: auto;
+    padding: 7px;
+}
+
+.table_3_resp .table-cell:nth-child(2) {
+    width: 100px;
+    padding: 7px;
+}
+
+.table_3_resp p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.table_3_resp p.p-1 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.table_3_resp p.p-grey {
+    color: #8d8d8d;
+}
+
 
 /*-- /Section 1 - Affiliate Program --*/
 
