@@ -2599,7 +2599,7 @@
 	    display: block;
 	    content: "";
 	    left: 10px;
-	    width: calc(100% - 30px);
+	    width: calc(100% - 20px);
 	}
 
 	.appeal_user {
