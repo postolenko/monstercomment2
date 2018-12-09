@@ -2594,10 +2594,11 @@
 	.appeals_inner {
 	    padding: 0 28px 10px 16px;
 	}
-	
+
 	.appeals_box:after {
 	    display: block;
 	    content: "";
+	    left: 10px;
 	    width: calc(100% - 30px);
 	}
 
