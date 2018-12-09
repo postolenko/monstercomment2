@@ -2564,6 +2564,60 @@
 
 	/*-- /Section 1 - Partners --*/
 
+	/*-- Section 1 - Appeal --*/
+
+	.inner.inner_6 {
+	    padding: 21px 20px 19px 20px;
+	}
+
+	.title_row .title_col {
+	    padding: 3px 7px;
+	}
+
+	.title_row .title_col:nth-child(2) {
+	    width: 84px;
+	}
+
+	.appeal_title .title_row p {
+	    font-size: 12px;
+	    line-height: 15px;
+	}
+
+	.appeal_title .title_row:nth-child(1) p {
+	    font-size: 11px;
+	}
+
+	.appeals_inner {
+	    padding: 0 28px 10px 16px;
+	}
+
+	.inner.inner_7 {
+	    padding: 0 7px;
+	}
+
+	.appeal_user {
+	    padding: 15px 10px 6px 10px;
+	}
+
+	.appeal_admin {
+	    padding: 15px 10px 6px 10px;
+	}
+
+	.appeal_text p {
+	    font-size: 14px;
+	    line-height: 19px;
+	}
+
+	.input_wrapp_2 {
+	    padding: 10px;
+	}
+
+	.submit_wrapp {
+	    padding: 10px 10px 20px 10px;
+	}
+
+	/*-- /Section 1 - Appeal --*/
+
 	/*-- Popups --*/
 
 	.popup {
@@ -2804,6 +2858,27 @@
 	}
 
 	/*-- /Section 1 - News --*/
+
+	/*-- Section 1 - Appeal --*/
+
+	.appeal_title .title_row p {
+	    font-size: 10px;
+	    line-height: 15px;
+	}
+
+	.title_row .title_col:nth-child(2) {
+	    width: 63px;
+	}
+
+	.title_row .title_col:nth-child(3) {
+	    width: 63px;
+	}
+
+	.appeal_title .title_row:nth-child(1) p {
+	    font-size: 10px;
+	}
+
+	/*-- /Section 1 - Appeal --*/
 
 }
 

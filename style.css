@@ -1473,6 +1473,17 @@ a:active {
     background-size: contain;
 }
 
+.icon_35 {
+    display: inline-block;
+    vertical-align: top;
+    width: 46px;
+    height: 46px;
+    background-image: url(img/icon_35.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 /*-- /Icons --*/
 
 /*-- Breadcrumbs --*/
@@ -8274,6 +8285,220 @@ p .fa-eye {
 }
 
 /*-- /Section 1 - Affiliate Program --*/
+
+/*-- Section 1 - Appeal --*/
+
+.inner.inner_6 {
+    padding: 21px 30px 19px 30px;
+}
+
+.appeal_title {
+    display: table;
+    width: 100%;
+}
+
+.appeal_title .title_row {
+    display: table-row;
+}
+
+.title_row .title_col {
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px 7px 3px 20px;
+    border-left: 1px solid #e1e8ea;
+}
+
+.title_row .title_col:nth-child(1) {
+    width: auto;
+    padding-left: 0;
+    border-left: none;
+}
+
+.title_row .title_col:nth-child(2) {
+    width: 100px;
+}
+
+.title_row .title_col:nth-child(3) {
+    width: 80px;
+    padding-right: 0;
+}
+
+.appeal_title .title_row p {
+    font-size: 15px;
+}
+
+.appeal_title .title_row:nth-child(1) p {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.appeal_title .title_row:nth-child(2) .title_col:nth-child(1) p {
+    font-weight: 500;
+}
+
+.blue-p_2 {
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #1fb6ff;
+}
+
+.red-p_2 {
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #df4747;
+}
+
+.p-grey {
+    color: #898a8a;
+}
+
+.inner.inner_7 {
+    padding: 0 30px 0 14px;
+}
+
+.appeals_box {
+    max-height: 570px;
+    margin: 24px 0 20px 0;
+    position: relative;
+}
+
+.appeals_box:before {
+    content: "";
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-image: -moz-linear-gradient( 90deg, rgba(249,251,251,0) 0%, rgb(249,251,251) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgba(249,251,251,0) 0%, rgb(249,251,251) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgba(249,251,251,0) 0%, rgb(249,251,251) 100%);
+}
+
+.appeals_box:after {
+    display: block;
+    content: "";
+    width: calc(100% - 69px);
+    height: 1px;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    border-bottom: 1px solid #e1e8ea;
+}
+
+.appeals_box.closed:after {
+    display: none;
+}
+
+.appeals_box.closed {
+    margin-bottom: 33px;
+}
+
+.appeals_inner {
+    padding: 0 42px 10px 20px;
+}
+
+.appeal_user {
+    position: relative;
+    margin: 16px 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(175, 216, 228);
+    -webkit-border-radius: 5px 5px 5px 0;
+    -moz-border-radius: 5px 5px 5px 0;
+    border-radius: 5px 5px 5px 0;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 20px 6px 20px;
+    position: relative;
+}
+
+.appeal_user:before {
+    content: "";
+    width: 18px;
+    height: 17px;
+    position: absolute;
+    bottom: -1px;
+    left: -17px;
+    background-image: url(img/white_triangle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.appeal_text p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.appeal_info {
+    margin: 5px -5px;
+}
+
+.appeal_info p {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 5px;
+    font-size: 12px;
+    color: #676767;
+}
+
+.appeal_info .blue-link_3 {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.appeal_admin {
+    margin: 16px 0;
+    border-color: rgb(175, 216, 228);
+    background-color: rgb(240, 246, 248);
+    border-style: solid;
+    border-width: 1px;
+    -webkit-border-radius: 5px 5px 0 5px;
+    -moz-border-radius: 5px 5px 0 5px;
+    border-radius: 5px 5px 0 5px;
+    padding: 15px 20px 6px 20px;
+    position: relative;
+}
+
+.appeal_admin:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    bottom: -1px;
+    right: -18px;
+    background-image: url(img/blue_triangle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.input_wrapp_2 {
+    padding: 10px 48px 10px 20px;
+}
+
+.input_wrapp_2 textarea {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(225, 232, 234);
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    height: 165px;
+}
+
+.submit_wrapp {
+    padding: 19px 20px 29px 20px;
+}
+
+.submit_wrapp .blue-pill {
+    min-width: 220px;
+}
+
+/*-- /Section 1 - Appeal --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
