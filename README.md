@@ -37,4 +37,4 @@
 # http://postolenko.github.io/monstercomment2/affiliate_program.html
 # http://postolenko.github.io/monstercomment2/withdrawal_funds.html
 # http://postolenko.github.io/monstercomment2/appeal.html
-# http://postolenko.github.io/monstercomment2/test_page.html
+# http://postolenko.github.io/monstercomment2/appeal_2.html
