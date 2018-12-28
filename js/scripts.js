@@ -126,7 +126,7 @@ $(document).ready(function() {
 
     });
 
-     $(this).keydown(function(eventObject){
+    $(this).keydown(function(eventObject){
 
         if (eventObject.which == 27) {
 
